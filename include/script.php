@@ -1,51 +1,33 @@
-   <!-- jQuery 3 -->
-   <script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
-
-<!-- popper -->
-<script src="/assets/vendor_components/popper/dist/popper.min.js"></script>
-
-<!-- date-range-picker -->
-<script src="/assets/vendor_components/moment/min/moment.min.js"></script>
-<script src="/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>
-
-<!-- Bootstrap 4.0-->
-<script src="/assets/vendor_components/bootstrap/dist/js/bootstrap.js"></script>
-
-<!-- Slimscroll -->
-<script src="/assets/vendor_components/jquery-slimscroll/jquery.slimscroll.js"></script>
-
-<!-- FastClick -->
-<script src="/assets/vendor_components/fastclick/lib/fastclick.js"></script>
-
-<!-- peity -->
-<script src="/assets/vendor_components/jquery.peity/jquery.peity.js"></script>
-
-<!-- Morris.js charts -->
-<script src="/assets/vendor_components/raphael/raphael.min.js"></script>
-<script src="/assets/vendor_components/morris.js/morris.min.js"></script>
-
-<!-- This is data table -->
-<script src="/assets/vendor_components/datatable/datatables.min.js"></script>
-
-<!-- Bootstrap WYSIHTML5 -->
-<script src="/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"></script>
-
-<!-- Superieur Admin App -->
-<script src="js/template.js"></script>
-
-<!-- Superieur Admin for demo purposes -->
-<script src="js/demo.js"></script>
-
-<!-- Superieur Admin dashboard demo-->
-<script src="js/pages/dashboard6.js"></script>
-
-<!-- Superieur Admin for Data Table -->
-<script src="js/pages/data-table.js"></script>
-<!-- Superieur Admin for demo purposes -->
-<script src="js/demo.js"></script>
-
-<!-- Superieur Admin dashboard demo-->
-<script src="js/pages/dashboard6.js"></script>
-
-<!-- Superieur Admin for Data Table -->
-<script src="js/pages/data-table.js"></script>
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
