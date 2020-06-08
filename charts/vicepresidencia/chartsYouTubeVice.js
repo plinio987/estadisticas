@@ -1,6 +1,6 @@
 window.onload = function() {
 
-    var chart1 = new CanvasJS.Chart("visualizacionesUsuarios", {
+    var chart1 = new CanvasJS.Chart("visualizacionesMeGustaCompartidos", {
         animationEnabled: true,
         backgroundColor: "#fff",
         //theme: "light2",
@@ -32,7 +32,7 @@ window.onload = function() {
         data: [{
                 type: "splineArea",
                 name: "Visualizaciones",
-                color: "#73c0f4",
+                color: "#D6618F",
                 showInLegend: true,
                 xValueFormatString: "MMMM",
                 yValueFormatString: "##,##0",
@@ -55,7 +55,7 @@ window.onload = function() {
                 type: "column",
                 name: "Me gusta",
                 markerBorderColor: "white",
-                color: "#728ca3",
+                color: "#D6618F",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "##,##0",
@@ -77,7 +77,7 @@ window.onload = function() {
             {
                 type: "area",
                 name: "Vídeos compartidos",
-                color: "#8f4f06",
+                color: "#73c0f4",
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
@@ -98,54 +98,6 @@ window.onload = function() {
         ]
     });
     chart1.render();
-
-    var chart2 = new CanvasJS.Chart("nuevossuscriptores", {
-        animationEnabled: true,
-        exportEnabled: false,
-        backgroundColor: "#fff",
-        theme: "light1", // "light1", "light2", "dark1", "dark2"
-        title: {
-            text: "",
-            fontColor: "#000",
-            fontSize: 20,
-            fontFamily: "tahoma",
-            fontStyle: "italic"
-        },
-        axisX: {
-            interval: 1,
-            intervalType: "month",
-            valueFormatString: "MMM",
-            labelFontColor: "#000",
-        },
-        axisY: {
-            title: "Cantidad mensual",
-            labelFontColor: "#000",
-            titleFontColor: "#4F81BC",
-            gridColor: "#fff"
-        },
-        data: [{
-            type: "splineArea",
-            xValueFormatString: "MMM, YYYY",
-            yValueFormatString: "#,###",
-            color: "rgb(0, 158, 251)",
-            dataPoints: [
-                { x: new Date(2020, 0), y: 39 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
-                { x: new Date(2020, 5), y: 0 },
-                { x: new Date(2020, 6), y: 0 },
-                { x: new Date(2020, 7), y: 0 },
-                { x: new Date(2020, 8), y: 0 },
-                { x: new Date(2020, 9), y: 0 },
-                { x: new Date(2020, 10), y: 0 },
-                { x: new Date(2020, 11), y: 0 }
-            ]
-        }]
-    });
-
-
     var chart2 = new CanvasJS.Chart("suscriptores", {
         animationEnabled: true,
         backgroundColor: "#fff",
@@ -203,7 +155,7 @@ window.onload = function() {
             {
                 type: "column",
                 name: "Total suscritos",
-                color: "#728ca3",
+                color: "#D6618F",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
@@ -253,7 +205,7 @@ window.onload = function() {
             type: "splineArea",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
-            color: "#728ca3",
+            color: "#D6618F",
             dataPoints: [
                 { x: new Date(2020, 0), y: 160 },
                 { x: new Date(2020, 1), y: 0 },
@@ -331,7 +283,7 @@ window.onload = function() {
             {
                 type: "splineArea",
                 name: "No me gusta",
-                color: "#728ca3",
+                color: "#D6618F",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
@@ -429,7 +381,7 @@ window.onload = function() {
             type: "column",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
-            color: "#728ca3",
+            color: "#D6618F",
             dataPoints: [
                 { x: new Date(2020, 0), y: 6 },
                 { x: new Date(2020, 1), y: 0 },
@@ -477,7 +429,7 @@ window.onload = function() {
             type: "splineArea",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "###0.00'%'",
-            color: "#73c0f4",
+            color: "#D6618F",
             dataPoints: [
                 { x: new Date(2020, 0), y: 2.80 },
                 { x: new Date(2020, 1), y: 0 },

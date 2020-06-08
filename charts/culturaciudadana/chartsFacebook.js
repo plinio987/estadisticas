@@ -5,7 +5,10 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
+
         },
         axisX: {
             valueFormatString: "MMM",
@@ -39,7 +42,7 @@ window.onload = function() {
                 yValueFormatString: "###0.00'%'",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 0.28 },
+                    { x: new Date(2020, 0), y: 0.39 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -61,7 +64,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "###0.00'%'",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 3.29 },
+                    { x: new Date(2020, 0), y: 103.02 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -85,7 +88,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",
@@ -167,7 +172,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",
@@ -248,7 +255,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",

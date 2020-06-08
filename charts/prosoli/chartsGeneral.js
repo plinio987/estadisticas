@@ -8,11 +8,11 @@ window.onload = function() {
         animationEnabled: true,
         //theme: "light1", "light1", "light2", "dark1", "dark2"
         title: {
-            text: "",
+            text: "Alcance general",
             fontColor: "#222",
-            fontSize: 20,
-            fontFamily: "tahoma",
-            fontStyle: "italic"
+            fontSize: 18,
+            fontFamily: "arial",
+            fontStyle: ""
         },
 
 
@@ -38,7 +38,7 @@ window.onload = function() {
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
             dataPoints: [
-                { x: new Date(2020, 0), y: 736117 },
+                { x: new Date(2020, 0), y: 1865636 },
                 { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },
@@ -65,11 +65,11 @@ window.onload = function() {
         animationEnabled: true,
         //theme: "light1",  "light1", "light2", "dark1", "dark2"
         title: {
-            text: "",
+            text: "Total seguidores",
             fontColor: "#222",
-            fontSize: 20,
-            fontFamily: "tahoma",
-            fontStyle: "italic",
+            fontSize: 18,
+            fontFamily: "arial",
+            fontStyle: "",
         },
 
         axisX: {
@@ -96,7 +96,7 @@ window.onload = function() {
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
             dataPoints: [
-                { x: new Date(2020, 0), y: 50028 },
+                { x: new Date(2020, 0), y: 213647 },
                 { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },

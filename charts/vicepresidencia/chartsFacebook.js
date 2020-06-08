@@ -5,7 +5,7 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: "Engagement",
+            text: "",
             fontSize: 20,
             fontFamily: "arial",
 
@@ -88,7 +88,7 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: "Alcance/Engage users",
+            text: "",
             fontSize: 20,
             fontFamily: "arial",
         },
@@ -172,7 +172,7 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: "Nuevos seguidores",
+            text: "",
             fontSize: 20,
             fontFamily: "arial",
         },
@@ -255,7 +255,7 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: "Total me gusta en publicaciones",
+            text: "",
             fontSize: 20,
             fontFamily: "arial",
         },

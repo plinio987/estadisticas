@@ -5,7 +5,10 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
+
         },
         axisX: {
             valueFormatString: "MMM",
@@ -85,7 +88,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",
@@ -167,7 +172,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",
@@ -248,7 +255,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",

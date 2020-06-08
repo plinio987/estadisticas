@@ -8,11 +8,11 @@ window.onload = function() {
         animationEnabled: true,
         //theme: "light1", "light1", "light2", "dark1", "dark2"
         title: {
-            text: "",
+            text: "Alcance general",
             fontColor: "#222",
-            fontSize: 20,
-            fontFamily: "tahoma",
-            fontStyle: "italic"
+            fontSize: 18,
+            fontFamily: "arial",
+            fontStyle: ""
         },
 
 
@@ -65,11 +65,11 @@ window.onload = function() {
         animationEnabled: true,
         //theme: "light1",  "light1", "light2", "dark1", "dark2"
         title: {
-            text: "",
+            text: "Total seguidores",
             fontColor: "#222",
-            fontSize: 20,
-            fontFamily: "tahoma",
-            fontStyle: "italic",
+            fontSize: 18,
+            fontFamily: "arial",
+            fontStyle: "",
         },
 
         axisX: {

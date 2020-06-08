@@ -5,7 +5,10 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
+
         },
         axisX: {
             valueFormatString: "MMM",
@@ -39,7 +42,7 @@ window.onload = function() {
                 yValueFormatString: "###0.00'%'",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 0.24 },
+                    { x: new Date(2020, 0), y: 0.39 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -61,7 +64,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "###0.00'%'",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 31.04 },
+                    { x: new Date(2020, 0), y: 103.02 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -85,7 +88,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",
@@ -119,7 +124,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 62373 },
+                    { x: new Date(2020, 0), y: 228498 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -141,7 +146,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 631117 },
+                    { x: new Date(2020, 0), y: 1465406 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -167,7 +172,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",
@@ -201,7 +208,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 207 },
+                    { x: new Date(2020, 0), y: 163 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -223,7 +230,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 17166 },
+                    { x: new Date(2020, 0), y: 25186 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -248,7 +255,9 @@ window.onload = function() {
         backgroundColor: "#fff",
         //theme: "light2",
         title: {
-            text: ""
+            text: "",
+            fontSize: 20,
+            fontFamily: "arial",
         },
         axisX: {
             valueFormatString: "MMM",
@@ -283,7 +292,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 1245 },
+                    { x: new Date(2020, 0), y: 4430 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -305,7 +314,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 27 },
+                    { x: new Date(2020, 0), y: 42 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -364,7 +373,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 168 },
+                    { x: new Date(2020, 0), y: 311 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -386,7 +395,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 48 },
+                    { x: new Date(2020, 0), y: 55 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -424,8 +433,8 @@ window.onload = function() {
             fontColor: "#222",
             indexLabel: "{label} - {y}%",
             dataPoints: [
-                { y: 73.00, label: "Femenino" },
-                { y: 27.00, label: "Masculino" }
+                { y: 62.00, label: "Femenino" },
+                { y: 28.00, label: "Masculino" }
             ]
         }]
     });
@@ -458,12 +467,12 @@ window.onload = function() {
             gridColor: "#fff"
         },
         data: [{
-            type: "column",
+            type: "splineArea",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
-            color: "#D3AEE8",
+            color: "rgb(0, 158, 251)",
             dataPoints: [
-                { x: new Date(2020, 0), y: 77 },
+                { x: new Date(2020, 0), y: 925 },
                 { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },
@@ -517,7 +526,7 @@ window.onload = function() {
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { x: new Date(2020, 0), y: 0.09 },
+                { x: new Date(2020, 0), y: 0.22 },
                 { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },

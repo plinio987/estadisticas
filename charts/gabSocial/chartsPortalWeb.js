@@ -41,7 +41,7 @@ window.onload = function() {
                 xValueFormatString: "MMMM",
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 3366 },
+                    { x: new Date(2020, 0), y: 7999 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -64,7 +64,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 1923 },
+                    { x: new Date(2020, 0), y: 4293 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -85,7 +85,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 1602 },
+                    { x: new Date(2020, 0), y: 3546 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -143,11 +143,11 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 55.55, label: "Windows" },
-                { y: 33.05, label: "Android" },
-                { y: 10.52, label: "iOS" },
-                { y: 0.66, label: "Linux" },
-                { y: 0.04, label: "Not Set" }
+                { y: 49.00, label: "Windows" },
+                { y: 34.82, label: "Android" },
+                { y: 15.40, label: "iOS" },
+                { y: 0.41, label: "Linux" },
+                { y: 0.18, label: "Not Set" }
             ]
         }]
     });
@@ -172,12 +172,13 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 79.18, label: "Chrome" },
-                { y: 7.74, label: "Safari" },
-                { y: 4.24, label: "Android" },
-                { y: 5.15, label: "Edge/Explorer" },
-                { y: 2.52, label: "Firefox" },
-                { y: 0.69, label: "Opera" }
+                { y: 72.93, label: "Chrome" },
+                { y: 11.63, label: "Safari" },
+                { y: 4.01, label: "Android" },
+                { y: 4.16, label: "Edge/Explorer" },
+                { y: 2.50, label: "Firefox" },
+                { y: 0.61, label: "Opera" }
+
             ]
         }]
     });
@@ -201,11 +202,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 10.42, label: "iPhone" },
-                { y: 9.81, label: "Samsung" },
-                { y: 1.10, label: "Alcatel" },
-                { y: 1.84, label: "LG" },
-                { y: 3.11, label: "Not Set" }
+                { y: 19.42, label: "iPhone" },
+                { y: 1.89, label: "iPad" },
+                { y: 6.54, label: "Samsung" },
+                { y: 1.46, label: "Huawei JKM-LX3 Y9 2020" },
+                { y: 1.08, label: "Huawei ANE-LX3 P20 Lite" },
+                { y: 1.73, label: "Not Set" }
             ]
         }]
     });
@@ -232,16 +234,17 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 81.50, label: "Busqueda organica" },
-                { y: 11.50, label: "Directo" },
-                { y: 2.00, label: "Redes Sociales" },
-                { y: 5.00, label: "Referido" }
+                { y: 73.80, label: "Busqueda organica" },
+                { y: 12.70, label: "Directo" },
+                { y: 1.60, label: "Referido" },
+                { y: 2.20, label: "Paid search" },
+                { y: 9.70, label: "Social media" }
             ]
         }]
     });
     chart5.render();
 
-    var chart6 = new CanvasJS.Chart("porcentajeRebote", {
+    var chart16 = new CanvasJS.Chart("porcentajeRebote", {
         animationEnabled: true,
         backgroundColor: "#FFF",
         title: {
@@ -266,7 +269,7 @@ window.onload = function() {
             color: "#bed905",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { x: new Date(2020, 0), y: 68.28 },
+                { x: new Date(2020, 0), y: 77.20 },
                 { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },
@@ -283,7 +286,7 @@ window.onload = function() {
         }]
     });
 
-    chart6.render();
+    chart16.render();
 
     var chart7 = new CanvasJS.Chart("dispositivos", {
         theme: "light2",
@@ -303,9 +306,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 55.82, label: "Desktop" },
-                { y: 42.60, label: "Mobile" },
-                { y: 1.59, label: "Tablet" }
+                { y: 51.59, label: "Desktop" },
+                { y: 47.17, label: "Mobile" },
+                { y: 1.73, label: "Tablet" }
             ]
         }]
     });
@@ -336,7 +339,7 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "#m:##s",
             dataPoints: [
-                { x: new Date(2020, 0), y: 121 },
+                { x: new Date(2020, 0), y: 137 },
                 { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },
@@ -354,7 +357,7 @@ window.onload = function() {
     chart8.render();
 
 
-    var chart9 = new CanvasJS.Chart("tiempoPermanencia", {
+    var chart29 = new CanvasJS.Chart("tiempoPermanencia", {
         theme: "light1", // "light1", "ligh2", "dark1", "dark2"
         animationEnabled: true,
         title: {
@@ -380,20 +383,20 @@ window.onload = function() {
             indexLabelPlacement: "outside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "0-10", y: 35.05 },
-                { label: "11-30", y: 4.94 },
-                { label: "31-60", y: 6.17 },
-                { label: "61-180", y: 14.59 },
-                { label: "181-600", y: 18.03 },
-                { label: "601-1800", y: 14.42 },
-                { label: "1800+", y: 6.81 }
+                { label: "0-10", y: 76.53 },
+                { label: "11-30", y: 2.36 },
+                { label: "31-60", y: 2.55 },
+                { label: "61-180", y: 5.11 },
+                { label: "181-600", y: 5.65 },
+                { label: "601-1800", y: 4.07 },
+                { label: "1800+", y: 0.74 }
 
             ]
         }]
     });
-    chart9.render();
+    chart29.render();
 
-    var chart10 = new CanvasJS.Chart("usersSplinePortal", {
+    var chart20 = new CanvasJS.Chart("usersSplinePortal", {
         animationEnabled: true,
         title: {
             text: ""
@@ -417,7 +420,7 @@ window.onload = function() {
                 yValueFormatString: "##0.00'%'",
                 xValueFormatString: "MMM",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 77.00 },
+                    { x: new Date(2020, 0), y: 86.80 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -439,7 +442,7 @@ window.onload = function() {
                 yValueFormatString: "##0.00'%'",
                 name: "Recurrentes",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 23.00 },
+                    { x: new Date(2020, 0), y: 13.20 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -455,11 +458,11 @@ window.onload = function() {
             }
         ]
     });
-    chart10.render();
+    chart20.render();
 
     // ****************GENERO USUARIOS************** //
 
-    var chart11 = new CanvasJS.Chart("generoPortal", {
+    var chart21 = new CanvasJS.Chart("generoPortal", {
         theme: "light2",
         animationEnabled: true,
         title: {
@@ -482,7 +485,7 @@ window.onload = function() {
             ]
         }]
     });
-    chart11.render();
+    chart21.render();
 
     // ****************CANALES REFERIDOS RRSS************** //
 
@@ -500,9 +503,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 33.33, label: "Facebook" },
-                { y: 33.33, label: "LinkedIn" },
-                { y: 33.33, label: "Twitter" }
+                { y: 44.33, label: "Facebook" },
+                { y: 20.96, label: "Twitter" },
+                { y: 27.84, label: "Instagram Stories" },
+                { y: 6.87, label: "Instagram" }
             ]
         }]
     });
@@ -539,7 +543,7 @@ window.onload = function() {
     // ****************PAGINAS DE DESTINO************** //
 
 
-    var chart15 = new CanvasJS.Chart("paginasDestino", {
+    var chart15 = new CanvasJS.Chart("paginasEntrada", {
         theme: "ligh2", // "light1", "ligh2", "dark1", "dark2"
         animationEnabled: true,
         title: {
@@ -559,11 +563,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 54.57 },
-                { label: "/transparencia/", y: 10.59 },
-                { label: "/el-gabinete-social/quienes-somos/", y: 2.45 },
-                { label: "/el-gabinete-social/direccion-tecnica/politicas-publicas-e-innovacion/", y: 2.34 },
-                { label: "Contacto/", y: 1.83 }
+                { label: "Landin Page", y: 28.93 },
+                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
+                { label: "/Desigualdad social", y: 4.48 },
+                { label: "/Margarita Cedeño", y: 2.67 },
+                { label: "/Urgencia Climatica", y: 2.38 }
             ]
         }]
     });
@@ -592,11 +596,14 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 36.78 },
-                { label: "/transparencia/", y: 17.97 },
-                { label: "/el-gabinete-social/quienes-somos/", y: 2.85 },
-                { label: "/el-gabinete-social/direccion-tecnica/politicas-publicas-e-innovacion/", y: 2.15 },
-                { label: "Contacto/", y: 3.62 }
+                { label: "Landing page", y: 13.07 },
+                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
+                { label: "Que paso en Chile", y: 9.70 },
+                { label: "Cayo el muro", y: 3.26 },
+                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
+
+
+
             ]
         }]
     });

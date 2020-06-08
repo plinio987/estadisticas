@@ -1,0 +1,61 @@
+ PHP Code
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script>
+        window.onload = function() {
+
+            var dps = [];
+            var chart = new CanvasJS.Chart("chartContainer", {
+                zoomEnabled: true,
+                exportEnabled: true,
+                title: {
+                    text: "Qualcomm Incorporated Stock Price - 2017"
+                },
+                subtitles: [{
+                    text: "Try Zooming and Panning"
+                }],
+                axisX: {
+                    valueFormatString: "DD MMM"
+                },
+                axisY: {
+                    title: "Price",
+                    includeZero: false,
+                    interval: 5,
+                    prefix: "$"
+                },
+                data: [{
+                    type: "candlestick",
+                    name: "Qualcomm Incorporated Stock Price",
+                    showInLegend: true,
+                    yValueFormatString: "$##0.00",
+                    xValueType: "dateTime",
+                    dataPoints: dps
+                }]
+            });
+
+            $.getJSON("Json/error.json", parseData);
+
+            function parseData(result) {
+                for (var i = 0; i < result.length; i++) {
+                    dps.push({
+                        x: result[i].x,
+                        y: result[i].y
+                    });
+                }
+                chart.render();
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</body>
+
+</html>

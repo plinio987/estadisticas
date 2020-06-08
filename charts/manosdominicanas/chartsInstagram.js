@@ -31,7 +31,7 @@ window.onload = function() {
         },
         data: [{
                 type: "splineArea",
-                name: "Engagement rate en publicaciones",
+                name: "Engagement",
                 markerBorderColor: "white",
                 color: "#272424",
                 markerBorderThickness: 2,
@@ -56,7 +56,7 @@ window.onload = function() {
 
             {
                 type: "splineArea",
-                name: "Engagement rate de perfil",
+                name: "Engagement rate",
                 color: "#C2d3da",
                 showInLegend: true,
                 yValueFormatString: "###0.00'%'",
@@ -350,7 +350,7 @@ window.onload = function() {
         },
         data: [{
                 type: "area",
-                name: "Total interacciones",
+                name: "Publicaciones compartidas",
                 markerBorderColor: "white",
                 color: "#C2d3da",
                 markerBorderThickness: 2,

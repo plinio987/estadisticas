@@ -244,7 +244,7 @@ window.onload = function() {
     });
     chart5.render();
 
-    var chart6 = new CanvasJS.Chart("porcentajeRebote", {
+    var chart16 = new CanvasJS.Chart("porcentajeRebote", {
         animationEnabled: true,
         backgroundColor: "#FFF",
         title: {
@@ -286,7 +286,7 @@ window.onload = function() {
         }]
     });
 
-    chart6.render();
+    chart16.render();
 
     var chart7 = new CanvasJS.Chart("dispositivos", {
         theme: "light2",
@@ -357,7 +357,7 @@ window.onload = function() {
     chart8.render();
 
 
-    var chart9 = new CanvasJS.Chart("tiempoPermanencia", {
+    var chart29 = new CanvasJS.Chart("tiempoPermanencia", {
         theme: "light1", // "light1", "ligh2", "dark1", "dark2"
         animationEnabled: true,
         title: {
@@ -394,9 +394,9 @@ window.onload = function() {
             ]
         }]
     });
-    chart9.render();
+    chart29.render();
 
-    var chart10 = new CanvasJS.Chart("usersSplinePortal", {
+    var chart20 = new CanvasJS.Chart("usersSplinePortal", {
         animationEnabled: true,
         title: {
             text: ""
@@ -458,11 +458,11 @@ window.onload = function() {
             }
         ]
     });
-    chart10.render();
+    chart20.render();
 
     // ****************GENERO USUARIOS************** //
 
-    var chart11 = new CanvasJS.Chart("generoPortal", {
+    var chart21 = new CanvasJS.Chart("generoPortal", {
         theme: "light2",
         animationEnabled: true,
         title: {
@@ -485,7 +485,7 @@ window.onload = function() {
             ]
         }]
     });
-    chart11.render();
+    chart21.render();
 
     // ****************CANALES REFERIDOS RRSS************** //
 
@@ -543,7 +543,7 @@ window.onload = function() {
     // ****************PAGINAS DE DESTINO************** //
 
 
-    var chart15 = new CanvasJS.Chart("paginasDestino", {
+    var chart15 = new CanvasJS.Chart("paginasEntrada", {
         theme: "ligh2", // "light1", "ligh2", "dark1", "dark2"
         animationEnabled: true,
         title: {

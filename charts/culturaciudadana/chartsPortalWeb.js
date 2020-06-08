@@ -41,8 +41,8 @@ window.onload = function() {
                 xValueFormatString: "MMMM",
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 1336 },
-                    { x: new Date(2020, 1), y: 1353 },
+                    { x: new Date(2020, 0), y: 7999 },
+                    { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
                     { x: new Date(2020, 4), y: 0 },
@@ -64,8 +64,8 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 717 },
-                    { x: new Date(2020, 1), y: 682 },
+                    { x: new Date(2020, 0), y: 4293 },
+                    { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
                     { x: new Date(2020, 4), y: 0 },
@@ -79,14 +79,14 @@ window.onload = function() {
                 ]
             },
             {
-                type: "line",
+                type: "area",
                 name: "Usuarios unicos",
-                color: "#F22F08",
+                color: "#D3AEE8",
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 542 },
-                    { x: new Date(2020, 1), y: 524 },
+                    { x: new Date(2020, 0), y: 3546 },
+                    { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
                     { x: new Date(2020, 4), y: 0 },
@@ -123,71 +123,128 @@ window.onload = function() {
         e.chart.render();
     }
 
-    var chart10 = new CanvasJS.Chart("usersSplinePortal", {
+    // ****************SISTEMAS OPERATIVOS UTILIZADOS************** //
+
+    var chart2 = new CanvasJS.Chart("sistemasOperativos", {
+        theme: "light2",
         animationEnabled: true,
         title: {
             text: ""
         },
-        axisY: {
-            includeZero: false,
-            prefix: "%",
-            gridColor: "#fff",
-        },
-        toolTip: {
-            shared: true
-        },
-        legend: {
-            fontSize: 14
-        },
+        subtitles: [{
+            text: "",
+            fontSize: 16
+        }],
         data: [{
-                type: "splineArea",
-                showInLegend: true,
-                name: "Nuevas visitas",
-                color: "#de8cf0",
-                yValueFormatString: "##0.00'%'",
-                xValueFormatString: "MMM",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 82.40 },
-                    { x: new Date(2020, 1), y: 84.70 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            },
-
-            {
-                type: "splineArea",
-                showInLegend: true,
-                color: "#bed905",
-                yValueFormatString: "##0.00'%'",
-                name: "Recurrentes",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 17.60 },
-                    { x: new Date(2020, 1), y: 15.30 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            }
-        ]
+            type: "pie",
+            indexLabelFontSize: 11,
+            radius: 120,
+            indexLabel: "{label} - {y}",
+            yValueFormatString: "###0.0'%'",
+            click: explodePie,
+            dataPoints: [
+                { y: 49.00, label: "Windows" },
+                { y: 34.82, label: "Android" },
+                { y: 15.40, label: "iOS" },
+                { y: 0.41, label: "Linux" },
+                { y: 0.18, label: "Not Set" }
+            ]
+        }]
     });
-    chart10.render();
 
-    var chart6 = new CanvasJS.Chart("porcentajeRebote", {
+    chart2.render();
+
+    var chart3 = new CanvasJS.Chart("navegadores", {
+        theme: "light2",
+        animationEnabled: true,
+        title: {
+            text: ""
+        },
+        subtitles: [{
+            text: "",
+            fontSize: 16
+        }],
+        data: [{
+            type: "doughnut",
+            indexLabelFontSize: 11,
+            radius: 120,
+            indexLabel: "{label} - {y}",
+            yValueFormatString: "###0.0'%'",
+            click: explodePie,
+            dataPoints: [
+                { y: 72.93, label: "Chrome" },
+                { y: 11.63, label: "Safari" },
+                { y: 4.01, label: "Android" },
+                { y: 4.16, label: "Edge/Explorer" },
+                { y: 2.50, label: "Firefox" },
+                { y: 0.61, label: "Opera" }
+
+            ]
+        }]
+    });
+    chart3.render();
+
+    var chart4 = new CanvasJS.Chart("moviles", {
+        theme: "light2",
+        animationEnabled: true,
+        title: {
+            text: ""
+        },
+        subtitles: [{
+            text: "",
+            fontSize: 16
+        }],
+        data: [{
+            type: "pie",
+            indexLabelFontSize: 11,
+            radius: 120,
+            indexLabel: "{label} - {y}",
+            yValueFormatString: "###0.0'%'",
+            click: explodePie,
+            dataPoints: [
+                { y: 19.42, label: "iPhone" },
+                { y: 1.89, label: "iPad" },
+                { y: 6.54, label: "Samsung" },
+                { y: 1.46, label: "Huawei JKM-LX3 Y9 2020" },
+                { y: 1.08, label: "Huawei ANE-LX3 P20 Lite" },
+                { y: 1.73, label: "Not Set" }
+            ]
+        }]
+    });
+    chart4.render();
+
+
+    // ****************CANALES AL PORTAL************** //
+
+    var chart5 = new CanvasJS.Chart("canalesInbound", {
+        theme: "light2",
+        animationEnabled: true,
+        title: {
+            text: ""
+        },
+        subtitles: [{
+            text: "",
+            fontSize: 16
+        }],
+        data: [{
+            type: "pie",
+            indexLabelFontSize: 11,
+            radius: 120,
+            indexLabel: "{label} - {y}",
+            yValueFormatString: "###0.0'%'",
+            click: explodePie,
+            dataPoints: [
+                { y: 73.80, label: "Busqueda organica" },
+                { y: 12.70, label: "Directo" },
+                { y: 1.60, label: "Referido" },
+                { y: 2.20, label: "Paid search" },
+                { y: 9.70, label: "Social media" }
+            ]
+        }]
+    });
+    chart5.render();
+
+    var chart16 = new CanvasJS.Chart("porcentajeRebote", {
         animationEnabled: true,
         backgroundColor: "#FFF",
         title: {
@@ -212,8 +269,8 @@ window.onload = function() {
             color: "#bed905",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { x: new Date(2020, 0), y: 73.36 },
-                { x: new Date(2020, 1), y: 69.06 },
+                { x: new Date(2020, 0), y: 77.20 },
+                { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },
                 { x: new Date(2020, 4), y: 0 },
@@ -229,7 +286,33 @@ window.onload = function() {
         }]
     });
 
-    chart6.render();
+    chart16.render();
+
+    var chart7 = new CanvasJS.Chart("dispositivos", {
+        theme: "light2",
+        animationEnabled: true,
+        title: {
+            text: ""
+        },
+        subtitles: [{
+            text: "",
+            fontSize: 16
+        }],
+        data: [{
+            type: "pie",
+            indexLabelFontSize: 11,
+            radius: 120,
+            indexLabel: "{label} - {y}",
+            yValueFormatString: "###0.0'%'",
+            click: explodePie,
+            dataPoints: [
+                { y: 51.59, label: "Desktop" },
+                { y: 47.17, label: "Mobile" },
+                { y: 1.73, label: "Tablet" }
+            ]
+        }]
+    });
+    chart7.render();
 
     var chart8 = new CanvasJS.Chart("tiempoDuracion", {
         animationEnabled: true,
@@ -257,7 +340,7 @@ window.onload = function() {
             yValueFormatString: "#m:##s",
             dataPoints: [
                 { x: new Date(2020, 0), y: 137 },
-                { x: new Date(2020, 1), y: 153 },
+                { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },
                 { x: new Date(2020, 4), y: 0 },
@@ -273,182 +356,8 @@ window.onload = function() {
     });
     chart8.render();
 
-    // ****************SISTEMAS OPERATIVOS UTILIZADOS************** //
 
-    var chart2 = new CanvasJS.Chart("sistemasOperativos", {
-        theme: "light2",
-        animationEnabled: true,
-        title: {
-            text: ""
-        },
-        subtitles: [{
-            text: "",
-            fontSize: 16
-        }],
-        data: [{
-            type: "pie",
-            indexLabelFontSize: 11,
-            radius: 120,
-            indexLabel: "{label} - {y}",
-            yValueFormatString: "###0.0'%'",
-            click: explodePie,
-            dataPoints: [
-                { y: 40.27, label: "Windows" },
-                { y: 41.03, label: "Android" },
-                { y: 18.70, label: "iOS" }
-
-            ]
-        }]
-    });
-
-    chart2.render();
-
-    var chart3 = new CanvasJS.Chart("navegadores", {
-        theme: "light2",
-        animationEnabled: true,
-        title: {
-            text: ""
-        },
-        subtitles: [{
-            text: "",
-            fontSize: 16
-        }],
-        data: [{
-            type: "doughnut",
-            indexLabelFontSize: 11,
-            radius: 120,
-            indexLabel: "{label} - {y}",
-            yValueFormatString: "###0.0'%'",
-            click: explodePie,
-            dataPoints: [
-                { y: 65.65, label: "Chrome" },
-                { y: 16.03, label: "Safari" },
-                { y: 7.06, label: "Android" },
-                { y: 5.15, label: "Edge/Explores" },
-                { y: 5.92, label: "Firefox" }
-
-            ]
-        }]
-    });
-    chart3.render();
-
-
-
-
-
-    var chart7 = new CanvasJS.Chart("dispositivos", {
-        theme: "light2",
-        animationEnabled: true,
-        title: {
-            text: ""
-        },
-        subtitles: [{
-            text: "",
-            fontSize: 16
-        }],
-        data: [{
-            type: "pie",
-            indexLabelFontSize: 11,
-            radius: 120,
-            indexLabel: "{label} - {y}",
-            yValueFormatString: "###0.0'%'",
-            click: explodePie,
-            dataPoints: [
-                { y: 43.51, label: "Desktop" },
-                { y: 55.53, label: "Movil" },
-                { y: 0.95, label: "Tablet" }
-            ]
-        }]
-    });
-    chart7.render();
-
-    var chart4 = new CanvasJS.Chart("moviles", {
-        theme: "light2",
-        animationEnabled: true,
-        title: {
-            text: ""
-        },
-        subtitles: [{
-            text: "",
-            fontSize: 16
-        }],
-        data: [{
-            type: "pie",
-            indexLabelFontSize: 11,
-            radius: 120,
-            indexLabel: "{label} - {y}",
-            yValueFormatString: "###0.0'%'",
-            click: explodePie,
-            dataPoints: [
-                { y: 24.31, label: "Apple" },
-                { y: 5.74, label: "Samsung" },
-                { y: 7.76, label: "Huawei" }
-
-            ]
-        }]
-    });
-    chart4.render();
-
-    // ****************CANALES AL PORTAL************** //
-
-    var chart5 = new CanvasJS.Chart("canalesInbound", {
-        theme: "light2",
-        animationEnabled: true,
-        title: {
-            text: ""
-        },
-        subtitles: [{
-            text: "",
-            fontSize: 16
-        }],
-        data: [{
-            type: "pie",
-            indexLabelFontSize: 11,
-            radius: 120,
-            indexLabel: "{label} - {y}",
-            yValueFormatString: "###0.0'%'",
-            click: explodePie,
-            dataPoints: [
-                { y: 59.50, label: "Busqueda organica" },
-                { y: 33.70, label: "Directo" },
-                { y: 2.70, label: "Referido" },
-                { y: 4.20, label: "Redes sociales" }
-            ]
-        }]
-    });
-    chart5.render();
-
-    // ****************CANALES REFERIDOS RRSS************** //
-
-    var chart12 = new CanvasJS.Chart("redesSociales", {
-        animationEnabled: true,
-        title: {
-            text: "",
-
-        },
-        data: [{
-            type: "doughnut",
-            startAngle: 60,
-            //innerRadius: 60,
-            indexLabelFontSize: 11,
-            indexLabel: "{label} - #percent%",
-            toolTipContent: "<b>{label}:</b> {y} (#percent%)",
-            dataPoints: [
-                { y: 36.36, label: "Facebook" },
-                { y: 9.09, label: "Istagram Stpries " },
-                { y: 54.55, label: "Instagram" }
-            ]
-        }]
-    });
-    chart12.render();
-
-
-
-
-
-
-
-    var chart9 = new CanvasJS.Chart("tiempoPermanencia", {
+    var chart29 = new CanvasJS.Chart("tiempoPermanencia", {
         theme: "light1", // "light1", "ligh2", "dark1", "dark2"
         animationEnabled: true,
         title: {
@@ -485,13 +394,75 @@ window.onload = function() {
             ]
         }]
     });
-    chart9.render();
+    chart29.render();
 
+    var chart20 = new CanvasJS.Chart("usersSplinePortal", {
+        animationEnabled: true,
+        title: {
+            text: ""
+        },
+        axisY: {
+            includeZero: false,
+            prefix: "%",
+            gridColor: "#fff",
+        },
+        toolTip: {
+            shared: true
+        },
+        legend: {
+            fontSize: 14
+        },
+        data: [{
+                type: "splineArea",
+                showInLegend: true,
+                name: "Nuevas visitas",
+                color: "#de8cf0",
+                yValueFormatString: "##0.00'%'",
+                xValueFormatString: "MMM",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 86.80 },
+                    { x: new Date(2020, 1), y: 0 },
+                    { x: new Date(2020, 2), y: 0 },
+                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
 
+            {
+                type: "splineArea",
+                showInLegend: true,
+                color: "#bed905",
+                yValueFormatString: "##0.00'%'",
+                name: "Recurrentes",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 13.20 },
+                    { x: new Date(2020, 1), y: 0 },
+                    { x: new Date(2020, 2), y: 0 },
+                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            }
+        ]
+    });
+    chart20.render();
 
     // ****************GENERO USUARIOS************** //
 
-    var chart11 = new CanvasJS.Chart("generoPortal", {
+    var chart21 = new CanvasJS.Chart("generoPortal", {
         theme: "light2",
         animationEnabled: true,
         title: {
@@ -509,13 +480,37 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.20, label: "Femenino" },
-                { y: 26.80, label: "Masculino" }
+                { y: 71.30, label: "Femenino" },
+                { y: 28.70, label: "Masculino" }
             ]
         }]
     });
-    chart11.render();
+    chart21.render();
 
+    // ****************CANALES REFERIDOS RRSS************** //
+
+    var chart12 = new CanvasJS.Chart("redesSociales", {
+        animationEnabled: true,
+        title: {
+            text: "",
+
+        },
+        data: [{
+            type: "doughnut",
+            startAngle: 60,
+            //innerRadius: 60,
+            indexLabelFontSize: 11,
+            indexLabel: "{label} - #percent%",
+            toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+            dataPoints: [
+                { y: 44.33, label: "Facebook" },
+                { y: 20.96, label: "Twitter" },
+                { y: 27.84, label: "Instagram Stories" },
+                { y: 6.87, label: "Instagram" }
+            ]
+        }]
+    });
+    chart12.render();
 
 
     // ****************CANALES AL RANGO DE EDAD************** //
@@ -534,12 +529,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 27.47 },
-                { label: "25-34", y: 38.46 },
-                { label: "35-44", y: 16.48 },
-                { label: "45-54", y: 10.99 },
-                { label: "55-64", y: 6.59 }
-
+                { label: "18-24", y: 19.26 },
+                { label: "25-34", y: 31.23 },
+                { label: "35-44", y: 18.97 },
+                { label: "45-54", y: 16.08 },
+                { label: "55-64", y: 8.79 },
+                { label: "65+", y: 5.67 }
             ]
         }]
     });
@@ -548,7 +543,7 @@ window.onload = function() {
     // ****************PAGINAS DE DESTINO************** //
 
 
-    var chart15 = new CanvasJS.Chart("paginasDestino", {
+    var chart15 = new CanvasJS.Chart("paginasEntrada", {
         theme: "ligh2", // "light1", "ligh2", "dark1", "dark2"
         animationEnabled: true,
         title: {
@@ -568,11 +563,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "/Landing page", y: 25.95 },
-                { label: "/importancia-de-la-confianza-en-las-relaciones-de-pareja", y: 20.09 },
-                { label: "Cultura ciudadana en arte", y: 9.09 },
-                { label: "/Termometro de la violencia", y: 8.06 },
-                { label: "/practica-de-crianza-positiva-luego-del-divorcio", y: 8.06 }
+                { label: "Landin Page", y: 28.93 },
+                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
+                { label: "/Desigualdad social", y: 4.48 },
+                { label: "/Margarita Cedeño", y: 2.67 },
+                { label: "/Urgencia Climatica", y: 2.38 }
             ]
         }]
     });
@@ -601,11 +596,12 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "/guias-y-articulos/item/importancia-de-la-confianza-en-las-relaciones-de-pareja", y: 20.09 },
-                { label: "/cultura-ciudadana-en-arte", y: 15.25 },
-                { label: "/Landing page", y: 11.88 },
-                { label: "/termometro-de-la-violencia", y: 8.36 },
-                { label: "/practica-de-crianza-positiva-luego-del-divorcio", y: 8.36 }
+                { label: "Landing page", y: 13.07 },
+                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
+                { label: "Que paso en Chile", y: 9.70 },
+                { label: "Cayo el muro", y: 3.26 },
+                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
+
 
 
             ]

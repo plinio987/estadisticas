@@ -38,7 +38,7 @@ window.onload = function() {
                 type: "splineArea",
                 name: "Engagement",
                 markerBorderColor: "white",
-                color: "#4FA8C2",
+                color: "#f2a104",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "##0.00'%'",
@@ -62,7 +62,7 @@ window.onload = function() {
             {
                 type: "splineArea",
                 name: "Alcance",
-                color: "#D81C23",
+                color: "#1d65a6",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
@@ -117,7 +117,7 @@ window.onload = function() {
                 type: "splineArea",
                 name: "Nuevos seguidores",
                 markerBorderColor: "white",
-                color: "#D81C23",
+                color: "#f2a104",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
@@ -141,7 +141,7 @@ window.onload = function() {
             {
                 type: "splineArea",
                 name: "Total Seguidores",
-                color: "#4FA8C2",
+                color: "#1d65a6",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
@@ -197,7 +197,7 @@ window.onload = function() {
                 type: "column",
                 name: "Tuits mensuales",
                 markerBorderColor: "white",
-                color: "#D81C23",
+                color: "#f2a104",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
@@ -221,7 +221,7 @@ window.onload = function() {
             {
                 type: "splineArea",
                 name: "Total interacciones",
-                color: "#4FA8C2",
+                color: "#1d65a6",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
@@ -244,7 +244,7 @@ window.onload = function() {
     chart3.render();
 
 
-    var chart4 = new CanvasJS.Chart("crmm", {
+    var chart4 = new CanvasJS.Chart("crrm", {
         animationEnabled: true,
         exportEnabled: false,
         theme: "light2",
@@ -303,7 +303,7 @@ window.onload = function() {
                 type: "column",
                 name: "Visitas al perfil",
                 markerBorderColor: "white",
-                color: "#4FA8C2",
+                color: "#f2a104",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
@@ -327,7 +327,7 @@ window.onload = function() {
             {
                 type: "area",
                 name: "Menciones a la cuenta",
-                color: "#D81C23",
+                color: "#1d65a6",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
@@ -349,6 +349,117 @@ window.onload = function() {
     });
     chart5.render();
 
+var chart6 = new CanvasJS.Chart("acomuladocrrm", {
+	 //theme:"light2",
+	animationEnabled: true,
+	title:{
+		text: ""
+	},
+	axisY :{
+		includeZero: false,
+		title: "",
+		suffix: "m",
+        labelFontColor: "#222",
+        gridColor: "#fff"
+        
+	},
+	toolTip: {
+		shared: "true"
+	},
+	legend:{
+		cursor:"pointer",
+		itemclick : toggleDataSeries
+	},
+	data: [{
+		type: "spline",
+		visible: true,
+		showInLegend: true,
+		yValueFormatString: "#,###",
+        xValueFormatString: "MMMM YYYY",
+        color: "#1d65a6",
+		name: "Retuits",
+		dataPoints: [
+			{ label: "Ene", y: 4020 },
+			{ label: "Feb", y: 0 },
+			{ label: "Mar", y: 0 },
+			{ label: "Apr", y: 0 },
+			{ label: "May", y: 0 },
+			{ label: "Jun", y: 0 },
+			{ label: "Jul", y: 0 },
+			{ label: "Agt", y: 0 },
+			{ label: "Oct", y: 0 },
+            { label: "Nov", y: 0 },
+			{ label: "Dic", y: 0 }
+		]
+	},
+	{
+		type: "spline", 
+	    visible: true,
+		showInLegend: true,
+		yValueFormatString: "#,###",
+        xValueFormatString: "MMMM YYYY",
+        color: "#00743F",
+		name: "Me gusta",
+		dataPoints: [
+			{ label: "Ene", y: 5062 },
+		    { label: "Feb", y: 0 },
+			{ label: "Mar", y: 0 },
+			{ label: "Apr", y: 0 },
+			{ label: "May", y: 0 },
+			{ label: "Jun", y: 0 },
+			{ label: "Jul", y: 0 },
+			{ label: "Agt", y: 0 },
+			{ label: "Oct", y: 0 },
+            { label: "Nov", y: 0 },
+			{ label: "Dic", y: 0 }
+		]
+	},
+	{
+		type: "spline",
+	    visible: true,
+		showInLegend: true,
+		yValueFormatString: "#,###",
+        xValueFormatString: "MMMM YYYY",
+        color: "#f2a104",
+		name: "Clicks",
+		dataPoints: [
+		{ label: "Ene", y: 7080 },
+	        { label: "Feb", y: 0 },
+			{ label: "Mar", y: 0 },
+			{ label: "Apr", y: 0 },
+			{ label: "May", y: 0 },
+			{ label: "Jun", y: 0 },
+			{ label: "Jul", y: 0 },
+			{ label: "Agt", y: 0 },
+			{ label: "Oct", y: 0 },
+            { label: "Nov", y: 0 },
+			{ label: "Dic", y: 0 }
+		]
+	},
+
+	{
+		type: "spline", 
+		showInLegend: true,
+		yValueFormatString: "#,###",
+        xValueFormatString: "MMMM YYYY",
+        color: "#D6618F",
+		name: "Respuestas",
+		dataPoints: [
+		{ label: "Ene", y: 8060 },
+        	{ label: "Feb", y: 0 },
+			{ label: "Mar", y: 0 },
+			{ label: "Apr", y: 0 },
+			{ label: "May", y: 0 },
+			{ label: "Jun", y: 0 },
+			{ label: "Jul", y: 0 },
+			{ label: "Agt", y: 0 },
+			{ label: "Oct", y: 0 },
+            { label: "Nov", y: 0 },
+			{ label: "Dic", y: 0 }
+		]
+	}]
+});
+chart6.render();
     function addSymbols(e) {
         var suffixes = ["", "K", "M", "B"];
         var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);

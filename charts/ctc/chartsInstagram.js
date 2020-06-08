@@ -31,7 +31,7 @@ window.onload = function() {
         },
         data: [{
                 type: "splineArea",
-                name: "Engagement rate en publicaciones",
+                name: "Engagement",
                 markerBorderColor: "white",
                 color: "#272424",
                 markerBorderThickness: 2,
@@ -39,7 +39,7 @@ window.onload = function() {
                 yValueFormatString: "###0.00'%'",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 0.04 },
+                    { x: new Date(2020, 0), y: 5.12 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -56,12 +56,12 @@ window.onload = function() {
 
             {
                 type: "splineArea",
-                name: "Engagement rate de perfil",
+                name: "Engagement rate",
                 color: "#C2d3da",
                 showInLegend: true,
                 yValueFormatString: "###0.00'%'",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 20.67 },
+                    { x: new Date(2020, 0), y: 12.67 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -121,7 +121,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 16151 },
+                    { x: new Date(2020, 0), y: 114644 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -143,7 +143,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 692 },
+                    { x: new Date(2020, 0), y: 5748 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -200,7 +200,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 59 },
+                    { x: new Date(2020, 0), y: 1275 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -222,7 +222,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 3406 },
+                    { x: new Date(2020, 0), y: 46300 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -279,7 +279,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 704 },
+                    { x: new Date(2020, 0), y: 5865 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -301,7 +301,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 27 },
+                    { x: new Date(2020, 0), y: 44 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -350,7 +350,7 @@ window.onload = function() {
         },
         data: [{
                 type: "area",
-                name: "Total interacciones",
+                name: "Publicaciones compartidas",
                 markerBorderColor: "white",
                 color: "#C2d3da",
                 markerBorderThickness: 2,
@@ -358,7 +358,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 22 },
+                    { x: new Date(2020, 0), y: 5865 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -380,7 +380,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 12 },
+                    { x: new Date(2020, 0), y: 117 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -437,7 +437,7 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 0), y: 140069 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -459,7 +459,7 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 28 },
+                    { x: new Date(2020, 0), y: 321 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -503,7 +503,7 @@ window.onload = function() {
             color: "#81a3a7",
             yValueFormatString: "#,###",
             dataPoints: [
-                { x: new Date(2020, 0), y: 0 },
+                { x: new Date(2020, 0), y: 20 },
                 { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },
