@@ -8,7 +8,7 @@ window.onload = function() {
         animationEnabled: true,
         //theme: "light1", "light1", "light2", "dark1", "dark2"
         title: {
-            text: "Alcance General",
+            text: "",
             fontColor: "#222",
             fontSize: 20,
             fontFamily: "arial",
@@ -65,7 +65,7 @@ window.onload = function() {
         animationEnabled: true,
         //theme: "light1",  "light1", "light2", "dark1", "dark2"
         title: {
-            text: "Total seguidores",
+            text: "",
             fontColor: "#222",
             fontSize: 20,
             fontFamily: "arial",

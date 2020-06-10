@@ -20,10 +20,10 @@
                         <div class="col-12 col-sm-2 col-md-2">
                         <a href="vice-portal.php">
                             <div class="info-box mb-3">
-                                <span class="info-box-icon bg-danger elevation-1"><i class="fab fa-facebook-square"></i></span>
+                                <span class="info-box-icon bg-primary elevation-1"><i class="fab fa-facebook-square"></i></span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Portal web</span>
+                                    <span class="info-box-text">Facebook</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -72,6 +72,18 @@
                             <!-- /.info-box -->
                         </div> 
                          </a>
+
+                         <a href="vice-portal.php">
+                            <div class="info-box mb-3">
+                                <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-desktop"></i></span>
+
+                                <div class="info-box-content">
+                                    <span class="info-box-text">Portal web</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                            </a>
                     </div><!-- /.col -->
                     
 

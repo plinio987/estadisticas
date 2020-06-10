@@ -8,7 +8,7 @@ window.onload = function() {
         animationEnabled: true,
         //theme: "light1", "light1", "light2", "dark1", "dark2"
         title: {
-            text: "Alcance general",
+            text: "",
             fontColor: "#222",
             fontSize: 18,
             fontFamily: "arial",
@@ -24,7 +24,7 @@ window.onload = function() {
 
         },
         axisY: {
-            title: "Alcance total ",
+            title: " ",
             titleFontColor: "#222",
             suffix: "mn",
             labelFontColor: "#222",
@@ -65,7 +65,7 @@ window.onload = function() {
         animationEnabled: true,
         //theme: "light1",  "light1", "light2", "dark1", "dark2"
         title: {
-            text: "Total seguidores",
+            text: "",
             fontColor: "#222",
             fontSize: 18,
             fontFamily: "arial",
@@ -81,7 +81,7 @@ window.onload = function() {
 
         },
         axisY: {
-            title: "Total alcance",
+            title: "",
             titleFontColor: "#222",
             suffix: "M",
             labelFontColor: "#222",

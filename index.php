@@ -15,7 +15,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="login.php" class="nav-link">Home</a>
+        <a href="index.php" class="nav-link">Home</a>
       </li>
     </ul>
 
@@ -66,7 +66,7 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>6</h3>
+                <h3>7</h3>
 
                 <p>Total instituciones</p>
               </div>
@@ -81,7 +81,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>4</h3>
+                <h3>8</h3>
 
                 <p>Total Proyectos</p>
               </div>
@@ -96,7 +96,7 @@
             <!-- small box -->
             <div class="small-box bg-blue">
               <div class="inner">
-                <h3>24</h3>
+                <h3>32</h3>
 
                 <p>Redes sociales</p>
               </div>
@@ -111,7 +111,7 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>17</h3>
+                <h3>18</h3>
 
                 <p>Portales web</p>
               </div>
