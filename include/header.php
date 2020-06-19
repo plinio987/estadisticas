@@ -60,7 +60,7 @@
                         </div><!-- /.col -->
                         
                         <div class="col-12 col-sm-2 col-md-2">
-                        <a href="vice-youtube-header.php">
+                        <a href="vice-youtube.php">
                             <div class="info-box mb-3">
                                 <span class="info-box-icon bg-danger elevation-1"><i class="fab fa-youtube-square"></i></span>
 

@@ -81,7 +81,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>8</h3>
+                <h3>9</h3>
 
                 <p>Total Proyectos</p>
               </div>
@@ -134,7 +134,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Alcance general
+                  Alcance y Engagement general
                 </h3>
                 <div class="card-tools">
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">

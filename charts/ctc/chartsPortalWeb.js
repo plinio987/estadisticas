@@ -123,6 +123,54 @@ window.onload = function() {
         e.chart.render();
     }
 
+
+
+    var chart30 = new CanvasJS.Chart("notasPrensa", {
+        animationEnabled: true,
+        backgroundColor: "#FFF",
+        title: {
+            text: "",
+            fontSize: 25
+        },
+        axisX: {
+            valueFormatString: "MMM",
+            interval: 1,
+            intervalType: "month"
+
+        },
+        axisY: {
+            title: "Porcentaje",
+            gridColor: "#fff"
+        },
+
+        data: [{
+            indexLabelFontColor: "green",
+            name: "views",
+            type: "area",
+            color: "#bed905",
+            yValueFormatString: "#,###",
+            dataPoints: [
+                { x: new Date(2020, 0), y: 5 },
+                { x: new Date(2020, 1), y: 6 },
+                { x: new Date(2020, 2), y: 6 },
+                { x: new Date(2020, 3), y: 10 },
+                { x: new Date(2020, 4), y: 2 },
+                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 8), y: 0 },
+                { x: new Date(2020, 9), y: 0 },
+                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 11), y: 0 }
+
+            ]
+        }]
+    });
+    chart30.render();
+
+
+
+
     // ****************SISTEMAS OPERATIVOS UTILIZADOS************** //
 
     var chart2 = new CanvasJS.Chart("sistemasOperativos", {

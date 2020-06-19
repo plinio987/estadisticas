@@ -1,5 +1,4 @@
 window.onload = function() {
-
     var chart1 = new CanvasJS.Chart("visualizacionesMeGustaCompartidos", {
         animationEnabled: true,
         backgroundColor: "#fff",
@@ -30,18 +29,18 @@ window.onload = function() {
 
         },
         data: [{
-                type: "splineArea",
-                name: "Visualizaciones",
-                color: "#D6618F",
+                type: "line",
+                name: "Vídeos compartidos",
+                color: "#F22F08",
                 showInLegend: true,
                 xValueFormatString: "MMMM",
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 3866 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 0), y: 88 },
+                    { x: new Date(2020, 1), y: 60 },
+                    { x: new Date(2020, 2), y: 199 },
+                    { x: new Date(2020, 3), y: 428 },
+                    { x: new Date(2020, 4), y: 217 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -52,19 +51,19 @@ window.onload = function() {
                 ]
             },
             {
-                type: "column",
+                type: "splineArea",
                 name: "Me gusta",
                 markerBorderColor: "white",
-                color: "#D6618F",
+                color: "#F49f05",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 65 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 1), y: 57 },
+                    { x: new Date(2020, 2), y: 246 },
+                    { x: new Date(2020, 3), y: 754 },
+                    { x: new Date(2020, 4), y: 534 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -76,16 +75,16 @@ window.onload = function() {
             },
             {
                 type: "area",
-                name: "Vídeos compartidos",
-                color: "#73c0f4",
+                name: "Visualizaciones",
+                color: "#73C0F4",
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 89 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 0), y: 3866 },
+                    { x: new Date(2020, 1), y: 4694 },
+                    { x: new Date(2020, 2), y: 16242 },
+                    { x: new Date(2020, 3), y: 62262 },
+                    { x: new Date(2020, 4), y: 23717 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -97,6 +96,29 @@ window.onload = function() {
             }
         ]
     });
+    chart1.render();
+
+    function addSymbols(e) {
+        var suffixes = ["", "K", "M", "B"];
+        var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);
+
+        if (order > suffixes.length - 1)
+            order = suffixes.length - 1;
+
+        var suffix = suffixes[order];
+        return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
+    }
+
+    function toggleDataSeries(e) {
+        if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+            e.dataSeries.visible = false;
+        } else {
+            e.dataSeries.visible = true;
+        }
+        e.chart.render();
+    }
+
+
     chart1.render();
     var chart2 = new CanvasJS.Chart("suscriptores", {
         animationEnabled: true,
@@ -137,11 +159,11 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 160 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 0), y: 39 },
+                    { x: new Date(2020, 1), y: 25 },
+                    { x: new Date(2020, 2), y: 245 },
+                    { x: new Date(2020, 3), y: 1689 },
+                    { x: new Date(2020, 4), y: 576 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -155,15 +177,15 @@ window.onload = function() {
             {
                 type: "column",
                 name: "Total suscritos",
-                color: "#D6618F",
+                color: "#F22F08",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 1339 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 0), y: 1505 },
+                    { x: new Date(2020, 1), y: 1530 },
+                    { x: new Date(2020, 2), y: 1775 },
+                    { x: new Date(2020, 3), y: 3464 },
+                    { x: new Date(2020, 4), y: 4040 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -205,13 +227,13 @@ window.onload = function() {
             type: "splineArea",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
-            color: "#D6618F",
+            color: "#F22F08",
             dataPoints: [
-                { x: new Date(2020, 0), y: 160 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 0), y: 159 },
+                { x: new Date(2020, 1), y: 120 },
+                { x: new Date(2020, 2), y: 474 },
+                { x: new Date(2020, 3), y: 1289 },
+                { x: new Date(2020, 4), y: 929 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -266,10 +288,10 @@ window.onload = function() {
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 65 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 1), y: 57 },
+                    { x: new Date(2020, 2), y: 246 },
+                    { x: new Date(2020, 3), y: 754 },
+                    { x: new Date(2020, 4), y: 534 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -283,15 +305,15 @@ window.onload = function() {
             {
                 type: "splineArea",
                 name: "No me gusta",
-                color: "#D6618F",
+                color: "#F22F08",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 4 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 1), y: 2 },
+                    { x: new Date(2020, 2), y: 13 },
+                    { x: new Date(2020, 3), y: 37 },
+                    { x: new Date(2020, 4), y: 58 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -336,10 +358,10 @@ window.onload = function() {
             color: "#73c0f4",
             dataPoints: [
                 { x: new Date(2020, 0), y: 8 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 1), y: 17 },
+                { x: new Date(2020, 2), y: 5 },
+                { x: new Date(2020, 3), y: 22 },
+                { x: new Date(2020, 4), y: 19 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -381,13 +403,13 @@ window.onload = function() {
             type: "column",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
-            color: "#D6618F",
+            color: "#F22F08",
             dataPoints: [
                 { x: new Date(2020, 0), y: 6 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 1), y: 3 },
+                { x: new Date(2020, 2), y: 29 },
+                { x: new Date(2020, 3), y: 107 },
+                { x: new Date(2020, 4), y: 178 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -429,11 +451,11 @@ window.onload = function() {
             type: "splineArea",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "###0.00'%'",
-            color: "#D6618F",
+            color: "#F22F08",
             dataPoints: [
-                { x: new Date(2020, 0), y: 2.80 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
+                { x: new Date(2020, 0), y: 2.57 },
+                { x: new Date(2020, 1), y: 3.07 },
+                { x: new Date(2020, 2), y: 9.15 },
                 { x: new Date(2020, 3), y: 0 },
                 { x: new Date(2020, 4), y: 0 },
                 { x: new Date(2020, 5), y: 0 },

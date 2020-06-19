@@ -151,7 +151,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts/chartsGeneral.js"></script>
+    <script type="text/javascript" src="charts/vicepresidencia/chartsGeneral.js"></script>
 
 </body>
 </html>

@@ -42,10 +42,10 @@ window.onload = function() {
                 yValueFormatString: "##,##0",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 7999 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 1), y: 11383 },
+                    { x: new Date(2020, 2), y: 63222 },
+                    { x: new Date(2020, 3), y: 423648 },
+                    { x: new Date(2020, 4), y: 113774 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -65,10 +65,10 @@ window.onload = function() {
                 yValueFormatString: "##,##0",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 4293 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 1), y: 7694 },
+                    { x: new Date(2020, 2), y: 37101 },
+                    { x: new Date(2020, 3), y: 226808 },
+                    { x: new Date(2020, 4), y: 66359 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -86,10 +86,10 @@ window.onload = function() {
                 yValueFormatString: "##,##0",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 3546 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 1), y: 6604 },
+                    { x: new Date(2020, 2), y: 27798 },
+                    { x: new Date(2020, 3), y: 162288 },
+                    { x: new Date(2020, 4), y: 46191 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -122,6 +122,54 @@ window.onload = function() {
         }
         e.chart.render();
     }
+
+
+
+    var chart30 = new CanvasJS.Chart("notasPrensa", {
+        animationEnabled: true,
+        backgroundColor: "#FFF",
+        title: {
+            text: "",
+            fontSize: 25
+        },
+        axisX: {
+            valueFormatString: "MMM",
+            interval: 1,
+            intervalType: "month"
+
+        },
+        axisY: {
+            title: "Porcentaje",
+            gridColor: "#fff"
+        },
+
+        data: [{
+            indexLabelFontColor: "green",
+            name: "views",
+            type: "area",
+            color: "#bed905",
+            yValueFormatString: "#,###",
+            dataPoints: [
+                { x: new Date(2020, 0), y: 5 },
+                { x: new Date(2020, 1), y: 6 },
+                { x: new Date(2020, 2), y: 6 },
+                { x: new Date(2020, 3), y: 10 },
+                { x: new Date(2020, 4), y: 2 },
+                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 8), y: 0 },
+                { x: new Date(2020, 9), y: 0 },
+                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 11), y: 0 }
+
+            ]
+        }]
+    });
+    chart30.render();
+
+
+
 
     // ****************SISTEMAS OPERATIVOS UTILIZADOS************** //
 
@@ -172,12 +220,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 72.93, label: "Chrome" },
-                { y: 11.63, label: "Safari" },
-                { y: 4.01, label: "Android" },
-                { y: 4.16, label: "Edge/Explorer" },
-                { y: 2.50, label: "Firefox" },
-                { y: 0.61, label: "Opera" }
+                { y: 76.74, label: "Chrome" },
+                { y: 7.42, label: "Safari" },
+                { y: 5.23, label: "Android" },
+                { y: 0.40, label: "Edge/Explorer" },
+                { y: 0.57, label: "Firefox" },
+                { y: 0.15, label: "Opera" }
 
             ]
         }]
@@ -270,10 +318,10 @@ window.onload = function() {
             yValueFormatString: "##0.00'%'",
             dataPoints: [
                 { x: new Date(2020, 0), y: 77.20 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 1), y: 81.39 },
+                { x: new Date(2020, 2), y: 64.25 },
+                { x: new Date(2020, 3), y: 66.87 },
+                { x: new Date(2020, 4), y: 67.65 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -340,10 +388,10 @@ window.onload = function() {
             yValueFormatString: "#m:##s",
             dataPoints: [
                 { x: new Date(2020, 0), y: 137 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 1), y: 120 },
+                { x: new Date(2020, 2), y: 240 },
+                { x: new Date(2020, 3), y: 140 },
+                { x: new Date(2020, 4), y: 133 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -421,10 +469,10 @@ window.onload = function() {
                 xValueFormatString: "MMM",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 86.80 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 1), y: 88.50 },
+                    { x: new Date(2020, 2), y: 81.90 },
+                    { x: new Date(2020, 3), y: 82.30 },
+                    { x: new Date(2020, 4), y: 72.60 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -443,10 +491,10 @@ window.onload = function() {
                 name: "Recurrentes",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 13.20 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 1), y: 11.50 },
+                    { x: new Date(2020, 2), y: 18.10 },
+                    { x: new Date(2020, 3), y: 17.70 },
+                    { x: new Date(2020, 4), y: 27.40 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },

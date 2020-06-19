@@ -67,7 +67,7 @@
       <section class="content">
       <div class="container-fluid">
 
-        <div class="row">
+      <div class="row">
           <div class="col-12">
             <!-- interactive chart -->
             <div class="card card-primary card-outline">
@@ -96,7 +96,6 @@
           <!-- /.col -->
         </div>
         <!-- /.row -->
-
         <div class="row">
           <div class="col-12">
             <!-- interactive chart -->
@@ -128,6 +127,40 @@
         <!-- /.row -->
 
         <div class="row">
+          <div class="col-12">
+            <!-- interactive chart -->
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="far fa-chart-bar"></i>
+                  Promedio me gusta y comentarios
+                </h3>
+
+                <div class="card-tools">
+             
+                  <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="averagelikes" style="height: 300px;"></div>
+              </div>
+              <!-- /.card-body-->
+            </div>
+            <!-- /.card -->
+
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+
+
+
+
+        <div class="row">
           <div class="col-md-6">
             <!-- Line chart -->
             <div class="card card-primary card-outline">
@@ -156,7 +189,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Publicaciones compartidas y Mensajes
+                  Mensajes y Publicaciones
                 </h3>
 
                 <div class="card-tools">
@@ -167,7 +200,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <div id="compartidosMensajes" style="height: 338px;" class="full-width-chart"></div>
+                <div id="mensajesPublicaciones" style="height: 338px;" class="full-width-chart"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -205,7 +238,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Total Interracciones y publicaciones mensuales
+                  Total Interacciones
                 </h3>
 
                 <div class="card-tools">
@@ -245,6 +278,7 @@
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
+
 
           <div class="row">
           <div class="col-12">
