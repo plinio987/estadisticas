@@ -476,12 +476,13 @@
                       <p>Manos Dominicanas</p>
                   </a>
                 </li>
+                <!-- 
                 <li class="nav-item">
                   <a href="tuprimero.php" class="nav-link">
                   <i class="far fa-circle nav-icon text-success"></i>
                       <p>Tú primero</p>
                   </a>
-                </li>
+                </li> -->
             </ul>
           </li><!-- /li proyectos -->
        

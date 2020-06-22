@@ -80,13 +80,44 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
               <div class="card-body">
                 <div id="visitasPortalVice" style="height: 300px;"></div>
+              </div>
+              <!-- /.card-body-->
+            </div>
+            <!-- /.card -->
+
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        
+        <div class="row">
+          <div class="col-12">
+            <!-- interactive chart -->
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="far fa-chart-bar"></i>
+                 Notas de prensa subidas al portal
+                </h3>
+
+                <div class="card-tools">
+             
+                  <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="notasPrensa" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -110,8 +141,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -240,8 +271,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -266,8 +297,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -296,8 +327,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -322,8 +353,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -352,8 +383,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -378,8 +409,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -404,8 +435,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -434,8 +465,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -460,8 +491,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\gabSocial-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>

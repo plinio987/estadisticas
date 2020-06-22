@@ -80,8 +80,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -110,8 +110,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -240,8 +240,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -266,8 +266,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -296,8 +296,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -322,8 +322,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -352,8 +352,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -378,8 +378,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -404,8 +404,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -434,8 +434,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -460,8 +460,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\Opsd-portal.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>

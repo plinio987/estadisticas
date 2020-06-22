@@ -1,64 +1,88 @@
 window.onload = function() {
 
-
-    var chart25 = new CanvasJS.Chart("alcanceGeneral", {
-        colorset: "#3CB371",
-        backgroundColor: "#fff",
-        //exportEnabled: true,
+    var chart1 = new CanvasJS.Chart("alcanceGeneral", {
         animationEnabled: true,
-        //theme: "light1", "light1", "light2", "dark1", "dark2"
+        backgroundColor: "#fff",
+        //theme: "light2",
         title: {
             text: "",
-            fontColor: "#222",
-            fontSize: 18,
+            fontSize: 20,
             fontFamily: "arial",
-            fontStyle: ""
+
         },
-
-
         axisX: {
-            interval: 1,
-            intervalType: "month",
             valueFormatString: "MMM",
             labelFontColor: "#222",
-
         },
         axisY: {
-            title: " ",
-            titleFontColor: "#222",
-            suffix: "mn",
+
+            labelFormatter: addSymbols,
             labelFontColor: "#222",
             gridColor: "#fff"
+
+        },
+        toolTip: {
+            shared: true,
+            labelFontColor: "#fff",
+        },
+        legend: {
+            cursor: "pointer",
+            itemclick: toggleDataSeries,
+            fontColor: "#222",
+            fontSize: 14,
+
         },
         data: [{
-            indexLabelFontColor: "rgba(11, 84, 157, 0.06)",
-            color: "#4FCBE9",
-            name: "views",
-            type: "splineArea",
-            xValueFormatString: "MMM, YYYY",
-            yValueFormatString: "#,###",
-            dataPoints: [
-                { x: new Date(2020, 0), y: 1865636 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
-                { x: new Date(2020, 5), y: 0 },
-                { x: new Date(2020, 6), y: 0 },
-                { x: new Date(2020, 7), y: 0 },
-                { x: new Date(2020, 8), y: 0 },
-                { x: new Date(2020, 9), y: 0 },
-                { x: new Date(2020, 10), y: 0 },
-                { x: new Date(2020, 11), y: 0 }
+                type: "column",
+                name: "Promedio Engagement general",
+                markerBorderColor: "white",
+                color: "#de8cf0",
+                markerBorderThickness: 2,
+                showInLegend: true,
+                yValueFormatString: "###0.00'%'",
+                xValueFormatString: "MMMM YYYY",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 7.43 },
+                    { x: new Date(2020, 1), y: 8.10 },
+                    { x: new Date(2020, 2), y: 9.87 },
+                    { x: new Date(2020, 3), y: 5.03 },
+                    { x: new Date(2020, 4), y: 6.33 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
 
-                /*indexLabel: "Highest", markerColor: "red" */
-            ]
-        }]
+            {
+                type: "splineArea",
+                name: "Alcance general",
+                color: "#bed905",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 49246 },
+                    { x: new Date(2020, 1), y: 31790 },
+                    { x: new Date(2020, 2), y: 24567 },
+                    { x: new Date(2020, 3), y: 44263 },
+                    { x: new Date(2020, 4), y: 38890 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            }
+        ]
     });
-    chart25.render();
+    chart1.render();
 
-
-    var chart26 = new CanvasJS.Chart("totalSeguidores", {
+    var chart2 = new CanvasJS.Chart("totalSeguidores", {
         colorset: "#3CB371",
         backgroundColor: "#fff",
         //exportEnabled: true,
@@ -67,7 +91,7 @@ window.onload = function() {
         title: {
             text: "",
             fontColor: "#222",
-            fontSize: 18,
+            fontSize: 20,
             fontFamily: "arial",
             fontStyle: "",
         },
@@ -81,7 +105,7 @@ window.onload = function() {
 
         },
         axisY: {
-            title: "",
+            title: "Totales",
             titleFontColor: "#222",
             suffix: "M",
             labelFontColor: "#222",
@@ -90,17 +114,17 @@ window.onload = function() {
         },
         data: [{
             indexLabelFontColor: "darkSlateGray",
-            name: "views",
-            type: "splineArea",
-            color: "#F8DD2E",
+            type: "column",
+            name: "Total seguidores",
+            showInLegend: true,
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
             dataPoints: [
-                { x: new Date(2020, 0), y: 213647 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 0), y: 5236 },
+                { x: new Date(2020, 1), y: 5249 },
+                { x: new Date(2020, 2), y: 5259 },
+                { x: new Date(2020, 3), y: 5297 },
+                { x: new Date(2020, 4), y: 5288 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -113,5 +137,33 @@ window.onload = function() {
             ]
         }]
     });
-    chart26.render();
+    chart2.render();
+
+
+    function addSymbols(e) {
+        var suffixes = ["", "K", "M", "B"];
+        var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);
+
+        if (order > suffixes.length - 1)
+            order = suffixes.length - 1;
+
+        var suffix = suffixes[order];
+        return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
+    }
+
+    function toggleDataSeries(e) {
+        if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+            e.dataSeries.visible = false;
+        } else {
+            e.dataSeries.visible = true;
+        }
+        e.chart.render();
+    }
+
+
+
+
+
+
+
 };

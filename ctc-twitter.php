@@ -67,6 +67,36 @@
       <section class="content">
       <div class="container-fluid">
 
+      <div class="row">
+          <div class="col-12">
+            <!-- interactive chart -->
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="far fa-chart-bar"></i>
+                  Twitter Engagement rate y absoluto
+                </h3>
+
+                <div class="card-tools">
+             
+                  <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                    <a href="2019\ctc-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\ctc-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="engagement" style="height: 300px;"></div>
+              </div>
+              <!-- /.card-body-->
+            </div>
+            <!-- /.card -->
+
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
         <div class="row">
           <div class="col-12">
             <!-- interactive chart -->
@@ -74,19 +104,19 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Twitter Engagement y alcance
+                  Alcance Total
                 </h3>
 
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\ctc-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\ctc-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
-                <div id="engagement" style="height: 300px;"></div>
+                <div id="alcance" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -110,8 +140,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <a href="2019\ctc-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\ctc-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
@@ -182,7 +212,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                 Retuits, Clicks, Repuestas y Me gusta
+                 Retuits, Clicks, Repuestas y Me gusta mes en curso
                 </h3>
 
                 <div class="card-tools">
@@ -225,6 +255,7 @@
           </div>
           <!-- /.col -->
         </div>
+
         <!-- /.row -->
       </div><!-- /.container-fluid -->
     </section>

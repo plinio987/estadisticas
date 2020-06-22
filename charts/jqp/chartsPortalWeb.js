@@ -41,11 +41,11 @@ window.onload = function() {
                 xValueFormatString: "MMMM",
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 7999 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 9 },
+                    { x: new Date(2020, 2), y: 13 },
+                    { x: new Date(2020, 3), y: 44 },
+                    { x: new Date(2020, 4), y: 170 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -64,11 +64,11 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 4293 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 3 },
+                    { x: new Date(2020, 2), y: 8 },
+                    { x: new Date(2020, 3), y: 16 },
+                    { x: new Date(2020, 4), y: 55 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -85,11 +85,11 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 3546 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 2 },
+                    { x: new Date(2020, 2), y: 8 },
+                    { x: new Date(2020, 3), y: 13 },
+                    { x: new Date(2020, 4), y: 44 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -123,52 +123,52 @@ window.onload = function() {
         e.chart.render();
     }
 
+    /*
 
+        var chart30 = new CanvasJS.Chart("notasPrensa", {
+            animationEnabled: true,
+            backgroundColor: "#FFF",
+            title: {
+                text: "",
+                fontSize: 25
+            },
+            axisX: {
+                valueFormatString: "MMM",
+                interval: 1,
+                intervalType: "month"
 
-    var chart30 = new CanvasJS.Chart("notasPrensa", {
-        animationEnabled: true,
-        backgroundColor: "#FFF",
-        title: {
-            text: "",
-            fontSize: 25
-        },
-        axisX: {
-            valueFormatString: "MMM",
-            interval: 1,
-            intervalType: "month"
+            },
+            axisY: {
+                title: "Porcentaje",
+                gridColor: "#fff"
+            },
 
-        },
-        axisY: {
-            title: "Porcentaje",
-            gridColor: "#fff"
-        },
+            data: [{
+                indexLabelFontColor: "green",
+                name: "views",
+                type: "area",
+                color: "#bed905",
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 0 },
+                    { x: new Date(2020, 2), y: 0 },
+                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
 
-        data: [{
-            indexLabelFontColor: "green",
-            name: "views",
-            type: "area",
-            color: "#bed905",
-            yValueFormatString: "#,###",
-            dataPoints: [
-                { x: new Date(2020, 0), y: 5 },
-                { x: new Date(2020, 1), y: 6 },
-                { x: new Date(2020, 2), y: 6 },
-                { x: new Date(2020, 3), y: 10 },
-                { x: new Date(2020, 4), y: 2 },
-                { x: new Date(2020, 5), y: 0 },
-                { x: new Date(2020, 6), y: 0 },
-                { x: new Date(2020, 7), y: 0 },
-                { x: new Date(2020, 8), y: 0 },
-                { x: new Date(2020, 9), y: 0 },
-                { x: new Date(2020, 10), y: 0 },
-                { x: new Date(2020, 11), y: 0 }
+                ]
+            }]
+        });
+        chart30.render();
 
-            ]
-        }]
-    });
-    chart30.render();
-
-
+    */
 
 
     // ****************SISTEMAS OPERATIVOS UTILIZADOS************** //
@@ -317,11 +317,11 @@ window.onload = function() {
             color: "#bed905",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { x: new Date(2020, 0), y: 77.20 },
+                { x: new Date(2020, 0), y: 0 },
                 { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 2), y: 50.00 },
+                { x: new Date(2020, 3), y: 68.750 },
+                { x: new Date(2020, 4), y: 52.730 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -387,11 +387,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "#m:##s",
             dataPoints: [
-                { x: new Date(2020, 0), y: 137 },
-                { x: new Date(2020, 1), y: 0 },
-                { x: new Date(2020, 2), y: 0 },
-                { x: new Date(2020, 3), y: 0 },
-                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 0), y: 0 },
+                { x: new Date(2020, 1), y: 102 },
+                { x: new Date(2020, 2), y: 520 },
+                { x: new Date(2020, 3), y: 315 },
+                { x: new Date(2020, 4), y: 209 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -468,10 +468,10 @@ window.onload = function() {
                 yValueFormatString: "##0.00'%'",
                 xValueFormatString: "MMM",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 86.80 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 0), y: 100 },
+                    { x: new Date(2020, 1), y: 100 },
+                    { x: new Date(2020, 2), y: 75 },
+                    { x: new Date(2020, 3), y: 83 },
                     { x: new Date(2020, 4), y: 0 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
@@ -490,10 +490,10 @@ window.onload = function() {
                 yValueFormatString: "##0.00'%'",
                 name: "Recurrentes",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 13.20 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 2), y: 25 },
+                    { x: new Date(2020, 3), y: 17 },
                     { x: new Date(2020, 4), y: 0 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },

@@ -34,19 +34,16 @@ window.onload = function() {
         },
         data: [{
                 type: "column",
-                name: "Promedio Engagement general",
-                markerBorderColor: "white",
-                color: "#de8cf0",
-                markerBorderThickness: 2,
+                name: "Promedio alcance",
+                color: "#bed905",
                 showInLegend: true,
-                yValueFormatString: "###0.00'%'",
-                xValueFormatString: "MMMM YYYY",
+                yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 11.18 },
-                    { x: new Date(2020, 1), y: 13.75 },
-                    { x: new Date(2020, 2), y: 11.18 },
-                    { x: new Date(2020, 3), y: 9.88 },
-                    { x: new Date(2020, 4), y: 18.63 },
+                    { x: new Date(2020, 0), y: 324211 },
+                    { x: new Date(2020, 1), y: 336716 },
+                    { x: new Date(2020, 2), y: 324864 },
+                    { x: new Date(2020, 3), y: 2648593 },
+                    { x: new Date(2020, 4), y: 1373268 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -56,19 +53,21 @@ window.onload = function() {
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
-
             {
                 type: "splineArea",
-                name: "Alcance general",
-                color: "#bed905",
+                name: "Promedio Engagement general",
+                markerBorderColor: "white",
+                color: "#de8cf0",
+                markerBorderThickness: 2,
                 showInLegend: true,
-                yValueFormatString: "#,###",
+                yValueFormatString: "###0.00'%'",
+                xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 8407878 },
-                    { x: new Date(2020, 1), y: 8719644 },
-                    { x: new Date(2020, 2), y: 8394248 },
-                    { x: new Date(2020, 3), y: 6833740 },
-                    { x: new Date(2020, 4), y: 35474984 },
+                    { x: new Date(2020, 0), y: 15.87 },
+                    { x: new Date(2020, 1), y: 19.03 },
+                    { x: new Date(2020, 2), y: 13.02 },
+                    { x: new Date(2020, 3), y: 13.41 },
+                    { x: new Date(2020, 4), y: 19.48 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -78,6 +77,8 @@ window.onload = function() {
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
+
+
         ]
     });
     chart1.render();
@@ -120,11 +121,11 @@ window.onload = function() {
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
             dataPoints: [
-                { x: new Date(2020, 0), y: 391108 },
-                { x: new Date(2020, 1), y: 389933 },
-                { x: new Date(2020, 2), y: 405863 },
-                { x: new Date(2020, 3), y: 408795 },
-                { x: new Date(2020, 4), y: 458401 },
+                { x: new Date(2020, 0), y: 392648 },
+                { x: new Date(2020, 1), y: 395531 },
+                { x: new Date(2020, 2), y: 407716 },
+                { x: new Date(2020, 3), y: 452342 },
+                { x: new Date(2020, 4), y: 462538 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },

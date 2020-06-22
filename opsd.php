@@ -80,8 +80,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -110,8 +110,8 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
+                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button>
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
                   </div>
                 </div>
               </div>
@@ -151,7 +151,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts\ctc\chartsGeneral.js"></script>
+    <script type="text/javascript" src="charts\opsd\chartsGeneral.js"></script>
 
 </body>
 </html>

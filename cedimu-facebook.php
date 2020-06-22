@@ -80,7 +80,7 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
+                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button>
                     <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
                   </div>
                 </div>
@@ -110,7 +110,7 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
+                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button>
                     <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
                   </div>
                 </div>
@@ -258,7 +258,7 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button>
+                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button>
                     <button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button>
                   </div>
                 </div>
