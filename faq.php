@@ -79,10 +79,23 @@
                 </button>
               </h2>
             </div>
-
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-              El alcance indica el número de personas a las que estamos llegando con el contenido
+              Por alcance se entiende el número total de usuarios que han visto un contenido. Esto es, tu publicación en el muro de Facebook, un tweet o hashtag en Twitter, o una publicación (foto o vídeo) o hashtag en Instagram.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading2">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                Impresiones
+                </button>
+              </h2>
+            </div>
+            <div id="collapse2" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+              <div class="card-body">
+              Por impresiones se entiende el número de veces que los usuarios han visualizado un contenido en las RRSS.
               </div>
             </div>
           </div>
