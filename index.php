@@ -56,7 +56,6 @@
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
@@ -124,9 +123,121 @@
           <!-- ./col -->
         </div>
         <!-- /.row -->
+
+        <!-- INICIO MENU VERTICAL -->
+
+
+      <!-- Fin de menu verticas -->
+
+
       <!-- Main content -->
       <section class="content">
       <div class="container-fluid">
+              <div class="row">
+                  <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+          <a class="navbar-brand" href="#">Instituciones</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="vicepresidencia.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Vicepresidencia
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="vice-facebook.php">Facebook</a>
+                  <a class="dropdown-item" href="vice-twitter.php">Twitter</a>
+                  <a class="dropdown-item" href="vice-instagram.php">Instagram</a>
+                  <a class="dropdown-item" href="vice-youtube.php">YouTube</a>
+                  <a class="dropdown-item" href="vice-portal.php#">Portal web</a>
+                </div>
+              </li>
+
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Gabinete Social
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="gabsocial-facebook.php">Facebook</a>
+                  <a class="dropdown-item" href="gabsocial-twitter.php">Twitter</a>
+                  <a class="dropdown-item" href="gabsocial-portal.php">Portal web</a>
+                </div>
+              </li>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Prosoli
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="posoli-facebook.php">Facebook</a>
+                  <a class="dropdown-item" href="posoli-twitter.php">Twitter</a>
+                  <a class="dropdown-item" href="posoli-portal.php">Portal web</a>
+                </div>
+              </li>
+
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Adess
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="adess-facebook.php">Facebook</a>
+                  <a class="dropdown-item" href="adess-twitter.php">Twitter</a>
+                  <a class="dropdown-item" href="adess-portal.php">Portal web</a>
+                </div>
+              </li>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Siuben
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="siuben-facebook.php">Facebook</a>
+                  <a class="dropdown-item" href="siuben-twitter.php">Twitter</a>
+                  <a class="dropdown-item" href="siuben-portal.php">Portal web</a>
+                </div>
+              </li>
+
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  CTC
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="ctc-facebook.php">Facebook</a>
+                  <a class="dropdown-item" href="ctc-twitter.php">Twitter</a>
+                  <a class="dropdown-item" href="ctc-instagram.php">Instagram</a>
+                  <a class="dropdown-item" href="ctc-portal.php">Portal web</a>
+                </div>
+              </li>
+
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  BIJ
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="bij-facebook.php">Facebook</a>
+                  <a class="dropdown-item" href="bij-instagram.php">Instagram</a>
+                  <a class="dropdown-item" href="bij-portal.php">Portal web</a>
+                </div>
+              </li>
+
+            </ul>
+            </div>
+            </nav>
+            </div>
+            </div>
+
         <div class="row">
           <div class="col-12">
             <!-- interactive chart -->
@@ -207,6 +318,8 @@
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
     <script type="text/javascript" src="charts/chartsGeneral.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
 
 </body>
 </html>

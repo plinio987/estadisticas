@@ -33,10 +33,31 @@ window.onload = function() {
 
         },
         data: [{
+                type: "splineArea",
+                name: "Engagement absoluto",
+                color: "#82ac26 ",
+                showInLegend: true,
+                yValueFormatString: "###0.00'%'",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 18.94 },
+                    { x: new Date(2020, 1), y: 16.43 },
+                    { x: new Date(2020, 2), y: 19.68 },
+                    { x: new Date(2020, 3), y: 13.08 },
+                    { x: new Date(2020, 4), y: 35.29 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+            {
                 type: "column",
                 name: "Engagement rate",
                 markerBorderColor: "white",
-                color: "#F2a104",
+                color: "#ff662a",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "###0.00'%'",
@@ -47,28 +68,6 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 4.59 },
                     { x: new Date(2020, 3), y: 1.84 },
                     { x: new Date(2020, 4), y: 5.85 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            },
-
-            {
-                type: "splineArea",
-                name: "Engagement absoluto",
-                color: "#0584F2",
-                showInLegend: true,
-                yValueFormatString: "###0.00'%'",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 18.94 },
-                    { x: new Date(2020, 1), y: 16.43 },
-                    { x: new Date(2020, 2), y: 19.68 },
-                    { x: new Date(2020, 3), y: 13.08 },
-                    { x: new Date(2020, 4), y: 35.29 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -115,10 +114,31 @@ window.onload = function() {
 
         },
         data: [{
+                type: "area",
+                name: "Alcance Total",
+                color: "#ff662a",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 21517 },
+                    { x: new Date(2020, 1), y: 19892 },
+                    { x: new Date(2020, 2), y: 18959 },
+                    { x: new Date(2020, 3), y: 35366 },
+                    { x: new Date(2020, 4), y: 31795 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+            {
                 type: "column",
                 name: "Engaged users",
                 markerBorderColor: "white",
-                color: "#0584F2",
+                color: "#82ac26 ",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
@@ -129,28 +149,6 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 2607 },
                     { x: new Date(2020, 3), y: 4184 },
                     { x: new Date(2020, 4), y: 3953 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            },
-
-            {
-                type: "area",
-                name: "Alcance Total",
-                color: "#F2a104",
-                showInLegend: true,
-                yValueFormatString: "#,###",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 21517 },
-                    { x: new Date(2020, 1), y: 19892 },
-                    { x: new Date(2020, 2), y: 18959 },
-                    { x: new Date(2020, 3), y: 35366 },
-                    { x: new Date(2020, 4), y: 31795 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -199,10 +197,31 @@ window.onload = function() {
 
         },
         data: [{
+                type: "splineArea",
+                name: "Total fans",
+                color: "#ff662a",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 417 },
+                    { x: new Date(2020, 1), y: 420 },
+                    { x: new Date(2020, 2), y: 442 },
+                    { x: new Date(2020, 3), y: 497 },
+                    { x: new Date(2020, 4), y: 527 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+            {
                 type: "column",
                 name: "Nuevos fans",
                 markerBorderColor: "white",
-                color: "#0584F2",
+                color: "#82ac26 ",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
@@ -222,28 +241,6 @@ window.onload = function() {
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
-
-            {
-                type: "splineArea",
-                name: "Total fans",
-                color: "#F2a104",
-                showInLegend: true,
-                yValueFormatString: "#,###",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 417 },
-                    { x: new Date(2020, 1), y: 420 },
-                    { x: new Date(2020, 2), y: 442 },
-                    { x: new Date(2020, 3), y: 497 },
-                    { x: new Date(2020, 4), y: 527 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            }
         ]
     });
     chart3.render();
@@ -285,7 +282,7 @@ window.onload = function() {
                 type: "area",
                 name: "Me gusta",
                 markerBorderColor: "white",
-                color: "#F2a104",
+                color: "#ff662a",
 
                 markerBorderThickness: 2,
                 showInLegend: true,
@@ -364,10 +361,31 @@ window.onload = function() {
 
         },
         data: [{
+                type: "column",
+                name: "Total publicaciones",
+                color: "#82ac26 ",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 16 },
+                    { x: new Date(2020, 1), y: 20 },
+                    { x: new Date(2020, 2), y: 13 },
+                    { x: new Date(2020, 3), y: 15 },
+                    { x: new Date(2020, 4), y: 32 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+            {
                 type: "area",
                 name: "Publicaciones compartidas",
                 markerBorderColor: "white",
-                color: "#F2a104",
+                color: "#ff662a",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
@@ -378,28 +396,6 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 13 },
                     { x: new Date(2020, 3), y: 3 },
                     { x: new Date(2020, 4), y: 20 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            },
-
-            {
-                type: "column",
-                name: "Total publicaciones",
-                color: "#0584F2",
-                showInLegend: true,
-                yValueFormatString: "#,###",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 16 },
-                    { x: new Date(2020, 1), y: 20 },
-                    { x: new Date(2020, 2), y: 13 },
-                    { x: new Date(2020, 3), y: 15 },
-                    { x: new Date(2020, 4), y: 32 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -470,7 +466,7 @@ window.onload = function() {
             type: "splineArea",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "#,###",
-            color: "#0584F2",
+            color: "#ff662a",
             dataPoints: [
                 { x: new Date(2020, 0), y: 8 },
                 { x: new Date(2020, 1), y: 3 },
@@ -520,7 +516,7 @@ window.onload = function() {
         },
         data: [{
             indexLabelFontColor: "darkSlateGray",
-            color: "#0584F2",
+            color: "#ff662a",
             name: "views",
             type: "splineArea",
             xValueFormatString: "MMM, YYYY",

@@ -33,20 +33,19 @@ window.onload = function() {
 
         },
         data: [{
+                indexLabelFontColor: "darkSlateGray",
                 type: "column",
-                name: "Promedio Engagement general",
-                markerBorderColor: "white",
-                color: "#de8cf0",
-                markerBorderThickness: 2,
+                name: "Total seguidores",
                 showInLegend: true,
-                yValueFormatString: "###0.00'%'",
-                xValueFormatString: "MMMM YYYY",
+                color: "#de8cf0",
+                xValueFormatString: "MMM, YYYY",
+                yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 10.12 },
-                    { x: new Date(2020, 1), y: 6.05 },
-                    { x: new Date(2020, 2), y: 8.50 },
-                    { x: new Date(2020, 3), y: 7.21 },
-                    { x: new Date(2020, 4), y: 6.00 },
+                    { x: new Date(2020, 0), y: 391108 },
+                    { x: new Date(2020, 1), y: 389933 },
+                    { x: new Date(2020, 2), y: 405863 },
+                    { x: new Date(2020, 3), y: 408795 },
+                    { x: new Date(2020, 4), y: 458401 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
@@ -56,7 +55,6 @@ window.onload = function() {
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
-
             {
                 type: "splineArea",
                 name: "Alcance general",
@@ -78,6 +76,8 @@ window.onload = function() {
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
+
+
         ]
     });
     chart1.render();
@@ -113,18 +113,20 @@ window.onload = function() {
             gridColor: "#fff"
         },
         data: [{
-            indexLabelFontColor: "darkSlateGray",
-            type: "column",
-            name: "Total seguidores",
+            type: "splineArea",
+            name: "Promedio Engagement general",
+            markerBorderColor: "white",
+            color: "#de8cf0",
+            markerBorderThickness: 2,
             showInLegend: true,
-            xValueFormatString: "MMM, YYYY",
-            yValueFormatString: "#,###",
+            yValueFormatString: "###0.00'%'",
+            xValueFormatString: "MMMM YYYY",
             dataPoints: [
-                { x: new Date(2020, 0), y: 391108 },
-                { x: new Date(2020, 1), y: 389933 },
-                { x: new Date(2020, 2), y: 405863 },
-                { x: new Date(2020, 3), y: 408795 },
-                { x: new Date(2020, 4), y: 458401 },
+                { x: new Date(2020, 0), y: 10.12 },
+                { x: new Date(2020, 1), y: 6.05 },
+                { x: new Date(2020, 2), y: 8.50 },
+                { x: new Date(2020, 3), y: 7.21 },
+                { x: new Date(2020, 4), y: 6.00 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },

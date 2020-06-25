@@ -104,7 +104,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Impresiones 
+                  Impresiones
                 </h3>
 
                 <div class="card-tools">
@@ -116,7 +116,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <div id="Impresiones" style="height: 300px;"></div>
+                <div id="alcance" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -282,7 +282,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts\prosoli\chartsTwitter.js"></script>
+    <script type="text/javascript" src="charts/adess/chartsTwitter.js"></script>
 
 </body>
 </html>

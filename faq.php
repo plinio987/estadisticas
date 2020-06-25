@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard</h1>
+            <h1 class="m-0 text-dark">Preguntas frecuentes</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
 
@@ -74,14 +74,14 @@
           <div class="card">
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Alcance 
                 </button>
               </h2>
             </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-              Por alcance se entiende el número total de usuarios que han visto un contenido. Esto es, tu publicación en el muro de Facebook, un tweet o hashtag en Twitter, o una publicación (foto o vídeo) o hashtag en Instagram.
+              Por alcance se entiende el número total de usuarios que han visto un contenido. Esto incluye las publicaciones en el muro de Facebook, tweets o hashtags en Twitter, publicaciones (fotos o vídeos) o hashtags en Instagram.
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@
             </div>
             <div id="collapse2" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
               <div class="card-body">
-              Por impresiones se entiende el número de veces que los usuarios han visualizado un contenido en las RRSS.
+              Por impresiones se entiende cómo el número de veces que los usuarios han visualizado un contenido en las RRSS.
               </div>
             </div>
           </div>
@@ -231,9 +231,7 @@
 <!-- ./wrapper -->
 <?php include('include/script.php'); ?>
 
-<!-- jQuery -->
-<script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts/chartsGeneral.js"></script>
+
 
 </body>
 </html>

@@ -303,7 +303,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts\gabSocial\chartsFacebook.js"></script>
+    <script type="text/javascript" src="charts\siuben\chartsFacebook.js"></script>
 
 </body>
 </html>

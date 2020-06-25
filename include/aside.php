@@ -513,6 +513,14 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="faq.php" class="nav-link">
+              <i class="nav-icon fas fa-question-circle text-primary"></i>
+              <p>
+                FAQ
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="login.php" class="nav-link">
               <i class="nav-icon fas fa-sign-out-alt text-danger"></i>
               <p>
