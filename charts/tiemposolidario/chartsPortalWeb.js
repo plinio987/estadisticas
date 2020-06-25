@@ -480,8 +480,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 70.30, label: "Femenino" },
+                { y: 29.70, label: "Masculino" }
             ]
         }]
     });
@@ -529,12 +529,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 24.48 },
+                { label: "25-34", y: 31.51 },
+                { label: "35-44", y: 18.49 },
+                { label: "45-54", y: 12.08 },
+                { label: "55-64", y: 9.16 },
+                { label: "65+", y: 4.27 }
             ]
         }]
     });
@@ -563,11 +563,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "Landin Page", y: 80.76 },
+                { label: "/contacto/", y: 2.92 },
+                { label: "/tag/tarjetas-solidaridad/", y: 1.85 },
+                { label: "/tag/prosoli/", y: 1.75 },
+                { label: "/tag/comer-es-primero/", y: 0.76 }
             ]
         }]
     });
@@ -596,11 +596,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
+                { label: "Landing page", y: 79.79 },
+                { label: "/contacto/", y: 3.23 },
+                { label: "/tag/tarjetas-solidaridad/", y: 1.63 },
+                { label: "/tag/prosoli/", y: 1.38 },
+                { label: "/tag/comer-es-primero/", y: 0.65 }
 
 
 

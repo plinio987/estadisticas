@@ -282,11 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 29.60, label: "Busqueda organica" },
+                { y: 7.30, label: "Directo" },
+                { y: 62.20, label: "Referido" },
+                { y: 0.90, label: "Social media" }
             ]
         }]
     });
@@ -528,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 69.50, label: "Femenino" },
+                { y: 30.50, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +550,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 83.92, label: "Facebook" },
+                { y: 9.81, label: "Twitter" },
+                { y: 0.21, label: "YouTube" },
+                { y: 2.09, label: "Blogger" },
+                { y: 3.97, label: "Instagram" }
             ]
         }]
     });
@@ -577,12 +577,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 21.98 },
+                { label: "25-34", y: 31.60 },
+                { label: "35-44", y: 18.76 },
+                { label: "45-54", y: 12.83 },
+                { label: "55-64", y: 10.17 },
+                { label: "65+", y: 4.67 }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "Landin Page", y: 81.46 },
+                { label: "/consultas/", y: 7.15 },
+                { label: "/consultas/autoservicio-de-datos/", y: 4.60 },
+                { label: "/contacto/", y: 0.92 },
+                { label: "/margarita-cedeno-asegura-subsidio-temporal-quedate-en-casa-llegara-a-hogares-que-lo-necesiten/", y: 0.71 }
             ]
         }]
     });
@@ -644,11 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
+                { label: "Landing page", y: 77.12 },
+                { label: "/consultas/", y: 4.94 },
+                { label: "/consultas/autoservicio-de-datos/", y: 4.51 },
+                { label: "/autoservicio/", y: 2.52 },
+                { label: "/contacto/ ", y: 1.28 }
 
 
 

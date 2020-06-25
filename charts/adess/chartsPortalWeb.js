@@ -282,11 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 70.20, label: "Busqueda organica" },
+                { y: 27.80, label: "Directo" },
+                { y: 0.80, label: "Referido" },
+                { y: 1.50, label: "Social media" }
             ]
         }]
     });
@@ -528,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 69.40, label: "Femenino" },
+                { y: 30.60, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +550,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 83.21, label: "Facebook" },
+                { y: 5.03, label: "Twitter" },
+                { y: 0.36, label: "Instagram Stories" },
+                { y: 1.53, label: "Instagram" },
+                { y: 9.87, label: "YouTube" }
             ]
         }]
     });
@@ -577,12 +577,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 24.75 },
+                { label: "25-34", y: 33.28 },
+                { label: "35-44", y: 18.61 },
+                { label: "45-54", y: 11.17 },
+                { label: "55-64", y: 8.10 },
+                { label: "65+", y: 4.09 }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "Landin Page", y: 27.18 },
+                { label: "/subsidios-sociales/consultar-participante/", y: 34.43 },
+                { label: "/servicios/consultar-beneficiario/", y: 12.80 },
+                { label: "/subsidios-sociales/sistema-de-pago/", y: 8.71 },
+                { label: "/subsidios/programa-comer-es-primero/", y: 2.27 }
             ]
         }]
     });
@@ -644,11 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
+                { label: "Landing page", y: 29.33 },
+                { label: "/subsidios-sociales/consultar-participante/", y: 30.44 },
+                { label: "/subsidios-sociales/sistema-de-pago/", y: 10.58 },
+                { label: "Cayo el muro", y: 6.56 },
+                { label: "/subsidios-sociales/subsidios-depositados/", y: 2.61 }
 
 
 

@@ -282,11 +282,11 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 85.70, label: "Referido" },
+                { y: 6.70, label: "Directo" },
+                { y: 6.02, label: "Busqueda organica" },
+                { y: 1.20, label: "Paid search" },
+                { y: 0.38, label: "Social media" }
             ]
         }]
     });
@@ -528,8 +528,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 70.70, label: "Femenino" },
+                { y: 29.30, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +551,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 34.21, label: "Facebook" },
+                { y: 52.63, label: "Twitter" },
+                { y: 7.89, label: "LinkedIn" },
+                { y: 5.26, label: "YouTube" }
             ]
         }]
     });
@@ -577,12 +577,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 20.53 },
+                { label: "25-34", y: 31.38 },
+                { label: "35-44", y: 18.75 },
+                { label: "45-54", y: 12.13 },
+                { label: "55-64", y: 11.90 },
+                { label: "65+", y: 4.61 }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "Landin Page", y: 92.28 },
+                { label: "/entidades-coordina-margarita-cedeno-toman-medidas-contra-el-coronavirus-suspende-actividades-y-servicios/", y: 1.01 },
+                { label: "/punto-solidario/", y: 0.65 },
+                { label: "/vicepresidenta-garantiza-proteccion-y-servicios-de-salud-a-mujeres-vulnerables-durante-pandemia/", y: 0.55 },
+                { label: "/vicepresidencia-alerta-estafadores-ofrecen-tarjetas-progresando-con-solidaridad-y-subsidios-especiales/gab1-5/", y: 0.52 }
             ]
         }]
     });
@@ -644,11 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
+                { label: "Landing page", y: 87.97 },
+                { label: "/entidades-coordina-margarita-cedeno-toman-medidas-contra-el-coronavirus-suspende-actividades-y-servicios/", y: 1.80 },
+                { label: "/vicepresidenta-garantiza-proteccion-y-servicios-de-salud-a-mujeres-vulnerables-durante-pandemia/", y: 1.18 },
+                { label: "/punto-solidario/", y: 0.58 },
+                { label: "/hacia-un-piso-de-proteccion-social-y-genero-en-republica-dominicana-escenarios-y-costos/", y: 0.55 }
 
 
 

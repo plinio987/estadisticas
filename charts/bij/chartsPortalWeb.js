@@ -282,11 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 80.20, label: "Busqueda organica" },
+                { y: 9.30, label: "Directo" },
+                { y: 2.90, label: "Referido" },
+                { y: 7.60, label: "Social media" }
             ]
         }]
     });
@@ -528,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 75.10, label: "Femenino" },
+                { y: 24.90, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +550,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 61.43, label: "Facebook" },
+                { y: 1.43, label: "Twitter" },
+                { y: 5.71, label: "Instagram Stories" },
+                { y: 30.00, label: "Instagram" },
+                { y: 1.43, label: "YouTube" }
             ]
         }]
     });
@@ -577,12 +577,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 26.28 },
+                { label: "25-34", y: 30.44 },
+                { label: "35-44", y: 21.15 },
+                { label: "45-54", y: 11.20 },
+                { label: "55-64", y: 7.21 },
+                { label: "65+", y: 3.79 }
             ]
         }]
     });
@@ -611,11 +611,10 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "Landin Page", y: 13.28 },
+                { label: "/catalogo/yo-y-mi-hermana-clara/", y: 5.91 },
+                { label: "/catalogo/la-bicicleta-verde-limon//2019/08/19/yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 5.67 },
+                { label: "/catalogo/hipo-del-tucan/", y: 4.94 }
             ]
         }]
     });
@@ -644,11 +643,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
+                { label: "Landing page", y: 8.93 },
+                { label: "/catalogo/la-bicicleta-verde-limon/", y: 5.99 },
+                { label: "/catalogo/yo-y-mi-hermana-clara/", y: 5.84 },
+                { label: "/2019/08/19/yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 4.91 },
+                { label: "/catalogo/hipo-del-tucan/", y: 4.66 }
 
 
 

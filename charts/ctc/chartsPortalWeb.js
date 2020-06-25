@@ -282,11 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 59.50, label: "Busqueda organica" },
+                { y: 30.40, label: "Directo" },
+                { y: 6.70, label: "Referido" },
+                { y: 3.40, label: "Social media" }
             ]
         }]
     });
@@ -528,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 62.00, label: "Femenino" },
+                { y: 38.00, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +550,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 84.51, label: "Facebook" },
+                { y: 11.27, label: "Twitter" },
+                { y: 1.41, label: "LinkedIn" },
+                { y: 1.41, label: "Instagram" }
             ]
         }]
     });
@@ -577,12 +576,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 31.07 },
+                { label: "25-34", y: 37.27 },
+                { label: "35-44", y: 16.12 },
+                { label: "45-54", y: 7.838 },
+                { label: "55-64", y: 4.67 },
+                { label: "65+", y: 3.04 }
             ]
         }]
     });
@@ -611,11 +610,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "Landin Page", y: 65.78 },
+                { label: "/oferta-formativa/", y: 4.81 },
+                { label: "/sobre-nosotros/historia/", y: 2.89 },
+                { label: "/proyectos/mujeres-en-tic/", y: 2.82 },
+                { label: "/servicios/radio-ctc/", y: 2.38 }
             ]
         }]
     });
@@ -644,11 +643,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
+                { label: "Landing page", y: 53.80 },
+                { label: "/oferta-formativa/ ", y: 8.07 },
+                { label: "/proyectos/mujeres-en-tic/", y: 2.79 },
+                { label: "/sobre-nosotros/historia/", y: 2.79 },
+                { label: "/servicios/radio-ctc/ ", y: 2.42 }
 
 
 

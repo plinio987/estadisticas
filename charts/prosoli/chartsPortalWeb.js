@@ -282,11 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 39.50, label: "Busqueda organica" },
+                { y: 8.10, label: "Directo" },
+                { y: 49.40, label: "Referido" },
+                { y: 2.00, label: "Social media" }
             ]
         }]
     });
@@ -528,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 71.10, label: "Femenino" },
+                { y: 28.90, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +550,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 92.19, label: "Facebook" },
+                { y: 3.06, label: "Twitter" },
+                { y: 4.24, label: "Instagram" },
+                { y: 0.51, label: "YouTube" }
             ]
         }]
     });
@@ -577,12 +576,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 24.27 },
+                { label: "25-34", y: 31.81 },
+                { label: "35-44", y: 19.00 },
+                { label: "45-54", y: 11.86 },
+                { label: "55-64", y: 8.64 },
+                { label: "65+", y: 4.32 }
             ]
         }]
     });
