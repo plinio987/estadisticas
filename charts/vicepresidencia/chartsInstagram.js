@@ -31,7 +31,7 @@ window.onload = function() {
         },
         data: [{
                 type: "splineArea",
-                name: "Engagement ",
+                name: "Engagement",
                 markerBorderColor: "white",
                 color: "#F1931b",
                 markerBorderThickness: 2,
@@ -192,12 +192,10 @@ window.onload = function() {
         data: [{
                 type: "splineArea",
                 name: "Alcance",
-                markerBorderColor: "white",
                 color: "#F1931b",
-                markerBorderThickness: 2,
                 showInLegend: true,
+                xValueFormatString: "MMMM",
                 yValueFormatString: "#,###",
-                xValueFormatString: "MMMM YYYY",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 114644 },
                     { x: new Date(2020, 1), y: 162157 },
@@ -213,11 +211,12 @@ window.onload = function() {
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
-
             {
-                type: "column",
+                type: "area",
                 name: "Me gusta",
+                markerBorderColor: "white",
                 color: "#D6618F",
+                markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
@@ -226,6 +225,27 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 3656 },
                     { x: new Date(2020, 3), y: 25947 },
                     { x: new Date(2020, 4), y: 16454 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+            {
+                type: "column",
+                name: "Impresiones",
+                color: "#00743f",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 3546 },
+                    { x: new Date(2020, 1), y: 6604 },
+                    { x: new Date(2020, 2), y: 27798 },
+                    { x: new Date(2020, 3), y: 162288 },
+                    { x: new Date(2020, 4), y: 46191 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },

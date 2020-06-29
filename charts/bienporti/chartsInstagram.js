@@ -194,12 +194,10 @@ window.onload = function() {
         data: [{
                 type: "splineArea",
                 name: "Alcance",
-                markerBorderColor: "white",
                 color: "#F1931b",
-                markerBorderThickness: 2,
                 showInLegend: true,
+                xValueFormatString: "MMMM",
                 yValueFormatString: "#,###",
-                xValueFormatString: "MMMM YYYY",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 3647 },
                     { x: new Date(2020, 1), y: 516 },
@@ -215,11 +213,12 @@ window.onload = function() {
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
-
             {
-                type: "column",
+                type: "area",
                 name: "Me gusta",
+                markerBorderColor: "white",
                 color: "#D6618F",
+                markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
@@ -228,6 +227,27 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 9 },
                     { x: new Date(2020, 3), y: 1 },
                     { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+            {
+                type: "column",
+                name: "Impresiones",
+                color: "#00743f",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 578 },
+                    { x: new Date(2020, 2), y: 505 },
+                    { x: new Date(2020, 3), y: 4226 },
+                    { x: new Date(2020, 4), y: 2001 },
                     { x: new Date(2020, 5), y: 0 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },

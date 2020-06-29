@@ -1,6 +1,6 @@
 window.onload = function() {
 
-    var chart1 = new CanvasJS.Chart("alcanceGeneral", {
+    var chart1 = new CanvasJS.Chart("totalSeguidores", {
         animationEnabled: true,
         backgroundColor: "#fff",
         //theme: "light2",
@@ -33,31 +33,6 @@ window.onload = function() {
 
         },
         data: [{
-                type: "column",
-                name: "Promedio Engagement general",
-                markerBorderColor: "white",
-                color: "#de8cf0",
-                markerBorderThickness: 2,
-                showInLegend: true,
-                yValueFormatString: "###0.00'%'",
-                xValueFormatString: "MMMM YYYY",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 57.10 },
-                    { x: new Date(2020, 1), y: 96.98 },
-                    { x: new Date(2020, 2), y: 47.94 },
-                    { x: new Date(2020, 3), y: 51.88 },
-                    { x: new Date(2020, 4), y: 89.22 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            },
-
-            {
                 type: "splineArea",
                 name: "Alcance general",
                 color: "#bed905",
@@ -77,13 +52,37 @@ window.onload = function() {
                     { x: new Date(2020, 10), y: 0 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
+            },
+            {
+                type: "column",
+                name: "Total seguidores",
+                markerBorderColor: "white",
+                color: "#de8cf0",
+                markerBorderThickness: 2,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 719 },
+                    { x: new Date(2020, 1), y: 808 },
+                    { x: new Date(2020, 2), y: 1392 },
+                    { x: new Date(2020, 3), y: 1736 },
+                    { x: new Date(2020, 4), y: 1852 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
             }
         ]
     });
     chart1.render();
 
-    var chart2 = new CanvasJS.Chart("totalSeguidores", {
-        colorset: "#3CB371",
+    var chart2 = new CanvasJS.Chart("alcanceGeneral", {
+        //colorset: "#3CB371",
         backgroundColor: "#fff",
         //exportEnabled: true,
         animationEnabled: true,
@@ -114,17 +113,18 @@ window.onload = function() {
         },
         data: [{
             indexLabelFontColor: "darkSlateGray",
-            type: "column",
-            name: "Total seguidores",
+            type: "splineArea",
+            name: "Promedio Engagement general",
+            color: "#de8cf0",
             showInLegend: true,
             xValueFormatString: "MMM, YYYY",
-            yValueFormatString: "#,###",
+            yValueFormatString: "###0.00'%'",
             dataPoints: [
-                { x: new Date(2020, 0), y: 719 },
-                { x: new Date(2020, 1), y: 808 },
-                { x: new Date(2020, 2), y: 1392 },
-                { x: new Date(2020, 3), y: 1736 },
-                { x: new Date(2020, 4), y: 1852 },
+                { x: new Date(2020, 0), y: 57.10 },
+                { x: new Date(2020, 1), y: 96.98 },
+                { x: new Date(2020, 2), y: 47.94 },
+                { x: new Date(2020, 3), y: 51.88 },
+                { x: new Date(2020, 4), y: 89.22 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },

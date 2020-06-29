@@ -74,7 +74,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Alcance general Gabinete Social
+                  Total alcance general
                 </h3>
 
                 <div class="card-tools">
@@ -104,7 +104,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                 Total seguidores Gabinete Social
+                  Total seguidores y engagement general
                 </h3>
 
                 <div class="card-tools">
