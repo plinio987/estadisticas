@@ -127,6 +127,66 @@
         </div>
         <!-- /.row -->
 
+              <div class="row">
+                <div class="col-6">
+                  <!-- interactive chart -->
+                  <div class="card card-primary card-outline">
+                    <div class="card-header">
+                      <h3 class="card-title">
+                        <i class="far fa-chart-bar"></i>
+                        Total post por tipo
+                      </h3>
+
+                      <div class="card-tools">
+                  
+                        <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                          <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button></a>
+                          <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off"></button></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div id="tipoPost" style="height: 300px;"></div>
+                    </div>
+                    <!-- /.card-body-->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- /.col -->
+                <div class="col-6">
+                  <!-- interactive chart -->
+                  <div class="card card-primary card-outline">
+                    <div class="card-header">
+                      <h3 class="card-title">
+                        <i class="far fa-chart-bar"></i>
+                        Total de interacciones por tipo de post
+                      </h3>
+
+                      <div class="card-tools">
+                  
+                        <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                          <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button></a>
+                          <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off"></button></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div id="interaccionesPost" style="height: 300px;"></div>
+                    </div>
+                    <!-- /.card-body-->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+
+       
+              </div>
+              <!-- /.row -->
+
         <div class="row">
           <div class="col-md-6">
             <!-- Line chart -->

@@ -545,6 +545,232 @@ window.onload = function() {
     chart8.render();
 
 
+    var chart17 = new CanvasJS.Chart("tipoPost", {
+        //theme:"light2",
+        animationEnabled: true,
+        title: {
+            text: ""
+        },
+        axisY: {
+            includeZero: false,
+            title: "",
+            suffix: "m",
+            labelFontColor: "#222",
+            gridColor: "#fff"
+
+        },
+        toolTip: {
+            shared: "true"
+        },
+        legend: {
+            cursor: "pointer",
+            itemclick: toggleDataSeries
+        },
+        data: [{
+                type: "spline",
+                visible: true,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                color: "#73c0f4",
+                name: "Fotos",
+                dataPoints: [
+                    { label: "Ene", y: 42 },
+                    { label: "Feb", y: 61 },
+                    { label: "Mar", y: 40 },
+                    { label: "Apr", y: 50 },
+                    { label: "May", y: 53 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
+                ]
+            },
+            {
+                type: "spline",
+                visible: true,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                color: "#F28a30",
+                name: "Vídeos",
+                dataPoints: [
+                    { label: "Ene", y: 12 },
+                    { label: "Feb", y: 14 },
+                    { label: "Mar", y: 14 },
+                    { label: "Apr", y: 31 },
+                    { label: "May", y: 33 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
+                ]
+            },
+            {
+                type: "spline",
+                visible: true,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                color: "#728ca3",
+                name: "Notas Dinamicas",
+                dataPoints: [
+                    { label: "Ene", y: 1 },
+                    { label: "Feb", y: 0 },
+                    { label: "Mar", y: 0 },
+                    { label: "Apr", y: 1 },
+                    { label: "May", y: 0 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
+                ]
+            },
+
+            {
+                type: "spline",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                color: "#bb1924",
+                name: "Links web",
+                dataPoints: [
+                    { label: "Ene", y: 0 },
+                    { label: "Feb", y: 0 },
+                    { label: "Mar", y: 1 },
+                    { label: "Apr", y: 0 },
+                    { label: "May", y: 0 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
+                ]
+            }
+        ]
+    });
+    chart17.render();
+
+    var chart16 = new CanvasJS.Chart("interaccionesPost", {
+        //theme:"light2",
+        animationEnabled: true,
+        title: {
+            text: ""
+        },
+        axisY: {
+            includeZero: false,
+            title: "",
+            suffix: "m",
+            labelFontColor: "#222",
+            gridColor: "#fff"
+
+        },
+        toolTip: {
+            shared: "true"
+        },
+        legend: {
+            cursor: "pointer",
+            itemclick: toggleDataSeries
+        },
+        data: [{
+                type: "spline",
+                visible: true,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                color: "#73c0f4",
+                name: "Fotos",
+                dataPoints: [
+                    { label: "Ene", y: 5631 },
+                    { label: "Feb", y: 1657 },
+                    { label: "Mar", y: 2106 },
+                    { label: "Apr", y: 11433 },
+                    { label: "May", y: 5466 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
+                ]
+            },
+            {
+                type: "spline",
+                visible: true,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                color: "#F28a30",
+                name: "Vídeos",
+                dataPoints: [
+                    { label: "Ene", y: 407 },
+                    { label: "Feb", y: 295 },
+                    { label: "Mar", y: 1147 },
+                    { label: "Apr", y: 11652 },
+                    { label: "May", y: 3272 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
+                ]
+            },
+            {
+                type: "spline",
+                visible: true,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                color: "#728ca3",
+                name: "Notas Dinamicas",
+                dataPoints: [
+                    { label: "Ene", y: 128 },
+                    { label: "Feb", y: 0 },
+                    { label: "Mar", y: 0 },
+                    { label: "Apr", y: 280 },
+                    { label: "May", y: 438 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
+                ]
+            },
+
+            {
+                type: "spline",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                xValueFormatString: "MMMM YYYY",
+                color: "#bb1924",
+                name: "Links web",
+                dataPoints: [
+                    { label: "Ene", y: 0 },
+                    { label: "Feb", y: 0 },
+                    { label: "Mar", y: 27 },
+                    { label: "Apr", y: 0 },
+                    { label: "May", y: 0 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
+                ]
+            }
+        ]
+    });
+    chart16.render();
+
 
 
 
