@@ -46,7 +46,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 39901 },
                     { x: new Date(2020, 3), y: 41488 },
                     { x: new Date(2020, 4), y: 13623 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 6488 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -69,7 +69,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 13939 },
                     { x: new Date(2020, 3), y: 15585 },
                     { x: new Date(2020, 4), y: 6169 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 2948 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -90,7 +90,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 4001 },
                     { x: new Date(2020, 3), y: 4094 },
                     { x: new Date(2020, 4), y: 4911 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 1876 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -191,11 +191,11 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 49.00, label: "Windows" },
-                { y: 34.82, label: "Android" },
-                { y: 15.40, label: "iOS" },
-                { y: 0.41, label: "Linux" },
-                { y: 0.18, label: "Not Set" }
+                { y: 50.72, label: "Windows" },
+                { y: 33.19, label: "Android" },
+                { y: 14.40, label: "iOS" },
+                { y: 1.28, label: "Linux" },
+                { y: 0.05, label: "Not Set" }
             ]
         }]
     });
@@ -220,12 +220,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 72.93, label: "Chrome" },
-                { y: 11.63, label: "Safari" },
-                { y: 4.01, label: "Android" },
-                { y: 4.16, label: "Edge/Explorer" },
-                { y: 2.50, label: "Firefox" },
-                { y: 0.61, label: "Opera" }
+                { y: 77.73, label: "Chrome" },
+                { y: 9.70, label: "Safari" },
+                { y: 2.82, label: "Android" },
+                { y: 4.21, label: "Edge/Explorer" },
+                { y: 1.60, label: "Firefox" },
+                { y: 1.01, label: "Opera" }
 
             ]
         }]
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 59.50, label: "Busqueda organica" },
-                { y: 30.40, label: "Directo" },
-                { y: 6.70, label: "Referido" },
-                { y: 3.40, label: "Social media" }
+                { y: 60.80, label: "Busqueda organica" },
+                { y: 28.90, label: "Directo" },
+                { y: 7.00, label: "Referido" },
+                { y: 3.30, label: "Social media" }
             ]
         }]
     });
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 62.00, label: "Femenino" },
-                { y: 38.00, label: "Masculino" }
+                { y: 62.20, label: "Femenino" },
+                { y: 37.80, label: "Masculino" }
             ]
         }]
     });
@@ -550,10 +550,9 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 84.51, label: "Facebook" },
-                { y: 11.27, label: "Twitter" },
-                { y: 1.41, label: "LinkedIn" },
-                { y: 1.41, label: "Instagram" }
+                { y: 80.95, label: "Facebook" },
+                { y: 15.87, label: "Twitter" },
+                { y: 3.17, label: "Instagram" }
             ]
         }]
     });
@@ -576,12 +575,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 31.07 },
-                { label: "25-34", y: 37.27 },
-                { label: "35-44", y: 16.12 },
-                { label: "45-54", y: 7.838 },
-                { label: "55-64", y: 4.67 },
-                { label: "65+", y: 3.04 }
+                { label: "18-24", y: 27.29 },
+                { label: "25-34", y: 39.97 },
+                { label: "35-44", y: 17.60 },
+                { label: "45-54", y: 9.41 },
+                { label: "55-64", y: 5.18 },
+                { label: "65+", y: 3.55 }
             ]
         }]
     });
@@ -610,11 +609,12 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 65.78 },
-                { label: "/oferta-formativa/", y: 4.81 },
-                { label: "/sobre-nosotros/historia/", y: 2.89 },
-                { label: "/proyectos/mujeres-en-tic/", y: 2.82 },
-                { label: "/servicios/radio-ctc/", y: 2.38 }
+                { label: "Landing page", y: 67.03 },
+                { label: "/oferta-formativa/ ", y: 4.31 },
+                { label: "/sobre-nosotros/margarita-cedeno-lizardo/", y: 3.36 },
+                { label: "/servicios/radio-ctc/", y: 2.41 },
+                { label: "/sobre-nosotros/historia/", y: 2.27 }
+
             ]
         }]
     });
@@ -643,11 +643,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 53.80 },
-                { label: "/oferta-formativa/ ", y: 8.07 },
-                { label: "/proyectos/mujeres-en-tic/", y: 2.79 },
-                { label: "/sobre-nosotros/historia/", y: 2.79 },
-                { label: "/servicios/radio-ctc/ ", y: 2.42 }
+                { label: "Landing page", y: 54.78 },
+                { label: "/oferta-formativa/ ", y: 7.39 },
+                { label: "/sobre-nosotros/margarita-cedeno-lizardo/", y: 3.36 },
+                { label: "/sobre-nosotros/quienes-somos/", y: 2.82 },
+                { label: "/sobre-nosotros/historia/", y: 2.48 }
 
 
 

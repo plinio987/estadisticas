@@ -46,7 +46,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 272723 },
                     { x: new Date(2020, 3), y: 1081408 },
                     { x: new Date(2020, 4), y: 425125 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 339591 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -69,7 +69,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 89382 },
                     { x: new Date(2020, 3), y: 373102 },
                     { x: new Date(2020, 4), y: 151441 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 112038 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -90,7 +90,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 61617 },
                     { x: new Date(2020, 3), y: 241238 },
                     { x: new Date(2020, 4), y: 102923 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 80044 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -191,11 +191,11 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 49.00, label: "Windows" },
-                { y: 34.82, label: "Android" },
-                { y: 15.40, label: "iOS" },
-                { y: 0.41, label: "Linux" },
-                { y: 0.18, label: "Not Set" }
+                { y: 8.79, label: "Windows" },
+                { y: 76.64, label: "Android" },
+                { y: 14.13, label: "iOS" },
+                { y: 0.30, label: "Linux" },
+                { y: 0.04, label: "Not Set" }
             ]
         }]
     });
@@ -220,12 +220,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 72.93, label: "Chrome" },
-                { y: 11.63, label: "Safari" },
-                { y: 4.01, label: "Android" },
-                { y: 4.16, label: "Edge/Explorer" },
-                { y: 2.50, label: "Firefox" },
-                { y: 0.61, label: "Opera" }
+                { y: 80.12, label: "Chrome" },
+                { y: 11.90, label: "Safari" },
+                { y: 6.21, label: "Android" },
+                { y: 0.41, label: "Edge/Explorer" },
+                { y: 0.48, label: "Firefox" },
+                { y: 0.16, label: "Opera" }
 
             ]
         }]
@@ -321,7 +321,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 47.60 },
                 { x: new Date(2020, 3), y: 49.35 },
                 { x: new Date(2020, 4), y: 50.40 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 47.69 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -391,7 +391,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 436 },
                 { x: new Date(2020, 3), y: 325 },
                 { x: new Date(2020, 4), y: 241 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 240 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -472,7 +472,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 76.60 },
                     { x: new Date(2020, 3), y: 76.80 },
                     { x: new Date(2020, 4), y: 68.60 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 69.80 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -494,7 +494,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 23.40 },
                     { x: new Date(2020, 3), y: 24.20 },
                     { x: new Date(2020, 4), y: 31.40 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 30.20 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 69.40, label: "Femenino" },
-                { y: 30.60, label: "Masculino" }
+                { y: 70.30, label: "Femenino" },
+                { y: 29.70, label: "Masculino" }
             ]
         }]
     });
@@ -577,12 +577,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 24.75 },
-                { label: "25-34", y: 33.28 },
-                { label: "35-44", y: 18.61 },
-                { label: "45-54", y: 11.17 },
-                { label: "55-64", y: 8.10 },
-                { label: "65+", y: 4.09 }
+                { label: "18-24", y: 25.42 },
+                { label: "25-34", y: 32.44 },
+                { label: "35-44", y: 18.97 },
+                { label: "45-54", y: 11.23 },
+                { label: "55-64", y: 8.06 },
+                { label: "65+", y: 3.87 }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 27.18 },
-                { label: "/subsidios-sociales/consultar-participante/", y: 34.43 },
-                { label: "/servicios/consultar-beneficiario/", y: 12.80 },
-                { label: "/subsidios-sociales/sistema-de-pago/", y: 8.71 },
-                { label: "/subsidios/programa-comer-es-primero/", y: 2.27 }
+                { label: "Landin Page", y: 45.54 },
+                { label: "/subsidios-sociales/consultar-participante/", y: 35.63 },
+                { label: "/servicios/consultar-beneficiario/", y: 12.75 },
+                { label: "/subsidios-sociales/sistema-de-pago/", y: 8.61 },
+                { label: "/subsidios/programa-comer-es-primero/", y: 2.29 }
             ]
         }]
     });
@@ -644,11 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 29.33 },
-                { label: "/subsidios-sociales/consultar-participante/", y: 30.44 },
-                { label: "/subsidios-sociales/sistema-de-pago/", y: 10.58 },
-                { label: "Cayo el muro", y: 6.56 },
-                { label: "/subsidios-sociales/subsidios-depositados/", y: 2.61 }
+                { label: "/Landing page", y: 20.15 },
+                { label: "/subsidios-sociales/consultar-participante/", y: 31.41 },
+                { label: "/servicios/consultar-beneficiario/", y: 10.61 },
+                { label: "/subsidios-sociales/sistema-de-pago/", y: 6.54 },
+                { label: "/subsidios-sociales/subsidios-depositados/", y: 2.66 }
 
 
 

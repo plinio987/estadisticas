@@ -46,7 +46,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 9697 },
                     { x: new Date(2020, 3), y: 111176 },
                     { x: new Date(2020, 4), y: 44445 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 22326 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -69,7 +69,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 5970 },
                     { x: new Date(2020, 3), y: 76340 },
                     { x: new Date(2020, 4), y: 30579 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 14741 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -90,7 +90,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 5250 },
                     { x: new Date(2020, 3), y: 56716 },
                     { x: new Date(2020, 4), y: 21245 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 10346 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -191,10 +191,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 49.00, label: "Windows" },
-                { y: 34.82, label: "Android" },
-                { y: 15.40, label: "iOS" },
-                { y: 0.41, label: "Linux" },
+                { y: 8.25, label: "Windows" },
+                { y: 84.34, label: "Android" },
+                { y: 7.18, label: "iOS" },
+                { y: 0.20, label: "Linux" },
                 { y: 0.18, label: "Not Set" }
             ]
         }]
@@ -220,12 +220,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 72.93, label: "Chrome" },
-                { y: 11.63, label: "Safari" },
-                { y: 4.01, label: "Android" },
-                { y: 4.16, label: "Edge/Explorer" },
-                { y: 2.50, label: "Firefox" },
-                { y: 0.61, label: "Opera" }
+                { y: 82.65, label: "Chrome" },
+                { y: 6.03, label: "Safari" },
+                { y: 7.54, label: "Android" },
+                { y: 0.49, label: "Edge/Explorer" },
+                { y: 0.56, label: "Firefox" },
+                { y: 0.19, label: "Opera" }
 
             ]
         }]
@@ -282,11 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 85.70, label: "Referido" },
-                { y: 6.70, label: "Directo" },
-                { y: 6.02, label: "Busqueda organica" },
-                { y: 1.20, label: "Paid search" },
-                { y: 0.38, label: "Social media" }
+                { y: 81.10, label: "Referido" },
+                { y: 7.10, label: "Directo" },
+                { y: 11.20, label: "Busqueda organica" },
+                { y: 0.30, label: "Social media" }
             ]
         }]
     });
@@ -322,7 +321,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 72.50 },
                 { x: new Date(2020, 3), y: 77.34 },
                 { x: new Date(2020, 4), y: 76.90 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 75.34 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -354,9 +353,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 51.59, label: "Desktop" },
-                { y: 47.17, label: "Mobile" },
-                { y: 1.73, label: "Tablet" }
+                { y: 9.31, label: "Desktop" },
+                { y: 89.81, label: "Mobile" },
+                { y: 0.88, label: "Tablet" }
             ]
         }]
     });
@@ -392,7 +391,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 133 },
                 { x: new Date(2020, 3), y: 102 },
                 { x: new Date(2020, 4), y: 054 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 106 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -473,7 +472,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 14.00 },
                     { x: new Date(2020, 3), y: 74.00 },
                     { x: new Date(2020, 4), y: 60.70 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 59.20 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -495,7 +494,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 86.00 },
                     { x: new Date(2020, 3), y: 26.00 },
                     { x: new Date(2020, 4), y: 39.30 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 40.80 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -528,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 70.70, label: "Femenino" },
-                { y: 29.30, label: "Masculino" }
+                { y: 69.20, label: "Femenino" },
+                { y: 30.80, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +550,8 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 34.21, label: "Facebook" },
-                { y: 52.63, label: "Twitter" },
-                { y: 7.89, label: "LinkedIn" },
-                { y: 5.26, label: "YouTube" }
+                { y: 83.33, label: "Facebook" },
+                { y: 16.67, label: "Twitter" }
             ]
         }]
     });
@@ -577,12 +574,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 20.53 },
-                { label: "25-34", y: 31.38 },
-                { label: "35-44", y: 18.75 },
-                { label: "45-54", y: 12.13 },
-                { label: "55-64", y: 11.90 },
-                { label: "65+", y: 4.61 }
+                { label: "18-24", y: 22.05 },
+                { label: "25-34", y: 29.50 },
+                { label: "35-44", y: 18.71 },
+                { label: "45-54", y: 13.09 },
+                { label: "55-64", y: 11.12 },
+                { label: "65+", y: 5.52 }
             ]
         }]
     });
@@ -611,11 +608,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 92.28 },
-                { label: "/entidades-coordina-margarita-cedeno-toman-medidas-contra-el-coronavirus-suspende-actividades-y-servicios/", y: 1.01 },
-                { label: "/punto-solidario/", y: 0.65 },
-                { label: "/vicepresidenta-garantiza-proteccion-y-servicios-de-salud-a-mujeres-vulnerables-durante-pandemia/", y: 0.55 },
-                { label: "/vicepresidencia-alerta-estafadores-ofrecen-tarjetas-progresando-con-solidaridad-y-subsidios-especiales/gab1-5/", y: 0.52 }
+                { label: "Landin Page", y: 88.35 },
+                { label: "vicepresidenta-garantiza-proteccion-y-servicios-de-salud-a-mujeres-vulnerables-durante-pandemia/", y: 1.37 },
+                { label: "/punto-solidario/", y: 0.85 },
+                { label: "vicepresidencia-alerta-estafadores-ofrecen-tarjetas-progresando-con-solidaridad-y-subsidios-especiales/gab1-5/", y: 0.60 },
+                { label: "/el-gabinete-social/quienes-somos/", y: 0.52 }
             ]
         }]
     });
@@ -644,11 +641,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 87.97 },
-                { label: "/entidades-coordina-margarita-cedeno-toman-medidas-contra-el-coronavirus-suspende-actividades-y-servicios/", y: 1.80 },
-                { label: "/vicepresidenta-garantiza-proteccion-y-servicios-de-salud-a-mujeres-vulnerables-durante-pandemia/", y: 1.18 },
-                { label: "/punto-solidario/", y: 0.58 },
-                { label: "/hacia-un-piso-de-proteccion-social-y-genero-en-republica-dominicana-escenarios-y-costos/", y: 0.55 }
+                { label: "Landin Page", y: 83.46 },
+                { label: "vicepresidenta-garantiza-proteccion-y-servicios-de-salud-a-mujeres-vulnerables-durante-pandemia/", y: 2.72 },
+                { label: "/punto-solidario/", y: 0.78 },
+                { label: "Contacto", y: 0.59 },
+                { label: "/el-gabinete-social/quienes-somos/", y: 0.59 }
 
 
 

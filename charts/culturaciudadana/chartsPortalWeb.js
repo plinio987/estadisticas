@@ -45,8 +45,8 @@ window.onload = function() {
                     { x: new Date(2020, 1), y: 1345 },
                     { x: new Date(2020, 2), y: 613 },
                     { x: new Date(2020, 3), y: 647 },
-                    { x: new Date(2020, 4), y: 0689 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 4), y: 689 },
+                    { x: new Date(2020, 5), y: 37 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -69,7 +69,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 384 },
                     { x: new Date(2020, 3), y: 390 },
                     { x: new Date(2020, 4), y: 313 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 18 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -85,12 +85,12 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "##,##0",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 542 },
+                    { x: new Date(2020, 0), y: 519 },
                     { x: new Date(2020, 1), y: 516 },
                     { x: new Date(2020, 2), y: 344 },
                     { x: new Date(2020, 3), y: 348 },
                     { x: new Date(2020, 4), y: 225 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 15 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -151,10 +151,10 @@ window.onload = function() {
             yValueFormatString: "#,###",
             dataPoints: [
                 { x: new Date(2020, 0), y: 0 },
-                { x: new Date(2020, 1), y: 1 },
-                { x: new Date(2020, 2), y: 2 },
-                { x: new Date(2020, 3), y: 1 },
-                { x: new Date(2020, 4), y: 1 },
+                { x: new Date(2020, 1), y: 0 },
+                { x: new Date(2020, 2), y: 0 },
+                { x: new Date(2020, 3), y: 0 },
+                { x: new Date(2020, 4), y: 0 },
                 { x: new Date(2020, 5), y: 0 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
@@ -191,11 +191,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 49.00, label: "Windows" },
-                { y: 34.82, label: "Android" },
-                { y: 15.40, label: "iOS" },
-                { y: 0.41, label: "Linux" },
-                { y: 0.18, label: "Not Set" }
+                { y: 26.67, label: "Windows" },
+                { y: 60.00, label: "Android" },
+                { y: 13.34, label: "iOS" }
             ]
         }]
     });
@@ -220,13 +218,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 72.93, label: "Chrome" },
-                { y: 11.63, label: "Safari" },
-                { y: 4.01, label: "Android" },
-                { y: 4.16, label: "Edge/Explorer" },
-                { y: 2.50, label: "Firefox" },
-                { y: 0.61, label: "Opera" }
-
+                { y: 66.67, label: "Chrome" },
+                { y: 6.67, label: "Safari" },
+                { y: 20.00, label: "Android" },
+                { y: 6.67, label: "Firefox" }
             ]
         }]
     });
@@ -250,12 +245,11 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 19.42, label: "iPhone" },
-                { y: 1.89, label: "iPad" },
-                { y: 6.54, label: "Samsung" },
-                { y: 1.46, label: "Huawei JKM-LX3 Y9 2020" },
-                { y: 1.08, label: "Huawei ANE-LX3 P20 Lite" },
-                { y: 1.73, label: "Not Set" }
+                { y: 10.00, label: "iPhone" },
+                { y: 60.00, label: "Samsung" },
+                { y: 10.00, label: "LG" },
+                { y: 10.00, label: "Sony" },
+                { y: 10.00, label: "Coolpad" }
             ]
         }]
     });
@@ -282,11 +276,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 73.30, label: "Busqueda organica" },
+                { y: 26.70, label: "Directo" }
             ]
         }]
     });
@@ -322,7 +313,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 79.95 },
                 { x: new Date(2020, 3), y: 76.15 },
                 { x: new Date(2020, 4), y: 75.08 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 77.78 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -354,9 +345,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 51.59, label: "Desktop" },
-                { y: 47.17, label: "Mobile" },
-                { y: 1.73, label: "Tablet" }
+                { y: 33.33, label: "Desktop" },
+                { y: 66.67, label: "Mobile" }
             ]
         }]
     });
@@ -392,7 +382,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 105 },
                 { x: new Date(2020, 3), y: 110 },
                 { x: new Date(2020, 4), y: 350 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 106 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -473,7 +463,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 87.40 },
                     { x: new Date(2020, 3), y: 92.00 },
                     { x: new Date(2020, 4), y: 88.50 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 83.30 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -492,10 +482,10 @@ window.onload = function() {
                 dataPoints: [
                     { x: new Date(2020, 0), y: 17.60 },
                     { x: new Date(2020, 1), y: 15.50 },
-                    { x: new Date(2020, 2), y: 12.80 },
+                    { x: new Date(2020, 2), y: 12.60 },
                     { x: new Date(2020, 3), y: 8.00 },
                     { x: new Date(2020, 4), y: 11.50 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 18.70 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -528,8 +518,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 0, label: "Femenino" },
+                { y: 0, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +541,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 0, label: "Facebook" },
+                { y: 0, label: "Twitter" },
+                { y: 0, label: "Instagram Stories" },
+                { y: 0, label: "Instagram" }
             ]
         }]
     });
@@ -577,12 +567,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 0 },
+                { label: "25-34", y: 0 },
+                { label: "35-44", y: 0 },
+                { label: "45-54", y: 0 },
+                { label: "55-64", y: 0 },
+                { label: "65+", y: 0 }
             ]
         }]
     });
@@ -611,11 +601,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "vicepresidencia-premia-ganadores-del-concurso-nacional-cultura-ciudadana-en-arte", y: 22.22 },
+                { label: "violencia-inicio-y-fin", y: 16.67 },
+                { label: "corre-la-voz/item/hay-que-actuar-de-manera-preventiva-3", y: 11.11 },
+                { label: "Landing Page", y: 5.56 },
+                { label: "/contacto", y: 5.56 }
             ]
         }]
     });
@@ -644,14 +634,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
-
-
-
+                { label: "vicepresidencia-premia-ganadores-del-concurso-nacional-cultura-ciudadana-en-arte", y: 22.22 },
+                { label: "violencia-inicio-y-fin", y: 16.67 },
+                { label: "corre-la-voz/item/hay-que-actuar-de-manera-preventiva-3", y: 11.11 },
+                { label: "Landing Page", y: 5.56 },
+                { label: "/contacto", y: 5.56 }
             ]
         }]
     });

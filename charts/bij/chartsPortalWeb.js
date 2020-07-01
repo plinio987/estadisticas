@@ -46,7 +46,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 5430 },
                     { x: new Date(2020, 3), y: 4617 },
                     { x: new Date(2020, 4), y: 3947 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 18530 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -69,7 +69,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 2298 },
                     { x: new Date(2020, 3), y: 2037 },
                     { x: new Date(2020, 4), y: 2064 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 8602 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -90,7 +90,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 1997 },
                     { x: new Date(2020, 3), y: 1830 },
                     { x: new Date(2020, 4), y: 1837 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 5858 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -191,11 +191,11 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 49.00, label: "Windows" },
-                { y: 34.82, label: "Android" },
-                { y: 15.40, label: "iOS" },
-                { y: 0.41, label: "Linux" },
-                { y: 0.18, label: "Not Set" }
+                { y: 19.92, label: "Windows" },
+                { y: 59.00, label: "Android" },
+                { y: 20.76, label: "iOS" },
+                { y: 0.27, label: "Linux" },
+                { y: 0.19, label: "Not Set" }
             ]
         }]
     });
@@ -220,12 +220,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 72.93, label: "Chrome" },
-                { y: 11.63, label: "Safari" },
-                { y: 4.01, label: "Android" },
-                { y: 4.16, label: "Edge/Explorer" },
-                { y: 2.50, label: "Firefox" },
-                { y: 0.61, label: "Opera" }
+                { y: 58.54, label: "Chrome" },
+                { y: 15.04, label: "Safari" },
+                { y: 11.73, label: "Android" },
+                { y: 1.32, label: "Edge/Explorer" },
+                { y: 1.12, label: "Firefox" },
+                { y: 0.22, label: "Opera" }
 
             ]
         }]
@@ -250,11 +250,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 19.42, label: "iPhone" },
-                { y: 1.89, label: "iPad" },
-                { y: 6.54, label: "Samsung" },
-                { y: 1.46, label: "Huawei JKM-LX3 Y9 2020" },
-                { y: 1.08, label: "Huawei ANE-LX3 P20 Lite" },
+                { y: 19.43, label: "iPhone" },
+                { y: 6.75, label: "Huawei" },
+                { y: 2.66, label: "Samsung" },
                 { y: 1.73, label: "Not Set" }
             ]
         }]
@@ -282,10 +280,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 80.20, label: "Busqueda organica" },
-                { y: 9.30, label: "Directo" },
-                { y: 2.90, label: "Referido" },
-                { y: 7.60, label: "Social media" }
+                { y: 27.70, label: "Busqueda organica" },
+                { y: 50.20, label: "Directo" },
+                { y: 3.70, label: "Referido" },
+                { y: 18.40, label: "Social media" }
             ]
         }]
     });
@@ -321,7 +319,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 64.88 },
                 { x: new Date(2020, 3), y: 64.26 },
                 { x: new Date(2020, 4), y: 71.12 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 61.18 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -353,9 +351,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 51.59, label: "Desktop" },
-                { y: 47.17, label: "Mobile" },
-                { y: 1.73, label: "Tablet" }
+                { y: 75.35, label: "Desktop" },
+                { y: 22.02, label: "Mobile" },
+                { y: 2.63, label: "Tablet" }
             ]
         }]
     });
@@ -391,7 +389,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 145 },
                 { x: new Date(2020, 3), y: 137 },
                 { x: new Date(2020, 4), y: 127 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 156 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -472,7 +470,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 88.20 },
                     { x: new Date(2020, 3), y: 90.90 },
                     { x: new Date(2020, 4), y: 91.00 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 80.70 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -494,7 +492,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 11.80 },
                     { x: new Date(2020, 3), y: 9.10 },
                     { x: new Date(2020, 4), y: 9.00 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 19.30 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -550,11 +548,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 61.43, label: "Facebook" },
-                { y: 1.43, label: "Twitter" },
-                { y: 5.71, label: "Instagram Stories" },
-                { y: 30.00, label: "Instagram" },
-                { y: 1.43, label: "YouTube" }
+                { y: 32.72, label: "Facebook" },
+                { y: 5.20, label: "Twitter" },
+                { y: 5.38, label: "Instagram Stories" },
+                { y: 56.08, label: "Instagram" },
+                { y: 0.09, label: "LinkedIn" },
+                { y: 0.53, label: "YouTube" }
             ]
         }]
     });
@@ -577,12 +576,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 26.28 },
-                { label: "25-34", y: 30.44 },
-                { label: "35-44", y: 21.15 },
-                { label: "45-54", y: 11.20 },
-                { label: "55-64", y: 7.21 },
-                { label: "65+", y: 3.79 }
+                { label: "18-24", y: 22.45 },
+                { label: "25-34", y: 30.32 },
+                { label: "35-44", y: 21.10 },
+                { label: "45-54", y: 11.75 },
+                { label: "55-64", y: 7.57 },
+                { label: "65+", y: 3.81 }
             ]
         }]
     });
@@ -611,17 +610,17 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 13.28 },
-                { label: "/catalogo/yo-y-mi-hermana-clara/", y: 5.91 },
-                { label: "/catalogo/la-bicicleta-verde-limon//2019/08/19/yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 5.67 },
-                { label: "/catalogo/hipo-del-tucan/", y: 4.94 }
+                { label: "Landin Page", y: 8.35 },
+                { label: "verano-virtual/", y: 67.24 },
+                { label: "yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 2.20 },
+                { label: "verano-virtual/martes-23-de-junio/", y: 1.79 },
+                { label: "la-bicicleta-verde-limon/", y: 1.22 }
             ]
         }]
     });
     chart15.render();
 
     // ****************PAGINAS DE SALIDA************** //
-
 
     var chart16 = new CanvasJS.Chart("paginasSalida", {
         theme: "ligh2", // "light1", "ligh2", "dark1", "dark2"
@@ -643,14 +642,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 8.93 },
-                { label: "/catalogo/la-bicicleta-verde-limon/", y: 5.99 },
-                { label: "/catalogo/yo-y-mi-hermana-clara/", y: 5.84 },
-                { label: "/2019/08/19/yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 4.91 },
-                { label: "/catalogo/hipo-del-tucan/", y: 4.66 }
-
-
-
+                { label: "Landin Page", y: 6.57 },
+                { label: "/verano-virtual/", y: 57.12 },
+                { label: "/verano-virtual/martes-23-de-junio/", y: 6.86 },
+                { label: "/verano-virtual/miercoles-24-de-junio/", y: 3.63 },
+                { label: "/verano-virtual/jueves-25-de-junio/", y: 3.03 }
             ]
         }]
     });

@@ -46,7 +46,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 13 },
                     { x: new Date(2020, 3), y: 44 },
                     { x: new Date(2020, 4), y: 170 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 235 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -69,7 +69,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 8 },
                     { x: new Date(2020, 3), y: 16 },
                     { x: new Date(2020, 4), y: 55 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 86 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -90,7 +90,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 8 },
                     { x: new Date(2020, 3), y: 13 },
                     { x: new Date(2020, 4), y: 44 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 59 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -191,11 +191,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 49.00, label: "Windows" },
-                { y: 34.82, label: "Android" },
-                { y: 15.40, label: "iOS" },
-                { y: 0.41, label: "Linux" },
-                { y: 0.18, label: "Not Set" }
+                { y: 15.25, label: "Windows" },
+                { y: 52.54, label: "Android" },
+                { y: 32.20, label: "iOS" }
+
             ]
         }]
     });
@@ -220,12 +219,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 72.93, label: "Chrome" },
-                { y: 11.63, label: "Safari" },
-                { y: 4.01, label: "Android" },
-                { y: 4.16, label: "Edge/Explorer" },
-                { y: 2.50, label: "Firefox" },
-                { y: 0.61, label: "Opera" }
+                { y: 37.29, label: "Chrome" },
+                { y: 15.25, label: "Safari" },
+                { y: 30.51, label: "Android" },
+                { y: 4.16, label: "Edge" },
+                { y: 6.78, label: "Firefox" }
+
 
             ]
         }]
@@ -250,12 +249,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 19.42, label: "iPhone" },
-                { y: 1.89, label: "iPad" },
-                { y: 6.54, label: "Samsung" },
-                { y: 1.46, label: "Huawei JKM-LX3 Y9 2020" },
-                { y: 1.08, label: "Huawei ANE-LX3 P20 Lite" },
-                { y: 1.73, label: "Not Set" }
+                { y: 24.44, label: "iPhone" },
+                { y: 4.44, label: "LG" },
+                { y: 4.44, label: "ZTE" },
+                { y: 4.44, label: "Huawei" },
+                { y: 8.88, label: "Alcatel" }
+
             ]
         }]
     });
@@ -282,11 +281,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 23.00, label: "Busqueda organica" },
+                { y: 24.60, label: "Directo" },
+                { y: 3.30, label: "Referido" },
+                { y: 49.20, label: "Social media" }
             ]
         }]
     });
@@ -322,7 +320,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 50.00 },
                 { x: new Date(2020, 3), y: 68.750 },
                 { x: new Date(2020, 4), y: 52.730 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 50.00 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -354,9 +352,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 51.59, label: "Desktop" },
-                { y: 47.17, label: "Mobile" },
-                { y: 1.73, label: "Tablet" }
+                { y: 23.73, label: "Desktop" },
+                { y: 74.58, label: "Mobile" },
+                { y: 1.69, label: "Tablet" }
             ]
         }]
     });
@@ -392,7 +390,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 520 },
                 { x: new Date(2020, 3), y: 315 },
                 { x: new Date(2020, 4), y: 209 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 220 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -431,13 +429,13 @@ window.onload = function() {
             indexLabelPlacement: "outside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "0-10", y: 76.53 },
-                { label: "11-30", y: 2.36 },
-                { label: "31-60", y: 2.55 },
-                { label: "61-180", y: 5.11 },
-                { label: "181-600", y: 5.65 },
-                { label: "601-1800", y: 4.07 },
-                { label: "1800+", y: 0.74 }
+                { label: "0-10", y: 53.49 },
+                { label: "11-30", y: 5.81 },
+                { label: "31-60", y: 5.81 },
+                { label: "61-180", y: 13.95 },
+                { label: "181-600", y: 15.12 },
+                { label: "601-1800", y: 4.65 },
+                { label: "1800+", y: 1.16 }
 
             ]
         }]
@@ -473,7 +471,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 75 },
                     { x: new Date(2020, 3), y: 83 },
                     { x: new Date(2020, 4), y: 0 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 22.90 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -495,7 +493,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 25 },
                     { x: new Date(2020, 3), y: 17 },
                     { x: new Date(2020, 4), y: 0 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 77.10 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -528,8 +526,7 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 100, label: "Femenino" }
             ]
         }]
     });
@@ -551,10 +548,8 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 76.67, label: "Facebook" },
+                { y: 23.33, label: "Instagram" }
             ]
         }]
     });
@@ -577,12 +572,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 19.26 },
-                { label: "25-34", y: 31.23 },
-                { label: "35-44", y: 18.97 },
-                { label: "45-54", y: 16.08 },
-                { label: "55-64", y: 8.79 },
-                { label: "65+", y: 5.67 }
+                { label: "18-24", y: 0 },
+                { label: "25-34", y: 0 },
+                { label: "35-44", y: 0 },
+                { label: "45-54", y: 0 },
+                { label: "55-64", y: 0 },
+                { label: "65+", y: 0 }
             ]
         }]
     });
@@ -611,11 +606,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "Landin Page", y: 50.00 },
+                { label: "/versospreventivoschallenge/", y: 30.23 },
+                { label: "/jovenes-que-progresan/", y: 8.14 },
+                { label: "/sobre-nosotros/", y: 2.33 },
+                { label: "Contacto", y: 1.16 }
             ]
         }]
     });
@@ -644,14 +639,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
-
-
-
+                { label: "Landin Page", y: 45.35 },
+                { label: "/versospreventivoschallenge/", y: 25.58 },
+                { label: "/estas-dentro/", y: 6.98 },
+                { label: "/jovenes-que-progresan/", y: 5.81 },
+                { label: "/quiero-progresar/", y: 2.33 }
             ]
         }]
     });

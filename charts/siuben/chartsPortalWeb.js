@@ -46,7 +46,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 128717 },
                     { x: new Date(2020, 3), y: 539079 },
                     { x: new Date(2020, 4), y: 156352 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 87703 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -69,7 +69,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 44375 },
                     { x: new Date(2020, 3), y: 226174 },
                     { x: new Date(2020, 4), y: 76889 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 39957 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -90,7 +90,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 33124 },
                     { x: new Date(2020, 3), y: 150294 },
                     { x: new Date(2020, 4), y: 52751 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 29913 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -191,11 +191,11 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 49.00, label: "Windows" },
-                { y: 34.82, label: "Android" },
-                { y: 15.40, label: "iOS" },
-                { y: 0.41, label: "Linux" },
-                { y: 0.18, label: "Not Set" }
+                { y: 8.15, label: "Windows" },
+                { y: 81.73, label: "Android" },
+                { y: 9.84, label: "iOS" },
+                { y: 0.17, label: "Linux" },
+                { y: 0.02, label: "Not Set" }
             ]
         }]
     });
@@ -250,12 +250,12 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 19.42, label: "iPhone" },
-                { y: 1.89, label: "iPad" },
-                { y: 6.54, label: "Samsung" },
-                { y: 1.46, label: "Huawei JKM-LX3 Y9 2020" },
-                { y: 1.08, label: "Huawei ANE-LX3 P20 Lite" },
-                { y: 1.73, label: "Not Set" }
+                { y: 10.03, label: "iPhone" },
+                { y: 3.21, label: "ZTE" },
+                { y: 1.73, label: "T-Mobile" },
+                { y: 1.64, label: "Samsung" },
+                { y: 1.42, label: "Huawei ANE-LX3 P20 Lite" },
+                { y: 2.20, label: "Not Set" }
             ]
         }]
     });
@@ -282,9 +282,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 29.60, label: "Busqueda organica" },
-                { y: 7.30, label: "Directo" },
-                { y: 62.20, label: "Referido" },
+                { y: 45.20, label: "Busqueda organica" },
+                { y: 7.80, label: "Directo" },
+                { y: 46.00, label: "Referido" },
                 { y: 0.90, label: "Social media" }
             ]
         }]
@@ -321,7 +321,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 47.39 },
                 { x: new Date(2020, 3), y: 55.21 },
                 { x: new Date(2020, 4), y: 59.64 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 57.31 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -353,9 +353,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 51.59, label: "Desktop" },
-                { y: 47.17, label: "Mobile" },
-                { y: 1.73, label: "Tablet" }
+                { y: 8.77, label: "Desktop" },
+                { y: 89.87, label: "Mobile" },
+                { y: 1.37, label: "Tablet" }
             ]
         }]
     });
@@ -391,7 +391,7 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 322 },
                 { x: new Date(2020, 3), y: 219 },
                 { x: new Date(2020, 4), y: 131 },
-                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 5), y: 123 },
                 { x: new Date(2020, 6), y: 0 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
@@ -430,13 +430,13 @@ window.onload = function() {
             indexLabelPlacement: "outside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "0-10", y: 76.53 },
-                { label: "11-30", y: 2.36 },
-                { label: "31-60", y: 2.55 },
-                { label: "61-180", y: 5.11 },
-                { label: "181-600", y: 5.65 },
-                { label: "601-1800", y: 4.07 },
-                { label: "1800+", y: 0.74 }
+                { label: "0-10", y: 59.37 },
+                { label: "11-30", y: 7.70 },
+                { label: "31-60", y: 8.57 },
+                { label: "61-180", y: 13.36 },
+                { label: "181-600", y: 7.71 },
+                { label: "601-1800", y: 2.93 },
+                { label: "1800+", y: 0.36 }
 
             ]
         }]
@@ -472,7 +472,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 80.80 },
                     { x: new Date(2020, 3), y: 77.30 },
                     { x: new Date(2020, 4), y: 67.90 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 71.40 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -494,7 +494,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 19.40 },
                     { x: new Date(2020, 3), y: 22.70 },
                     { x: new Date(2020, 4), y: 32.10 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 28.60 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 69.50, label: "Femenino" },
-                { y: 30.50, label: "Masculino" }
+                { y: 71.20, label: "Femenino" },
+                { y: 28.80, label: "Masculino" }
             ]
         }]
     });
@@ -550,11 +550,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 83.92, label: "Facebook" },
-                { y: 9.81, label: "Twitter" },
-                { y: 0.21, label: "YouTube" },
-                { y: 2.09, label: "Blogger" },
-                { y: 3.97, label: "Instagram" }
+                { y: 89.24, label: "Facebook" },
+                { y: 5.56, label: "Twitter" },
+                { y: 0.69, label: "YouTube" },
+                { y: 0.35, label: "LinkedIn" },
+                { y: 4.17, label: "Instagram" }
             ]
         }]
     });
@@ -577,12 +577,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 21.98 },
-                { label: "25-34", y: 31.60 },
-                { label: "35-44", y: 18.76 },
-                { label: "45-54", y: 12.83 },
-                { label: "55-64", y: 10.17 },
-                { label: "65+", y: 4.67 }
+                { label: "18-24", y: 24.58 },
+                { label: "25-34", y: 30.62 },
+                { label: "35-44", y: 19.14 },
+                { label: "45-54", y: 12.03 },
+                { label: "55-64", y: 9.33 },
+                { label: "65+", y: 4.30 }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 81.46 },
-                { label: "/consultas/", y: 7.15 },
-                { label: "/consultas/autoservicio-de-datos/", y: 4.60 },
-                { label: "/contacto/", y: 0.92 },
-                { label: "/margarita-cedeno-asegura-subsidio-temporal-quedate-en-casa-llegara-a-hogares-que-lo-necesiten/", y: 0.71 }
+                { label: "Landin Page", y: 61.446 },
+                { label: "/consultas/", y: 27.03 },
+                { label: "/consultas/autoservicio-de-datos/", y: 4.04 },
+                { label: "/contacto/", y: 0.82 },
+                { label: "/consultas/entrevistador/", y: 1.73 }
             ]
         }]
     });
@@ -644,11 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 77.12 },
-                { label: "/consultas/", y: 4.94 },
-                { label: "/consultas/autoservicio-de-datos/", y: 4.51 },
-                { label: "/autoservicio/", y: 2.52 },
-                { label: "/contacto/ ", y: 1.28 }
+                { label: "Landing page", y: 58.50 },
+                { label: "/consultas/", y: 21.92 },
+                { label: "/consultas/autoservicio-de-datos/", y: 4.75 },
+                { label: "/autoservicio/", y: 2.05 },
+                { label: "/consultas/codigo-entrevistador ", y: 2.24 }
 
 
 
