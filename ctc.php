@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard Centros Tecnológicos Comunitarios</h1>
+            <h1 class="m-0 text-dark">Dashboard CTC</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
 
@@ -61,32 +61,32 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <?php include('include/ctc.php'); ?>
+        <?php include('include\ctc.php'); ?>
        
       <!-- Main content -->
       <section class="content">
       <div class="container-fluid">
 
-      <div class="row">
+        <div class="row">
           <div class="col-12">
             <!-- interactive chart -->
             <div class="card card-primary card-outline">
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Twitter Engagement rate y absoluto
+                  Alcance general y total de seguidores 
                 </h3>
 
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
+                    <a href="2019\vicepresidencia.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button></a>
+                    <a href="2018\vicepresidencia-general.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off"></button></a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
-                <div id="engagement" style="height: 300px;"></div>
+                <div id="alcanceGeneral" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -104,19 +104,19 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Alcance Total
+                  Engagement general
                 </h3>
 
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
+                  <a href="2019\vicepresidencia.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button></a>
+                  <a href="2018\vicepresidencia-general.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off"></button></a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
-                <div id="alcance" style="height: 300px;"></div>
+                <div id="totalSeguidores" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -125,137 +125,6 @@
           </div>
           <!-- /.col -->
         </div>
-        <!-- /.row -->
-
-        <div class="row">
-          <div class="col-12">
-            <!-- interactive chart -->
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h3 class="card-title">
-                  <i class="far fa-chart-bar"></i>
-                 Nuevos seguidores y total general
-                </h3>
-
-                <div class="card-tools">
-             
-                  <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button>
-                    <button type="button" class="btn btn-default btn-sm" data-toggle="off"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body">
-                <div id="seguidores" style="height: 300px;"></div>
-              </div>
-              <!-- /.card-body-->
-            </div>
-            <!-- /.card -->
-
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- /.row -->
-
-        <div class="row">
-          <div class="col-md-6">
-            <!-- Line chart -->
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h3 class="card-title">
-                  <i class="far fa-chart-bar"></i>
-                  Total interacciones y tuits mensuales
-                </h3>
-
-                <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="card-body">
-                <div id="interacciones" style="height: 300px;"></div>
-              </div>
-              <!-- /.card-body-->
-            </div>
-            <!-- /.card -->
-
-            <!-- Area chart -->
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h3 class="card-title">
-                  <i class="far fa-chart-bar"></i>
-                 Visitas y menciones
-                </h3>
-
-                <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="card-body">
-                <div id="visitasMenciones" style="height: 338px;" class="full-width-chart"></div>
-              </div>
-              <!-- /.card-body-->
-            </div>
-            <!-- /.card -->
-
-          </div>
-          <!-- /.col -->
-
-          <div class="col-md-6">
-            <!-- Bar chart -->
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h3 class="card-title">
-                  <i class="far fa-chart-bar"></i>
-                 Retuits, Clicks, Repuestas y Me gusta mes en curso
-                </h3>
-
-                <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="card-body">
-                <div id="crrm" style="height: 300px;"></div>
-              </div>
-              <!-- /.card-body-->
-            </div>
-            <!-- /.card -->
-
-            <!-- Donut chart -->
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h3 class="card-title">
-                  <i class="far fa-chart-bar"></i>
-                 Acumulado  Retuits, Clicks, Repuestas y Me gusta
-                </h3>
-
-                <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="card-body">
-                <div id="acomuladocrrm" style="height: 300px;"></div>
-              </div>
-              <!-- /.card-body-->
-            </div>
-            <!-- /.card -->
-          </div>
-          <!-- /.col -->
-        </div>
-
         <!-- /.row -->
       </div><!-- /.container-fluid -->
     </section>
