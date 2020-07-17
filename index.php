@@ -7,19 +7,19 @@
     $pass = $_POST['password'];
     $password = md5($pass);
 
-    $query = "SELECT COUNT(*) AS count FROM users WHERE username = '$username ' AND password = '$password '";
+    $query = "SELECT COUNT(*) AS count FROM users WHERE username = '$username' AND password = '$password'";
     $consult = mysqli_query($connect, $query);
 
     $array = mysqli_fetch_array($consult);
+    echo 
+    mysqli_close();
 
     if ($array['count'] > 0) {
         $_SESSION['username'] = $username;
         header("location: dashboard.php");
     } else {
-        $errorMessage = "Datos incorectos";
         header("location: login.php");
     }
-
 
     /*
     class User extends DB {

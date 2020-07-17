@@ -2,6 +2,9 @@
   // Initialize the session
   session_start();
   $username = $_SESSION['username'];
+  if(!$_SESSION['username']) {
+    header("location: login.php");
+  }
   
 ?>
 
@@ -22,7 +25,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="dashboard.php" class="nav-link">Home</a>
+        <a href="index.php" class="nav-link">Home</a>
       </li>
     </ul>
 

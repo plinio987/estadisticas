@@ -31,10 +31,9 @@
     }*/
 
     $host = "localhost";
-    $user = "jbeltre";
-    $pass = "@Lunbel1203";
-    $db = "estadisticasgd";
-    $charset = "utf8mb4";
+    $user = "estadisticasweb";
+    $pass = "bdzX98uB3Afs7LZR";
+    $db = "estadisticas";
 
     $connect = mysqli_connect($host, $user, $pass, $db);
 
