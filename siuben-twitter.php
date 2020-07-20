@@ -277,7 +277,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts/siuben/chartsInstagram.js"></script>
+    <script type="text/javascript" src="charts\siuben\chartsTwitter.js"></script>
 
 </body>
 </html>
