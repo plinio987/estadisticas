@@ -1,5 +1,4 @@
 window.onload = function() {
-
     var chart = new CanvasJS.Chart("engagement", {
         animationEnabled: true,
         backgroundColor: "#fff",
@@ -44,7 +43,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 7.52 },
                     { x: new Date(2020, 3), y: 50.86 },
                     { x: new Date(2020, 4), y: 27.19 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 18.78 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -66,7 +65,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 3.36 },
                     { x: new Date(2020, 3), y: 3.76 },
                     { x: new Date(2020, 4), y: 3.22 },
-                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 5), y: 2.90 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
@@ -110,7 +109,7 @@ window.onload = function() {
         },
         data: [{
                 type: "splineArea",
-                name: "Promedio me gusta  ",
+                name: "Promedio me gusta",
                 markerBorderColor: "white",
                 color: "#F1931b",
                 markerBorderThickness: 2,
@@ -589,7 +588,6 @@ window.onload = function() {
     });
 
     chart6.render();
-
 
 
 

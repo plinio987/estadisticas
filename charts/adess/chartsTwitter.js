@@ -71,7 +71,7 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 2.87 },
                     { x: new Date(2020, 3), y: 0.52 },
                     { x: new Date(2020, 4), y: 0.80 },
-                    { x: new Date(2020, 5), y: 0.68 },
+                    { x: new Date(2020, 5), y: 0.71 },
                     { x: new Date(2020, 6), y: 0 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },

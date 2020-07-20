@@ -1,6 +1,5 @@
 window.onload = function() {
 
-
     var chart = new CanvasJS.Chart("engagement", {
         animationEnabled: true,
         backgroundColor: "#fff",
@@ -9,8 +8,8 @@ window.onload = function() {
             text: ""
         },
         axisX: {
-            valueFormatString: "%",
-            labelFontColor: "#222"
+            valueFormatString: "MMM",
+            labelFontColor: "#222",
         },
         axisY: {
 
@@ -37,7 +36,7 @@ window.onload = function() {
                 color: "#F1931b",
                 markerBorderThickness: 2,
                 showInLegend: true,
-                yValueFormatString: "###0.000'%'",
+                yValueFormatString: "###0.00'%'",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 28.18 },
@@ -60,7 +59,7 @@ window.onload = function() {
                 name: "Engagement rate",
                 color: "#D6618F",
                 showInLegend: true,
-                yValueFormatString: "###0.000'%'",
+                yValueFormatString: "###0.00'%'",
                 dataPoints: [
                     { x: new Date(2020, 0), y: 7.54 },
                     { x: new Date(2020, 1), y: 7.36 },
@@ -79,7 +78,6 @@ window.onload = function() {
         ]
     });
     chart.render();
-
 
     var chart20 = new CanvasJS.Chart("averagelikes", {
         animationEnabled: true,
