@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 4617 },
                     { x: new Date(2020, 4), y: 3947 },
                     { x: new Date(2020, 5), y: 18530 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 3926 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 2037 },
                     { x: new Date(2020, 4), y: 2064 },
                     { x: new Date(2020, 5), y: 8602 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 2260 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 1830 },
                     { x: new Date(2020, 4), y: 1837 },
                     { x: new Date(2020, 5), y: 5858 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 1893 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -280,10 +280,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 27.70, label: "Busqueda organica" },
-                { y: 50.20, label: "Directo" },
-                { y: 3.70, label: "Referido" },
-                { y: 18.40, label: "Social media" }
+                { y: 67.50, label: "Busqueda organica" },
+                { y: 17.80, label: "Directo" },
+                { y: 11.40, label: "Referido" },
+                { y: 3.30, label: "Social media" }
             ]
         }]
     });
@@ -320,7 +320,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 64.26 },
                 { x: new Date(2020, 4), y: 71.12 },
                 { x: new Date(2020, 5), y: 61.18 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 75.75 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -390,7 +390,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 137 },
                 { x: new Date(2020, 4), y: 127 },
                 { x: new Date(2020, 5), y: 156 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 107 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -471,7 +471,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 90.90 },
                     { x: new Date(2020, 4), y: 91.00 },
                     { x: new Date(2020, 5), y: 80.70 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 86.80 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -493,7 +493,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 9.10 },
                     { x: new Date(2020, 4), y: 9.00 },
                     { x: new Date(2020, 5), y: 19.30 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 13.20 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -525,8 +525,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 75.10, label: "Femenino" },
-                { y: 24.90, label: "Masculino" }
+                { y: 74.58, label: "Femenino" },
+                { y: 25.42, label: "Masculino" }
             ]
         }]
     });
@@ -548,12 +548,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 32.72, label: "Facebook" },
-                { y: 5.20, label: "Twitter" },
-                { y: 5.38, label: "Instagram Stories" },
-                { y: 56.08, label: "Instagram" },
-                { y: 0.09, label: "LinkedIn" },
-                { y: 0.53, label: "YouTube" }
+                { y: 23.81, label: "Facebook" },
+                { y: 3.17, label: "Twitter" },
+                { y: 9.52, label: "Instagram Stories" },
+                { y: 61.90, label: "Instagram" },
+                { y: 1.59, label: "YouTube" }
             ]
         }]
     });
@@ -610,11 +609,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 8.35 },
-                { label: "verano-virtual/", y: 67.24 },
-                { label: "yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 2.20 },
-                { label: "verano-virtual/martes-23-de-junio/", y: 1.79 },
-                { label: "la-bicicleta-verde-limon/", y: 1.22 }
+                { label: "Verano virtual", y: 27.2 },
+                { label: "yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 19.20 },
+                { label: "Landin Page", y: 8.76 },
+                { label: "lagrimas de cocodrilo", y: 2.96 },
+                { label: "bicivleta verde limon", y: 2.65 }
             ]
         }]
     });
@@ -642,11 +641,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 6.57 },
-                { label: "/verano-virtual/", y: 57.12 },
-                { label: "/verano-virtual/martes-23-de-junio/", y: 6.86 },
-                { label: "/verano-virtual/miercoles-24-de-junio/", y: 3.63 },
-                { label: "/verano-virtual/jueves-25-de-junio/", y: 3.03 }
+                { label: "Verano virtual", y: 25.64 },
+                { label: "yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 19.73 },
+                { label: "Landin Page", y: 6.55 },
+                { label: "lagrimas de cocodrilo", y: 2.95 },
+                { label: "bicivleta verde limon", y: 2.73 }
             ]
         }]
     });

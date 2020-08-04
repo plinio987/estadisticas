@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 111176 },
                     { x: new Date(2020, 4), y: 44445 },
                     { x: new Date(2020, 5), y: 22326 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 18608 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 76340 },
                     { x: new Date(2020, 4), y: 30579 },
                     { x: new Date(2020, 5), y: 14741 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 11665 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 56716 },
                     { x: new Date(2020, 4), y: 21245 },
                     { x: new Date(2020, 5), y: 10346 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 8646 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 81.10, label: "Referido" },
-                { y: 7.10, label: "Directo" },
-                { y: 11.20, label: "Busqueda organica" },
-                { y: 0.30, label: "Social media" }
+                { y: 72.00, label: "Referido" },
+                { y: 8.00, label: "Directo" },
+                { y: 19.00, label: "Busqueda organica" },
+                { y: 0.90, label: "Social media" }
             ]
         }]
     });
@@ -322,7 +322,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 77.34 },
                 { x: new Date(2020, 4), y: 76.90 },
                 { x: new Date(2020, 5), y: 75.34 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 73.62 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -392,7 +392,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 102 },
                 { x: new Date(2020, 4), y: 054 },
                 { x: new Date(2020, 5), y: 106 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 105 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -473,7 +473,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 74.00 },
                     { x: new Date(2020, 4), y: 60.70 },
                     { x: new Date(2020, 5), y: 59.20 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 64.40 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -495,7 +495,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 26.00 },
                     { x: new Date(2020, 4), y: 39.30 },
                     { x: new Date(2020, 5), y: 40.80 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 35.60 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 69.20, label: "Femenino" },
-                { y: 30.80, label: "Masculino" }
+                { y: 67.55, label: "Femenino" },
+                { y: 32.45, label: "Masculino" }
             ]
         }]
     });
@@ -608,11 +608,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 88.35 },
-                { label: "vicepresidenta-garantiza-proteccion-y-servicios-de-salud-a-mujeres-vulnerables-durante-pandemia/", y: 1.37 },
-                { label: "/punto-solidario/", y: 0.85 },
-                { label: "vicepresidencia-alerta-estafadores-ofrecen-tarjetas-progresando-con-solidaridad-y-subsidios-especiales/gab1-5/", y: 0.60 },
-                { label: "/el-gabinete-social/quienes-somos/", y: 0.52 }
+                { label: "Landin Page", y: 82.74 },
+                { label: "Transperencia/", y: 1.65 },
+                { label: "/composicion del gabinete", y: 1.30 },
+                { label: "Contacto", y: 0.74 },
+                { label: "/Proteccion social", y: 1.08 }
             ]
         }]
     });
@@ -641,11 +641,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 83.46 },
-                { label: "vicepresidenta-garantiza-proteccion-y-servicios-de-salud-a-mujeres-vulnerables-durante-pandemia/", y: 2.72 },
-                { label: "/punto-solidario/", y: 0.78 },
-                { label: "Contacto", y: 0.59 },
-                { label: "/el-gabinete-social/quienes-somos/", y: 0.59 }
+                { label: "Landin Page", y: 75.96 },
+                { label: "Quienes somos", y: 1.67 },
+                { label: "red-de-proteccion-social/", y: 2.38 },
+                { label: "Composicion del gabinete", y: 1.57 },
+                { label: "/Transparencia", y: 1.34 }
 
 
 

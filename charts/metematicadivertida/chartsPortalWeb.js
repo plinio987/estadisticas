@@ -46,8 +46,8 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 9851 },
                     { x: new Date(2020, 3), y: 3080 },
                     { x: new Date(2020, 4), y: 2627 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 5), y: 1311 },
+                    { x: new Date(2020, 6), y: 1445 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -69,8 +69,8 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 2010 },
                     { x: new Date(2020, 3), y: 724 },
                     { x: new Date(2020, 4), y: 675 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 5), y: 328 },
+                    { x: new Date(2020, 6), y: 349 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -90,8 +90,8 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 1416 },
                     { x: new Date(2020, 3), y: 530 },
                     { x: new Date(2020, 4), y: 461 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 5), y: 200 },
+                    { x: new Date(2020, 6), y: 261 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -282,11 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 73.80, label: "Busqueda organica" },
-                { y: 12.70, label: "Directo" },
-                { y: 1.60, label: "Referido" },
-                { y: 2.20, label: "Paid search" },
-                { y: 9.70, label: "Social media" }
+                { y: 4.20, label: "Busqueda organica" },
+                { y: 60.50, label: "Directo" },
+                { y: 10.30, label: "Referido" },
+                { y: 24.90, label: "Social media" }
             ]
         }]
     });
@@ -322,8 +321,8 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 35.97 },
                 { x: new Date(2020, 3), y: 40.06 },
                 { x: new Date(2020, 4), y: 43.70 },
-                { x: new Date(2020, 5), y: 0 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 5), y: 40.24 },
+                { x: new Date(2020, 6), y: 44.70 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -392,8 +391,8 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 629 },
                 { x: new Date(2020, 3), y: 524 },
                 { x: new Date(2020, 4), y: 411 },
-                { x: new Date(2020, 5), y: 0 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 5), y: 419 },
+                { x: new Date(2020, 6), y: 521 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -473,8 +472,8 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 82.70 },
                     { x: new Date(2020, 3), y: 76.20 },
                     { x: new Date(2020, 4), y: 75.00 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 5), y: 75.80 },
+                    { x: new Date(2020, 6), y: 80.70 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -495,8 +494,8 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 17.30 },
                     { x: new Date(2020, 3), y: 23.80 },
                     { x: new Date(2020, 4), y: 25.00 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 5), y: 24.20 },
+                    { x: new Date(2020, 6), y: 19.30 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -528,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.30, label: "Femenino" },
-                { y: 28.70, label: "Masculino" }
+                { y: 61.68, label: "Femenino" },
+                { y: 38.32, label: "Masculino" }
             ]
         }]
     });
@@ -551,10 +550,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 44.33, label: "Facebook" },
-                { y: 20.96, label: "Twitter" },
-                { y: 27.84, label: "Instagram Stories" },
-                { y: 6.87, label: "Instagram" }
+                { y: 58.14, label: "Facebook" },
+                { y: 19.77, label: "Twitter" },
+                { y: 18.60, label: "YouTube" },
+                { y: 2.33, label: "Instagram Stories" },
+                { y: 1.16, label: "Instagram" }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.93 },
-                { label: "/Embarazo adolescentes una maquina reproduccion la pobreza", y: 8.20 },
-                { label: "/Desigualdad social", y: 4.48 },
-                { label: "/Margarita Cedeño", y: 2.67 },
-                { label: "/Urgencia Climatica", y: 2.38 }
+                { label: "Landin Page", y: 73.07 },
+                { label: "/Registro", y: 6.02 },
+                { label: "/Grado/3", y: 3.15 },
+                { label: "/Grado/2", y: 2.58 },
+                { label: "/Grado/1", y: 2.29 }
             ]
         }]
     });
@@ -644,12 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 13.07 },
-                { label: "/Embarazo adolescentes una maquina de reproduccion de pobreza", y: 8.43 },
-                { label: "Que paso en Chile", y: 9.70 },
-                { label: "Cayo el muro", y: 3.26 },
-                { label: "/vicerdo/vicepresidenta/margarita-cedeno-lizardo/", y: 3.40 }
-
+                { label: "Landin Page", y: 37.25 },
+                { label: "/Registro", y: 15.76 },
+                { label: "/Grado/6", y: 9.17 },
+                { label: "/Grado/2", y: 6.02 },
+                { label: "/Grado/1", y: 5.73 }
 
 
             ]

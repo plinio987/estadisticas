@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 283476 },
                     { x: new Date(2020, 4), y: 115145 },
                     { x: new Date(2020, 5), y: 57844 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 56379 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 171084 },
                     { x: new Date(2020, 4), y: 72265 },
                     { x: new Date(2020, 5), y: 38181 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 36338 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 124827 },
                     { x: new Date(2020, 4), y: 52289 },
                     { x: new Date(2020, 5), y: 29260 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 28225 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 39.20, label: "Busqueda organica" },
-                { y: 8.90, label: "Directo" },
-                { y: 48.60, label: "Referido" },
-                { y: 3.30, label: "Social media" }
+                { y: 41.80, label: "Busqueda organica" },
+                { y: 9.20, label: "Directo" },
+                { y: 45.70, label: "Referido" },
+                { y: 3.40, label: "Social media" }
             ]
         }]
     });
@@ -322,7 +322,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 68.85 },
                 { x: new Date(2020, 4), y: 68.99 },
                 { x: new Date(2020, 5), y: 75.48 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 74.45 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -392,7 +392,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 130 },
                 { x: new Date(2020, 4), y: 166 },
                 { x: new Date(2020, 5), y: 107 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 107 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -473,7 +473,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 81.70 },
                     { x: new Date(2020, 4), y: 75.00 },
                     { x: new Date(2020, 5), y: 76.00 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 77.70 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -495,7 +495,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 18.30 },
                     { x: new Date(2020, 4), y: 25.00 },
                     { x: new Date(2020, 5), y: 24.00 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 23.30 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.80, label: "Femenino" },
-                { y: 28.20, label: "Masculino" }
+                { y: 71.26, label: "Femenino" },
+                { y: 28.74, label: "Masculino" }
             ]
         }]
     });
@@ -550,10 +550,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 93.90, label: "Facebook" },
-                { y: 3.80, label: "Twitter" },
-                { y: 2.10, label: "Instagram" },
-                { y: 0.20, label: "YouTube" }
+                { y: 94.38, label: "Facebook" },
+                { y: 3.11, label: "Twitter" },
+                { y: 2.51, label: "Instagram" }
+
             ]
         }]
     });
@@ -610,11 +610,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 72.98 },
-                { label: "Contacto", y: 3.83 },
-                { label: "Tarjetas solidaridad", y: 2.38 },
-                { label: "Tag/Prosoli", y: 1.76 },
-                { label: "Noticias", y: 1.58 }
+                { label: "Landin Page", y: 69.36 },
+                { label: "Contacto", y: 4.45 },
+                { label: "Tarjetas solidaridad", y: 2.63 },
+                { label: "Tag/Prosoli", y: 2.28 },
+                { label: "Noticias", y: 1.43 }
             ]
         }]
     });
@@ -643,11 +643,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 72.03 },
-                { label: "Contacto", y: 4.30 },
-                { label: "Tarjetas solidaridad", y: 2.07 },
-                { label: "Tag/Prosoli", y: 1.296 },
-                { label: "Noticias", y: 1.43 }
+                { label: "Landin Page", y: 68.42 },
+                { label: "Contacto", y: 4.89 },
+                { label: "Tarjetas solidaridad", y: 2.23 },
+                { label: "Tag/Prosoli", y: 1.71 },
+                { label: "Noticias", y: 1.41 }
             ]
         }]
     });

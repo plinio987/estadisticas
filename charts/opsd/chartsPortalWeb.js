@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 1511 },
                     { x: new Date(2020, 4), y: 1129 },
                     { x: new Date(2020, 5), y: 1144 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 1268 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 927 },
                     { x: new Date(2020, 4), y: 748 },
                     { x: new Date(2020, 5), y: 679 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 732 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 789 },
                     { x: new Date(2020, 4), y: 635 },
                     { x: new Date(2020, 5), y: 574 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 619 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -240,10 +240,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 55.40, label: "Busqueda organica" },
-                { y: 40.90, label: "Directo" },
-                { y: 1.40, label: "Referido" },
-                { y: 2.20, label: "Social media" }
+                { y: 55.30, label: "Busqueda organica" },
+                { y: 41.20, label: "Directo" },
+                { y: 1.60, label: "Referido" },
+                { y: 1.90, label: "Social media" }
             ]
         }]
     });
@@ -280,7 +280,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 66.45 },
                 { x: new Date(2020, 4), y: 76.07 },
                 { x: new Date(2020, 5), y: 75.11 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 74.86 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -350,7 +350,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 149 },
                 { x: new Date(2020, 4), y: 109 },
                 { x: new Date(2020, 5), y: 104 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 136 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -431,7 +431,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 87.40 },
                     { x: new Date(2020, 4), y: 88.30 },
                     { x: new Date(2020, 5), y: 85.70 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 88.00 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -453,7 +453,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 12.60 },
                     { x: new Date(2020, 4), y: 11.70 },
                     { x: new Date(2020, 5), y: 14.30 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 12.00 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -485,8 +485,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 64.40, label: "Femenino" },
-                { y: 35.60, label: "Masculino" }
+                { y: 66.44, label: "Femenino" },
+                { y: 33.56, label: "Masculino" }
             ]
         }]
     });
@@ -567,11 +567,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 33.73 },
-                { label: "/boletines/", y: 18.41 },
-                { label: "la-seguridad-ciudadana-en-república-dominicana-la-otra-cara-de-la-moneda/", y: 8.28 },
-                { label: "/pensiones-en-república-dominicana-ahorrar-toda-la-vida-para-seguir-trabajando/", y: 7.95 },
-                { label: "panel-pobreza-y-bienestar-en-la-república-dominicana/", y: 2.508 }
+                { label: "Landin Page", y: 25.16 },
+                { label: "/boletines/", y: 23.50 },
+                { label: "/Noticias", y: 16.80 },
+                { label: "/seguimiento/", y: 11.83 },
+                { label: "/Investigaciones/", y: 8.28 }
             ]
         }]
     });
@@ -600,11 +600,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 22.09 },
-                { label: "/boletines/", y: 22.09 },
-                { label: "la-seguridad-ciudadana-en-república-dominicana-la-otra-cara-de-la-moneda/", y: 8.25 },
-                { label: "pensiones-en-república-dominicana-ahorrar-toda-la-vida-para-seguir-trabajando/", y: 8.25 },
-                { label: "quiénes-somos/", y: 3.83 }
+                { label: "Landin Page", y: 31.28 },
+                { label: "/La otra cara de la moneda", y: 10.25 },
+                { label: "/ahorrar toda la vide para seguir trabajando", y: 3.42 },
+                { label: "/Quienes somos", y: 2.73 },
+                { label: "/indicadores social", y: 1.91 }
 
 
 

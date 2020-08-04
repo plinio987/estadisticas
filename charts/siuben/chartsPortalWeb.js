@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 539079 },
                     { x: new Date(2020, 4), y: 156352 },
                     { x: new Date(2020, 5), y: 87703 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 80821 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 226174 },
                     { x: new Date(2020, 4), y: 76889 },
                     { x: new Date(2020, 5), y: 39957 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 34884 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 150294 },
                     { x: new Date(2020, 4), y: 52751 },
                     { x: new Date(2020, 5), y: 29913 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 26926 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -282,10 +282,11 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 45.20, label: "Busqueda organica" },
-                { y: 7.80, label: "Directo" },
-                { y: 46.00, label: "Referido" },
-                { y: 0.90, label: "Social media" }
+                { y: 44.20, label: "Busqueda organica" },
+                { y: 8.00, label: "Directo" },
+                { y: 44.60, label: "Referido" },
+                { y: 3.30, label: "Referido" }
+
             ]
         }]
     });
@@ -322,7 +323,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 55.21 },
                 { x: new Date(2020, 4), y: 59.64 },
                 { x: new Date(2020, 5), y: 57.31 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 56.91 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -392,7 +393,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 219 },
                 { x: new Date(2020, 4), y: 131 },
                 { x: new Date(2020, 5), y: 123 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 126 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -473,7 +474,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 77.30 },
                     { x: new Date(2020, 4), y: 67.90 },
                     { x: new Date(2020, 5), y: 71.40 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 72.00 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -495,7 +496,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 22.70 },
                     { x: new Date(2020, 4), y: 32.10 },
                     { x: new Date(2020, 5), y: 28.60 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 28.00 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -527,8 +528,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.20, label: "Femenino" },
-                { y: 28.80, label: "Masculino" }
+                { y: 71.21, label: "Femenino" },
+                { y: 28.79, label: "Masculino" }
             ]
         }]
     });
@@ -550,11 +551,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 89.24, label: "Facebook" },
-                { y: 5.56, label: "Twitter" },
-                { y: 0.69, label: "YouTube" },
-                { y: 0.35, label: "LinkedIn" },
-                { y: 4.17, label: "Instagram" }
+                { y: 90.99, label: "Facebook" },
+                { y: 6.41, label: "Twitter" },
+                { y: 0.11, label: "LinkedIn" },
+                { y: 2.50, label: "Instagram" }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 61.446 },
-                { label: "/consultas/", y: 27.03 },
-                { label: "/consultas/autoservicio-de-datos/", y: 4.04 },
-                { label: "/contacto/", y: 0.82 },
-                { label: "/consultas/entrevistador/", y: 1.73 }
+                { label: "Landin Page", y: 40.86 },
+                { label: "/consultas/", y: 26.59 },
+                { label: "/consultas/entrevistador/", y: 3.76 },
+                { label: "/Autoservicio", y: 2.99 },
+                { label: "/sobre nosotros", y: 1.67 }
             ]
         }]
     });
@@ -644,11 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 58.50 },
-                { label: "/consultas/", y: 21.92 },
-                { label: "/consultas/autoservicio-de-datos/", y: 4.75 },
-                { label: "/autoservicio/", y: 2.05 },
-                { label: "/consultas/codigo-entrevistador ", y: 2.24 }
+                { label: "Landing page", y: 57.46 },
+                { label: "/consultas/", y: 24.99 },
+                { label: "/consultas/autoservicio-de-datos/", y: 4.27 },
+                { label: "/autoservicio/", y: 1.28 },
+                { label: "/consultas/codigo-entrevistador ", y: 2.27 }
 
 
 

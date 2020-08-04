@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 41488 },
                     { x: new Date(2020, 4), y: 13623 },
                     { x: new Date(2020, 5), y: 6488 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 7892 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 15585 },
                     { x: new Date(2020, 4), y: 6169 },
                     { x: new Date(2020, 5), y: 2948 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 3739 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 4094 },
                     { x: new Date(2020, 4), y: 4911 },
                     { x: new Date(2020, 5), y: 1876 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 2195 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 60.80, label: "Busqueda organica" },
-                { y: 28.90, label: "Directo" },
-                { y: 7.00, label: "Referido" },
-                { y: 3.30, label: "Social media" }
+                { y: 64.60, label: "Busqueda organica" },
+                { y: 27.60, label: "Directo" },
+                { y: 5.00, label: "Referido" },
+                { y: 2.80, label: "Social media" }
             ]
         }]
     });
@@ -321,8 +321,8 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 47.38 },
                 { x: new Date(2020, 3), y: 50.47 },
                 { x: new Date(2020, 4), y: 64.74 },
-                { x: new Date(2020, 5), y: 0 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 5), y: 62.21 },
+                { x: new Date(2020, 6), y: 62.45 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -391,8 +391,8 @@ window.onload = function() {
                 { x: new Date(2020, 2), y: 838 },
                 { x: new Date(2020, 3), y: 654 },
                 { x: new Date(2020, 4), y: 224 },
-                { x: new Date(2020, 5), y: 0 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 5), y: 241 },
+                { x: new Date(2020, 6), y: 257 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -472,8 +472,8 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 67.50 },
                     { x: new Date(2020, 3), y: 50.00 },
                     { x: new Date(2020, 4), y: 86.50 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 5), y: 74.20 },
+                    { x: new Date(2020, 6), y: 73.30 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -494,8 +494,8 @@ window.onload = function() {
                     { x: new Date(2020, 2), y: 32.50 },
                     { x: new Date(2020, 3), y: 50.00 },
                     { x: new Date(2020, 4), y: 13.50 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 5), y: 25.80 },
+                    { x: new Date(2020, 6), y: 26.70 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 62.20, label: "Femenino" },
-                { y: 37.80, label: "Masculino" }
+                { y: 60.25, label: "Femenino" },
+                { y: 39.75, label: "Masculino" }
             ]
         }]
     });
@@ -550,9 +550,9 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 80.95, label: "Facebook" },
-                { y: 15.87, label: "Twitter" },
-                { y: 3.17, label: "Instagram" }
+                { y: 74.60, label: "Facebook" },
+                { y: 23.81, label: "Twitter" },
+                { y: 1.59, label: "Instagram" }
             ]
         }]
     });
@@ -609,10 +609,10 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 67.03 },
-                { label: "/oferta-formativa/ ", y: 4.31 },
-                { label: "/sobre-nosotros/margarita-cedeno-lizardo/", y: 3.36 },
-                { label: "/servicios/radio-ctc/", y: 2.41 },
+                { label: "Landing page", y: 71.28 },
+                { label: "/oferta-formativa/ ", y: 3.24 },
+                { label: "/sobre-nosotros/margarita-cedeno-lizardo/", y: 3.18 },
+                { label: "/mujeres-en-tic", y: 1.39 },
                 { label: "/sobre-nosotros/historia/", y: 2.27 }
 
             ]
@@ -643,11 +643,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 54.78 },
-                { label: "/oferta-formativa/ ", y: 7.39 },
-                { label: "/sobre-nosotros/margarita-cedeno-lizardo/", y: 3.36 },
-                { label: "/sobre-nosotros/quienes-somos/", y: 2.82 },
-                { label: "/sobre-nosotros/historia/", y: 2.48 }
+                { label: "Landing page", y: 62.74 },
+                { label: "/oferta-formativa/ ", y: 4.84 },
+                { label: "/sobre-nosotros/margarita-cedeno-lizardo/", y: 3.24 },
+                { label: "/sobre-nosotros/quienes-somos/", y: 2.09 },
+                { label: "/sobre-nosotros/historia/", y: 2.35 }
 
 
 

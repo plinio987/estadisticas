@@ -327,7 +327,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts/chartsGeneral.js"></script>
+<script type="text/javascript" src="charts/chartsGeneral.js"></script>
 
 <!------ Include the above in your HEAD tag ---------->
 

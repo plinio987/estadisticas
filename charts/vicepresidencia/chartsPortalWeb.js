@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 423648 },
                     { x: new Date(2020, 4), y: 113774 },
                     { x: new Date(2020, 5), y: 43767 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 34729 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 226808 },
                     { x: new Date(2020, 4), y: 66359 },
                     { x: new Date(2020, 5), y: 28779 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 22300 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 162288 },
                     { x: new Date(2020, 4), y: 46191 },
                     { x: new Date(2020, 5), y: 20854 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 17535 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 19.90, label: "Busqueda organica" },
-                { y: 72.70, label: "Directo" },
-                { y: 4.40, label: "Referido" },
-                { y: 3.00, label: "Social media" }
+                { y: 22.50, label: "Busqueda organica" },
+                { y: 69.30, label: "Directo" },
+                { y: 4.90, label: "Referido" },
+                { y: 3.30, label: "Social media" }
             ]
         }]
     });
@@ -322,7 +322,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 66.87 },
                 { x: new Date(2020, 4), y: 67.65 },
                 { x: new Date(2020, 5), y: 76.84 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 76.12 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -392,7 +392,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 140 },
                 { x: new Date(2020, 4), y: 133 },
                 { x: new Date(2020, 5), y: 117 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 108 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -473,7 +473,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 82.30 },
                     { x: new Date(2020, 4), y: 72.60 },
                     { x: new Date(2020, 5), y: 74.20 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 77.50 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -495,7 +495,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 17.70 },
                     { x: new Date(2020, 4), y: 27.40 },
                     { x: new Date(2020, 5), y: 25.80 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 22.50 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 70.20, label: "Femenino" },
-                { y: 29.80, label: "Masculino" }
+                { y: 68.49, label: "Femenino" },
+                { y: 31.51, label: "Masculino" }
             ]
         }]
     });
@@ -550,11 +550,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 66.72, label: "Facebook" },
-                { y: 25.12, label: "Twitter" },
-                { y: 4.96, label: "Instagram Stories" },
-                { y: 2.40, label: "Instagram" },
-                { y: 0.48, label: "YouTube" }
+                { y: 63.01, label: "Facebook" },
+                { y: 30.57, label: "Twitter" },
+                { y: 3.55, label: "Instagram Stories" },
+                { y: 2.53, label: "Instagram" },
+                { y: 0.17, label: "LinkedIn" } { y: 0.17, label: "YouTube" }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 79.45 },
-                { label: "jovenes-comprometidos-con-la-defensa-del-medioambiente/", y: 1.08 },
-                { label: "Madres de valor", y: 0.80 },
-                { label: "/Margarita Cedeño", y: 2.18 },
-                { label: "/Vicepresidenta funciones", y: 0.67 }
+                { label: "Landin Page", y: 79.28 },
+                { label: "Margarita Cedeño/", y: 2.13 },
+                { label: "Funciones", y: 1.27 },
+                { label: "/Contacto", y: 0.93 },
+                { label: "Triunfo de la democracia", y: 0.87 }
             ]
         }]
     });
@@ -644,11 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landing page", y: 75.66 },
-                { label: "/vicerdo/contacto/", y: 1.14 },
-                { label: "vicepresidenta/escribele/", y: 1.25 },
-                { label: "Tiempo solidario", y: 1.37 },
-                { label: "vicepresidenta/margarita-cedeno-lizardo/", y: 2.15 }
+                { label: "Landing page", y: 79.28 },
+                { label: "/vicerdo/contacto/", y: 0.93 },
+                { label: "Triunfo de la democracia", y: 1.27 },
+                { label: "Funciones", y: 1.27 },
+                { label: "vicepresidenta/margarita-cedeno-lizardo/", y: 2.13 }
 
 
 

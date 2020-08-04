@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 44 },
                     { x: new Date(2020, 4), y: 170 },
                     { x: new Date(2020, 5), y: 235 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 210 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 16 },
                     { x: new Date(2020, 4), y: 55 },
                     { x: new Date(2020, 5), y: 86 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 66 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 13 },
                     { x: new Date(2020, 4), y: 44 },
                     { x: new Date(2020, 5), y: 59 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 59 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -281,10 +281,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 23.00, label: "Busqueda organica" },
-                { y: 24.60, label: "Directo" },
-                { y: 3.30, label: "Referido" },
-                { y: 49.20, label: "Social media" }
+                { y: 16.90, label: "Busqueda organica" },
+                { y: 16.90, label: "Directo" },
+                { y: 68.10, label: "Social media" }
             ]
         }]
     });
@@ -321,7 +320,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 68.750 },
                 { x: new Date(2020, 4), y: 52.730 },
                 { x: new Date(2020, 5), y: 50.00 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 46.97 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -391,7 +390,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 315 },
                 { x: new Date(2020, 4), y: 209 },
                 { x: new Date(2020, 5), y: 220 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 228 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -470,9 +469,9 @@ window.onload = function() {
                     { x: new Date(2020, 1), y: 100 },
                     { x: new Date(2020, 2), y: 75 },
                     { x: new Date(2020, 3), y: 83 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 4), y: 92 },
                     { x: new Date(2020, 5), y: 22.90 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 88.70 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -492,9 +491,9 @@ window.onload = function() {
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 25 },
                     { x: new Date(2020, 3), y: 17 },
-                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 4), y: 8 },
                     { x: new Date(2020, 5), y: 77.10 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 11.30 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -548,8 +547,9 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 76.67, label: "Facebook" },
-                { y: 23.33, label: "Instagram" }
+                { y: 46.15, label: "Facebook" },
+                { y: 25.64, label: "Twitter" },
+                { y: 28.21, label: "Instagram" }
             ]
         }]
     });
@@ -606,11 +606,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 50.00 },
-                { label: "/versospreventivoschallenge/", y: 30.23 },
-                { label: "/jovenes-que-progresan/", y: 8.14 },
-                { label: "/sobre-nosotros/", y: 2.33 },
-                { label: "Contacto", y: 1.16 }
+                { label: "Landin Page", y: 62.12 },
+                { label: "/versospreventivoschallenge/", y: 16.67 },
+                { label: "/jovenes-que-progresan/", y: 9.09 },
+                { label: "/sobre-nosotros/", y: 4.55 },
+                { label: "Conferencias", y: 1.52 }
             ]
         }]
     });
@@ -639,11 +639,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 45.35 },
-                { label: "/versospreventivoschallenge/", y: 25.58 },
-                { label: "/estas-dentro/", y: 6.98 },
-                { label: "/jovenes-que-progresan/", y: 5.81 },
-                { label: "/quiero-progresar/", y: 2.33 }
+                { label: "Landin Page", y: 48.48 },
+                { label: "/versospreventivoschallenge/", y: 10.61 },
+                { label: "/jovenes-que-progresan/", y: 9.09 },
+                { label: "/Sobre Nosotros", y: 9.09 },
+                { label: "/quiero-progresar/", y: 7.58 }
             ]
         }]
     });

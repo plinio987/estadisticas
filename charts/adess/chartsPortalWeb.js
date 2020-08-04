@@ -47,7 +47,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 1081408 },
                     { x: new Date(2020, 4), y: 425125 },
                     { x: new Date(2020, 5), y: 339591 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 421726 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -70,7 +70,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 373102 },
                     { x: new Date(2020, 4), y: 151441 },
                     { x: new Date(2020, 5), y: 112038 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 127138 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -91,7 +91,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 241238 },
                     { x: new Date(2020, 4), y: 102923 },
                     { x: new Date(2020, 5), y: 80044 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 89447 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 70.20, label: "Busqueda organica" },
-                { y: 27.80, label: "Directo" },
-                { y: 0.80, label: "Referido" },
-                { y: 1.50, label: "Social media" }
+                { y: 70.30, label: "Busqueda organica" },
+                { y: 24.50, label: "Directo" },
+                { y: 0.90, label: "Referido" },
+                { y: 4.30, label: "Social media" }
             ]
         }]
     });
@@ -322,7 +322,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 49.35 },
                 { x: new Date(2020, 4), y: 50.40 },
                 { x: new Date(2020, 5), y: 47.69 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 45.65 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -392,7 +392,7 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 325 },
                 { x: new Date(2020, 4), y: 241 },
                 { x: new Date(2020, 5), y: 240 },
-                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 6), y: 257 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -473,7 +473,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 76.80 },
                     { x: new Date(2020, 4), y: 68.60 },
                     { x: new Date(2020, 5), y: 69.80 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 69.40 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -495,7 +495,7 @@ window.onload = function() {
                     { x: new Date(2020, 3), y: 24.20 },
                     { x: new Date(2020, 4), y: 31.40 },
                     { x: new Date(2020, 5), y: 30.20 },
-                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 6), y: 30.60 },
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 70.30, label: "Femenino" },
-                { y: 29.70, label: "Masculino" }
+                { y: 70.80, label: "Femenino" },
+                { y: 29.20, label: "Masculino" }
             ]
         }]
     });
@@ -550,11 +550,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 83.21, label: "Facebook" },
-                { y: 5.03, label: "Twitter" },
-                { y: 0.36, label: "Instagram Stories" },
-                { y: 1.53, label: "Instagram" },
-                { y: 9.87, label: "YouTube" }
+                { y: 93.00, label: "Facebook" },
+                { y: 2.87, label: "Twitter" },
+                { y: 0.08, label: "Instagram Stories" },
+                { y: 0.71, label: "Instagram" },
+                { y: 3.35, label: "YouTube" }
             ]
         }]
     });
@@ -611,11 +611,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 45.54 },
-                { label: "/subsidios-sociales/consultar-participante/", y: 35.63 },
-                { label: "/servicios/consultar-beneficiario/", y: 12.75 },
-                { label: "/subsidios-sociales/sistema-de-pago/", y: 8.61 },
-                { label: "/subsidios/programa-comer-es-primero/", y: 2.29 }
+                { label: "Landin Page", y: 25.69 },
+                { label: "/subsidios-sociales/consultar-participante/", y: 33.38 },
+                { label: "/servicios/consultar-beneficiario/", y: 10.24 },
+                { label: "/subsidios-sociales/sistema-de-pago/", y: 8.54 },
+                { label: "/subsidios/depositados/", y: 2.54 }
             ]
         }]
     });
@@ -644,11 +644,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "/Landing page", y: 20.15 },
-                { label: "/subsidios-sociales/consultar-participante/", y: 31.41 },
-                { label: "/servicios/consultar-beneficiario/", y: 10.61 },
-                { label: "/subsidios-sociales/sistema-de-pago/", y: 6.54 },
-                { label: "/subsidios-sociales/subsidios-depositados/", y: 2.66 }
+                { label: "/Landing page", y: 25.16 },
+                { label: "/subsidios-sociales/consultar-participante/", y: 29.56 },
+                { label: "/servicios/consultar-beneficiario/", y: 8.46 },
+                { label: "/subsidios-sociales/sistema-de-pago/", y: 6.80 },
+                { label: "/subsidios-sociales/subsidios-depositados/", y: 3.04 }
 
 
 
