@@ -554,7 +554,7 @@ window.onload = function() {
                 { y: 30.57, label: "Twitter" },
                 { y: 3.55, label: "Instagram Stories" },
                 { y: 2.53, label: "Instagram" },
-                { y: 0.17, label: "LinkedIn" } { y: 0.17, label: "YouTube" }
+                { y: 0.17, label: "LinkedIn" }
             ]
         }]
     });
