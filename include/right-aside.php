@@ -4,13 +4,13 @@
                 <ul class="m-t-20 chatonline">
                     <li><h3>Institucionales</h3></li>
                     <li>
-                        <a href="https://vicepresidencia.gob.do/" target=”_blank”>Vicepresidencia <span> <small class="text-success">online</small></span></a>
-                    </li>
-                    <li>
                         <a href="https://gabinetesocial.gob.do/" target=”_blank”>Gab Social <span> <small class="text-success">online</small></span></a>
                     </li>
                     <li>
                         <a href="https://progresandoconsolidaridad.gob.do/" target=”_blank”>Prosoli <span> <small class="text-success">online</small></span></a>
+                    </li>
+                    <li>
+                        <a href="https://vicepresidencia.gob.do/" target=”_blank”>Vicepresidencia <span> <small class="text-success">online</small></span></a>
                     </li>
                     <li>
                         <a href="http://www.adess.gob.do/" target=”_blank”>Adess <span> <small class="text-success">online</small></span></a>

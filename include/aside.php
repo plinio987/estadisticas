@@ -22,59 +22,15 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <li class="nav-item has-treeview">
-                    <a href="vicepresidencia.php" class="nav-link">
-                    <i class="far fa-circle nav-icon text-primary"></i>
-                      <p> Vicepresidencia<i class="right fas fa-angle-left"></i></p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="vicepresidencia.php" class="nav-link">
-                        <i class="fa fa-home nav-icon text-primary"></i>
-                          <p>Home</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="vice-facebook.php" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                          <p>Facebook</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="vice-twitter.php" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                            <p>Twitter</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="vice-instagram.php" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                            <p>Instagram</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="vice-youtube.php" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                            <p>YouTube</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="vice-portal.php" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                            <p>Portal web</p>
-                        </a>
-                      </li>
-                    </ul>
-                </li>
                 <li class="nav-item has-treeview">
                     <a href="gabsocial.php" class="nav-link">
-                    <i class="far fa-circle nav-icon text-morado"></i>
+                    <i class="far fa-circle nav-icon text-primary"></i>
                       <p> Gabinete Social<i class="right fas fa-angle-left"></i></p>
                     </a>
                     <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="gabsocial.php" class="nav-link">
-                        <i class="fa fa-home nav-icon text-morado"></i>
+                        <i class="fa fa-home nav-icon text-primary"></i>
                           <p>Home</p>
                         </a>
                       </li>
@@ -124,6 +80,50 @@
                       </li>
                       <li class="nav-item">
                         <a href="prosoli-portal.php" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                            <p>Portal web</p>
+                        </a>
+                      </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="vicepresidencia.php" class="nav-link">
+                    <i class="far fa-circle nav-icon  text-morado"></i>
+                      <p> Vicepresidencia<i class="right fas fa-angle-left"></i></p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="vicepresidencia.php" class="nav-link">
+                        <i class="fa fa-home nav-icon text-morado"></i>
+                          <p>Home</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="vice-facebook.php" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                          <p>Facebook</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="vice-twitter.php" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                            <p>Twitter</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="vice-instagram.php" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                            <p>Instagram</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="vice-youtube.php" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                            <p>YouTube</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="vice-portal.php" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
                             <p>Portal web</p>
                         </a>
