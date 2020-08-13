@@ -282,7 +282,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                 Total seguidores
+                 Total Engagement
                 </h3>
                 <div class="card-tools">
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
@@ -292,7 +292,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <div id="totalSeguidores" style="height: 300px;"></div>
+                <div id="engagement" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>

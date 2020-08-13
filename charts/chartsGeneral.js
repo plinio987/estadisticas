@@ -82,7 +82,7 @@ window.onload = function() {
     });
     chart1.render();
 
-    var chart2 = new CanvasJS.Chart("totalSeguidores", {
+    var chart2 = new CanvasJS.Chart("engagement", {
         colorset: "#3CB371",
         backgroundColor: "#fff",
         //exportEnabled: true,
@@ -114,9 +114,10 @@ window.onload = function() {
         },
         data: [{
             indexLabelFontColor: "darkSlateGray",
-            type: "column",
+            type: "splineArea",
             name: "Engagement general",
             showInLegend: true,
+            color: "#bed905",
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "###0.00'%'",
             dataPoints: [
