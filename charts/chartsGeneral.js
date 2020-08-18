@@ -107,8 +107,8 @@ var chart7 = new CanvasJS.Chart("engagement", {
     data: [{
         type: "splineArea",
         xValueFormatString: "MMM, YYYY",
-        yValueFormatString: "#,###",
-        color: "#ff662a",
+        yValueFormatString: "###0.00'%'",
+        color: "#0aaff1",
         dataPoints: [
             { x: new Date(2020, 0), y: 43.50 },
             { x: new Date(2020, 1), y: 35.37 },
