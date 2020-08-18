@@ -32,7 +32,7 @@ var chart3 = new CanvasJS.Chart("alcanceGeneral", {
     data: [{
             type: "splineArea",
             name: "Alcance total",
-            color: "#82ac26",
+            color: "#0aaff1",
             showInLegend: true,
             yValueFormatString: "#,###",
             dataPoints: [
@@ -127,3 +127,23 @@ var chart7 = new CanvasJS.Chart("engagement", {
 });
 
 chart7.render();
+
+function addSymbols(e) {
+    var suffixes = ["", "K", "M", "B"];
+    var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);
+
+    if (order > suffixes.length - 1)
+        order = suffixes.length - 1;
+
+    var suffix = suffixes[order];
+    return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
+}
+
+function toggleDataSeries(e) {
+    if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+        e.dataSeries.visible = false;
+    } else {
+        e.dataSeries.visible = true;
+    }
+    e.chart.render();
+}
