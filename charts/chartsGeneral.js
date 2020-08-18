@@ -1,4 +1,4 @@
-var chart1 = new CanvasJS.Chart("alcanceGeneral", {
+var chart3 = new CanvasJS.Chart("alcanceGeneral", {
     animationEnabled: true,
     backgroundColor: "#fff",
     //theme: "light2",
@@ -6,7 +6,6 @@ var chart1 = new CanvasJS.Chart("alcanceGeneral", {
         text: "",
         fontSize: 20,
         fontFamily: "arial",
-
     },
     axisX: {
         valueFormatString: "MMM",
@@ -31,19 +30,19 @@ var chart1 = new CanvasJS.Chart("alcanceGeneral", {
 
     },
     data: [{
-            type: "column",
-            name: "Alcance General",
-            color: "#ff662a",
+            type: "splineArea",
+            name: "Alcance total",
+            color: "#82ac26",
             showInLegend: true,
             yValueFormatString: "#,###",
             dataPoints: [
-                { x: new Date(2020, 0), y: 4214005 },
-                { x: new Date(2020, 1), y: 4372873 },
-                { x: new Date(2020, 2), y: 4223235 },
-                { x: new Date(2020, 3), y: 34431707 },
-                { x: new Date(2020, 4), y: 17773996 },
-                { x: new Date(2020, 5), y: 12808802 },
-                { x: new Date(2020, 6), y: 19248168 },
+                { x: new Date(2020, 0), y: 2057177 },
+                { x: new Date(2020, 1), y: 1925422 },
+                { x: new Date(2020, 2), y: 2479275 },
+                { x: new Date(2020, 3), y: 8592452 },
+                { x: new Date(2020, 4), y: 4684777 },
+                { x: new Date(2020, 5), y: 4417027 },
+                { x: new Date(2020, 6), y: 4653913 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -52,22 +51,22 @@ var chart1 = new CanvasJS.Chart("alcanceGeneral", {
             ]
         },
         {
-            type: "splineArea",
+            type: "column",
             name: "Total de seguidores",
             markerBorderColor: "white",
-            color: "#82ac26",
+            color: "#ff662a",
             markerBorderThickness: 2,
             showInLegend: true,
             yValueFormatString: "#,###",
             xValueFormatString: "MMMM YYYY",
             dataPoints: [
-                { x: new Date(2020, 0), y: 393519 },
-                { x: new Date(2020, 1), y: 392375 },
-                { x: new Date(2020, 2), y: 408603 },
-                { x: new Date(2020, 3), y: 453255 },
-                { x: new Date(2020, 4), y: 463489 },
-                { x: new Date(2020, 6), y: 474168 },
-                { x: new Date(2020, 7), y: 484415 },
+                { x: new Date(2020, 0), y: 155494 },
+                { x: new Date(2020, 1), y: 152411 },
+                { x: new Date(2020, 2), y: 159959 },
+                { x: new Date(2020, 3), y: 169222 },
+                { x: new Date(2020, 4), y: 170982 },
+                { x: new Date(2020, 5), y: 173522 },
+                { x: new Date(2020, 6), y: 175203 },
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
@@ -75,9 +74,10 @@ var chart1 = new CanvasJS.Chart("alcanceGeneral", {
                 { x: new Date(2020, 11), y: 0 }
             ]
         }
+
     ]
 });
-chart1.render();
+chart3.render();
 
 
 var chart7 = new CanvasJS.Chart("engagement", {
@@ -99,7 +99,7 @@ var chart7 = new CanvasJS.Chart("engagement", {
         labelFontColor: "#000",
     },
     axisY: {
-        title: "%",
+        title: "% Engagement",
         labelFontColor: "#000",
         titleFontColor: "#4F81BC",
         gridColor: "#fff"
@@ -107,16 +107,16 @@ var chart7 = new CanvasJS.Chart("engagement", {
     data: [{
         type: "splineArea",
         xValueFormatString: "MMM, YYYY",
-        yValueFormatString: "###0.00'%'",
-        color: "#82ac26",
+        yValueFormatString: "#,###",
+        color: "#ff662a",
         dataPoints: [
-            { x: new Date(2020, 0), y: 149.90 },
-            { x: new Date(2020, 1), y: 178.90 },
-            { x: new Date(2020, 2), y: 530.83 },
-            { x: new Date(2020, 3), y: 263.56 },
-            { x: new Date(2020, 4), y: 348.81 },
-            { x: new Date(2020, 5), y: 245.43 },
-            { x: new Date(2020, 5), y: 237.62 },
+            { x: new Date(2020, 0), y: 43.50 },
+            { x: new Date(2020, 1), y: 35.37 },
+            { x: new Date(2020, 2), y: 86.20 },
+            { x: new Date(2020, 3), y: 108.77 },
+            { x: new Date(2020, 4), y: 213.60 },
+            { x: new Date(2020, 5), y: 149.33 },
+            { x: new Date(2020, 6), y: 166.95 },
             { x: new Date(2020, 7), y: 0 },
             { x: new Date(2020, 8), y: 0 },
             { x: new Date(2020, 9), y: 0 },
