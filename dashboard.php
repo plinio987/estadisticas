@@ -150,7 +150,7 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <!--<div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="vicepresidencia.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -163,9 +163,9 @@
                   <a class="dropdown-item" href="vice-youtube.php">YouTube</a>
                   <a class="dropdown-item" href="vice-portal.php#">Portal web</a>
                 </div>
-              </li>
+              </li>-->
 
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -176,7 +176,7 @@
                   <a class="dropdown-item" href="gabsocial-twitter.php">Twitter</a>
                   <a class="dropdown-item" href="gabsocial-portal.php">Portal web</a>
                 </div>
-              </li>
+              </li> -->
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                <li class="nav-item dropdown">
@@ -190,7 +190,7 @@
                 </div>
               </li>
 
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -213,7 +213,7 @@
                   <a class="dropdown-item" href="siuben-twitter.php">Twitter</a>
                   <a class="dropdown-item" href="siuben-portal.php">Portal web</a>
                 </div>
-              </li>
+              </li> -->
 
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">

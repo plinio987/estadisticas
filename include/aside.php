@@ -18,11 +18,11 @@
               <p>
                 Instituciones
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">7</span>
+                <span class="badge badge-info right">3</span>
               </p>
             </a>
-            <ul class="nav nav-treeview">
-                <li class="nav-item has-treeview">
+            Sidebar <ul class="nav nav-treeview">
+               <!-- <li class="nav-item has-treeview">
                     <a href="gabsocial.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-primary"></i>
                       <p> Gabinete Social<i class="right fas fa-angle-left"></i></p>
@@ -53,7 +53,7 @@
                         </a>
                       </li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="nav-item has-treeview">
                     <a href="prosoli.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-success"></i>
@@ -86,7 +86,7 @@
                       </li>
                     </ul>
                 </li>
-                <li class="nav-item has-treeview">
+                <!-- <li class="nav-item has-treeview">
                     <a href="vicepresidencia.php" class="nav-link">
                     <i class="far fa-circle nav-icon  text-morado"></i>
                       <p> Vicepresidencia<i class="right fas fa-angle-left"></i></p>
@@ -129,7 +129,7 @@
                         </a>
                       </li>
                     </ul>
-                </li>
+               </li> -->
                 <li class="nav-item has-treeview">
                     <a href="ctc.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-verde"></i>
@@ -168,7 +168,7 @@
                       </li>
                     </ul>
                 </li>
-                <li class="nav-item has-treeview">
+               <!-- <li class="nav-item has-treeview">
                     <a href="siuben.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-siuben"></i>
                       <p> Siuben<i class="right fas fa-angle-left"></i></p>
@@ -231,8 +231,8 @@
                         </a>
                       </li>
                     </ul>
-                </li>
-                <li class="nav-item has-treeview">
+                </li> -->
+               <li class="nav-item has-treeview">
                     <a href="bij.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-warning"></i>
                       <p>BIJ<i class="right fas fa-angle-left"></i></p>
@@ -273,11 +273,11 @@
               <p>
                 Proyectos
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">9</span>
+                <span class="badge badge-info right">4</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
-            <li class="nav-item has-treeview">
+           <!--<li class="nav-item has-treeview">
                     <a href="opsd.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-primary"></i>
                       <p>OPSD<i class="right fas fa-angle-left"></i></p>
@@ -347,7 +347,7 @@
                       </li>
                     </ul>
                 </li>
-              </li>
+              </li> -->
               <li class="nav-item has-treeview">
                     <a href="jqp.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-naranja "></i>
@@ -380,7 +380,7 @@
                       </li>
                     </ul>
                 </li>
-                <li class="nav-item has-treeview">
+                <!--<li class="nav-item has-treeview">
                     <a href="matematica.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-info"></i>
                       <p>Matemática Divertida<i class="right fas fa-angle-left"></i></p>
@@ -405,7 +405,7 @@
                         </a>
                       </li>
                     </ul>
-                </li>
+                  </li>
                 <li class="nav-item has-treeview">
                     <a href="cedimu.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-rosa"></i>
@@ -431,7 +431,7 @@
                         </a>
                       </li>
                     </ul>
-                </li>
+               </li> -->
                 <li class="nav-item has-treeview">
                     <a href="tiemposolidario.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-tiempo"></i>
@@ -489,7 +489,7 @@
           <li class="nav-header">Extras</li>
 
           <li class="nav-item">
-            <a href="https://calendar.google.com/calendar/" class="nav-link" target="_blank">
+            <a href="#" class="nav-link" target="_blank">
               <i class="nav-icon far fa-calendar-alt text-info"></i>
               <p>
                 Calendar
@@ -497,7 +497,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://mail.google.com/mail/u/0/" class="nav-link" target="_blank">
+            <a href="#" class="nav-link" target="_blank">
               <i class="nav-icon far fa-envelope text-warning"></i>
               <p>
                 Mailbox
@@ -505,7 +505,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://drive.google.com/drive/u/0/my-drive" class="nav-link" target="_blank">
+            <a href="#" class="nav-link" target="_blank">
               <i class="nav-icon fab fa-google-drive text-success"></i>
               <p>
                 Google drive
