@@ -18,7 +18,7 @@
               <p>
                 Instituciones
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">3</span>
+                <span class="badge badge-info right">2</span>
               </p>
             </a>
             Sidebar <ul class="nav nav-treeview">
@@ -135,7 +135,7 @@
                         </a>
                       </li>
                     </ul>
-               </li> -->
+               </li> 
                 <li class="nav-item has-treeview">
                     <a href="ctc.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-verde"></i>
@@ -173,7 +173,7 @@
                         </a>
                       </li>
                     </ul>
-                </li>
+                </li> -->
                <!-- <li class="nav-item has-treeview">
                     <a href="siuben.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-siuben"></i>

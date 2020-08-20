@@ -216,7 +216,7 @@
                 </div>
               </li> -->
 
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+             <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -228,7 +228,7 @@
                   <a class="dropdown-item" href="ctc-instagram.php">Instagram</a>
                   <a class="dropdown-item" href="ctc-portal.php">Portal web</a>
                 </div>
-              </li>
+              </li>-->
 
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
