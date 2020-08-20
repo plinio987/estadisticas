@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard Instagram Vicepresidencia</h1>
+            <h1 class="m-0 text-dark">Dashboard Instagram Prosoli</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
 
@@ -61,7 +61,7 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <?php include('include/vice-instagram-header.php'); ?>
+        <?php include('include/prosoli-instagram-header.php'); ?>
        
       <!-- Main content -->
       <section class="content">
@@ -331,7 +331,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts\vicepresidencia\chartsInstagram.js"></script>
+    <script type="text/javascript" src="charts\prosoli\chartsInstagram.js"></script>
 
 </body>
 </html>

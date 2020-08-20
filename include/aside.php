@@ -1,4 +1,4 @@
-<a href="index.php" class="brand-link">
+<a href="dashboard.php" class="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">Gabinete Digital</span>
@@ -76,6 +76,12 @@
                         <a href="prosoli-twitter.php" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
                             <p>Twitter</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="prosoli-instagram.php" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                            <p>Instagram</p>
                         </a>
                       </li>
                       <li class="nav-item">

@@ -33,13 +33,13 @@ window.onload = function() {
                 type: "splineArea",
                 name: "Engagement",
                 markerBorderColor: "white",
-                color: "#272424",
+                color: "#F1931b",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "###0.00'%'",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 5.12 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -55,13 +55,13 @@ window.onload = function() {
             },
 
             {
-                type: "splineArea",
+                type: "column",
                 name: "Engagement rate",
-                color: "#C2d3da",
+                color: "#D6618F",
                 showInLegend: true,
                 yValueFormatString: "###0.00'%'",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 12.67 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -79,6 +79,84 @@ window.onload = function() {
     });
     chart.render();
 
+    var chart20 = new CanvasJS.Chart("averagelikes", {
+        animationEnabled: true,
+        backgroundColor: "#fff",
+        //theme: "light2",
+        title: {
+            text: ""
+        },
+        axisX: {
+            valueFormatString: "MMM",
+            labelFontColor: "#222",
+        },
+        axisY: {
+
+            labelFormatter: addSymbols,
+            labelFontColor: "#222",
+            gridColor: "#fff"
+
+        },
+        toolTip: {
+            shared: true,
+            labelFontColor: "#fff",
+        },
+        legend: {
+            cursor: "pointer",
+            itemclick: toggleDataSeries,
+            fontColor: "#222",
+            fontSize: 14,
+
+        },
+        data: [{
+                type: "splineArea",
+                name: "Promedio me gusta  ",
+                markerBorderColor: "white",
+                color: "#F1931b",
+                markerBorderThickness: 2,
+                showInLegend: true,
+                yValueFormatString: "###0.00'%'",
+                xValueFormatString: "MMMM YYYY",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 0 },
+                    { x: new Date(2020, 2), y: 0 },
+                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+
+            {
+                type: "column",
+                name: "Promedio comentarios",
+                color: "#D6618F",
+                showInLegend: true,
+                yValueFormatString: "###0.00'%'",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 0 },
+                    { x: new Date(2020, 2), y: 0 },
+                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            }
+        ]
+    });
+    chart20.render();
 
 
     /*ALCANCE FACEBOOK VICE*/
@@ -114,14 +192,12 @@ window.onload = function() {
         data: [{
                 type: "splineArea",
                 name: "Alcance",
-                markerBorderColor: "white",
-                color: "#C2d3da",
-                markerBorderThickness: 2,
+                color: "#F1931b",
                 showInLegend: true,
+                xValueFormatString: "MMMM",
                 yValueFormatString: "#,###",
-                xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 114644 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -135,15 +211,37 @@ window.onload = function() {
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
-
             {
-                type: "column",
+                type: "area",
                 name: "Me gusta",
-                color: "#81a3a7",
+                markerBorderColor: "white",
+                color: "#D6618F",
+                markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 5748 },
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 0 },
+                    { x: new Date(2020, 2), y: 0 },
+                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+            {
+                type: "column",
+                name: "Impresiones",
+                color: "#00743f",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -192,15 +290,15 @@ window.onload = function() {
         },
         data: [{
                 type: "column",
-                name: "Nuevos seguidores",
+                name: "Total seguidores",
                 markerBorderColor: "white",
-                color: "#81a3a7",
+                color: "#D6618F",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 1275 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -216,13 +314,13 @@ window.onload = function() {
             },
 
             {
-                type: "area",
-                name: "Total seguidores",
-                color: "#C2d3da",
+                type: "splineArea",
+                name: "Nuevos seguidores",
+                color: "#F1931b",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 46300 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -240,7 +338,7 @@ window.onload = function() {
     });
     chart2.render();
 
-    var chart3 = new CanvasJS.Chart("interaccionesPublicaciones", {
+    var chart3 = new CanvasJS.Chart("mensajesPublicaciones", {
         animationEnabled: true,
         backgroundColor: "#fff",
         //theme: "light2",
@@ -248,7 +346,7 @@ window.onload = function() {
             text: ""
         },
         axisX: {
-            valueFormatString: "MMM",
+            valueFormatString: "M",
             labelFontColor: "#222",
         },
         axisY: {
@@ -270,16 +368,16 @@ window.onload = function() {
 
         },
         data: [{
-                type: "area",
-                name: "Total interacciones",
+                type: "splineArea",
+                name: "Mensajes pulicaciones",
                 markerBorderColor: "white",
-                color: "#C2d3da",
+                color: "#F1931b",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 5865 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -297,11 +395,11 @@ window.onload = function() {
             {
                 type: "column",
                 name: "Publicaciones mensuales",
-                color: "#81a3a7",
+                color: "#D6618F",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 44 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -319,83 +417,53 @@ window.onload = function() {
     });
     chart3.render();
 
-    var chart4 = new CanvasJS.Chart("compartidosMensajes", {
+    //MENSAJES
+    var chart4 = new CanvasJS.Chart("interaccionesPublicaciones", {
         animationEnabled: true,
+        exportEnabled: false,
         backgroundColor: "#fff",
-        //theme: "light2",
+        theme: "light1", // "light1", "light2", "dark1", "dark2"
         title: {
-            text: ""
+            text: "",
+            fontColor: "#000",
+            fontSize: 20,
+            fontFamily: "tahoma",
+            fontStyle: "italic"
         },
         axisX: {
+            interval: 1,
+            intervalType: "month",
             valueFormatString: "MMM",
-            labelFontColor: "#222",
+            labelFontColor: "#000",
         },
         axisY: {
-
-            labelFormatter: addSymbols,
-            labelFontColor: "#222",
+            title: "Cantidad mensual",
+            labelFontColor: "#000",
+            titleFontColor: "#4F81BC",
             gridColor: "#fff"
-
-        },
-        toolTip: {
-            shared: true,
-            labelFontColor: "#fff",
-        },
-        legend: {
-            cursor: "pointer",
-            itemclick: toggleDataSeries,
-            fontColor: "#222",
-            fontSize: 14,
-
         },
         data: [{
-                type: "area",
-                name: "Publicaciones compartidas",
-                markerBorderColor: "white",
-                color: "#C2d3da",
-                markerBorderThickness: 2,
-                showInLegend: true,
-                yValueFormatString: "#,###",
-                xValueFormatString: "MMMM YYYY",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 5865 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            },
-
-            {
-                type: "column",
-                name: "Mensajes recibidos",
-                color: "#81a3a7",
-                showInLegend: true,
-                yValueFormatString: "#,###",
-                dataPoints: [
-                    { x: new Date(2020, 0), y: 117 },
-                    { x: new Date(2020, 1), y: 0 },
-                    { x: new Date(2020, 2), y: 0 },
-                    { x: new Date(2020, 3), y: 0 },
-                    { x: new Date(2020, 4), y: 0 },
-                    { x: new Date(2020, 5), y: 0 },
-                    { x: new Date(2020, 6), y: 0 },
-                    { x: new Date(2020, 7), y: 0 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
-                    { x: new Date(2020, 11), y: 0 }
-                ]
-            }
-        ]
+            type: "splineArea",
+            xValueFormatString: "MMM, YYYY",
+            yValueFormatString: "#,###",
+            color: "#D6618F",
+            dataPoints: [
+                { x: new Date(2020, 0), y: 0 },
+                { x: new Date(2020, 1), y: 0 },
+                { x: new Date(2020, 2), y: 0 },
+                { x: new Date(2020, 3), y: 0 },
+                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 8), y: 0 },
+                { x: new Date(2020, 9), y: 0 },
+                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 11), y: 0 }
+            ]
+        }]
     });
+
     chart4.render();
 
     var chart5 = new CanvasJS.Chart("instaStories", {
@@ -428,16 +496,16 @@ window.onload = function() {
 
         },
         data: [{
-                type: "area",
+                type: "column",
                 name: "Vistos Insta Stories",
                 markerBorderColor: "white",
-                color: "#C2d3da",
+                color: "#F1931b",
                 markerBorderThickness: 2,
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 140069 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -453,13 +521,13 @@ window.onload = function() {
             },
 
             {
-                type: "column",
+                type: "splineArea",
                 name: "Insta Stories ",
-                color: "#81a3a7",
+                color: "#D6618F",
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 321 },
+                    { x: new Date(2020, 0), y: 0 },
                     { x: new Date(2020, 1), y: 0 },
                     { x: new Date(2020, 2), y: 0 },
                     { x: new Date(2020, 3), y: 0 },
@@ -500,10 +568,10 @@ window.onload = function() {
             indexLabelFontColor: "green",
             name: "views",
             type: "column",
-            color: "#81a3a7",
+            color: "#D6618F",
             yValueFormatString: "#,###",
             dataPoints: [
-                { x: new Date(2020, 0), y: 20 },
+                { x: new Date(2020, 0), y: 0 },
                 { x: new Date(2020, 1), y: 0 },
                 { x: new Date(2020, 2), y: 0 },
                 { x: new Date(2020, 3), y: 0 },

@@ -769,6 +769,84 @@ window.onload = function() {
         ]
     });
     chart18.render();
+    var chart30 = new CanvasJS.Chart("promedioMeGusta", {
+        animationEnabled: true,
+        backgroundColor: "#fff",
+        //theme: "light2",
+        title: {
+            text: ""
+        },
+        axisX: {
+            valueFormatString: "MMM",
+            labelFontColor: "#222",
+        },
+        axisY: {
+
+            labelFormatter: addSymbols,
+            labelFontColor: "#222",
+            gridColor: "#fff"
+
+        },
+        toolTip: {
+            shared: true,
+            labelFontColor: "#fff",
+        },
+        legend: {
+            cursor: "pointer",
+            itemclick: toggleDataSeries,
+            fontColor: "#222",
+            fontSize: 14,
+
+        },
+        data: [{
+                type: "column",
+                name: "Promedio me gusta",
+                markerBorderColor: "white",
+                color: "#0584F2",
+                markerBorderThickness: 2,
+                showInLegend: true,
+                yValueFormatString: "###0.00'%'",
+                xValueFormatString: "MMMM YYYY",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 0.00 },
+                    { x: new Date(2020, 1), y: 0.00 },
+                    { x: new Date(2020, 2), y: 0.60 },
+                    { x: new Date(2020, 3), y: 0.13 },
+                    { x: new Date(2020, 4), y: 0.27 },
+                    { x: new Date(2020, 5), y: 0.43 },
+                    { x: new Date(2020, 6), y: 0.22 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            },
+
+            {
+                type: "splineArea",
+                name: "Promedio comentarios ",
+                color: "#F28a30",
+                showInLegend: true,
+                yValueFormatString: "###0.00'%'",
+                dataPoints: [
+                    { x: new Date(2020, 0), y: 0.00 },
+                    { x: new Date(2020, 1), y: 0.00 },
+                    { x: new Date(2020, 2), y: 0.11 },
+                    { x: new Date(2020, 3), y: 0.02 },
+                    { x: new Date(2020, 4), y: 0.28 },
+                    { x: new Date(2020, 5), y: 0.00 },
+                    { x: new Date(2020, 6), y: 0.00 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 0 },
+                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 11), y: 0 }
+                ]
+            }
+        ]
+    });
+    chart30.render();
 
 
 

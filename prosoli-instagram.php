@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard Facebook BIJ</h1>
+            <h1 class="m-0 text-dark">Dashboard Instagram Prosoli</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
 
@@ -61,7 +61,7 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <?php include('include/bij-header-facebook.php'); ?>
+        <?php include('include/prosoli-header-instagram.php'); ?>
        
       <!-- Main content -->
       <section class="content">
@@ -80,13 +80,42 @@
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2019\bij-instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
                 <div id="engagement" style="height: 300px;"></div>
+              </div>
+              <!-- /.card-body-->
+            </div>
+            <!-- /.card -->
+
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="col-12">
+            <!-- interactive chart -->
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="far fa-chart-bar"></i>
+                  Alcance, impresiones y me gusta
+                </h3>
+
+                <div class="card-tools">
+             
+                  <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                    <a href="2019\bij-instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="alcanceMegusta" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -104,19 +133,19 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                 Alcance y Engagent users
+                  Promedio me gusta y comentarios
                 </h3>
 
                 <div class="card-tools">
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2019\bij-instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
-                <div id="alcancePublicaciones" style="height: 300px;"></div>
+                <div id="averagelikes" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -127,65 +156,9 @@
         </div>
         <!-- /.row -->
 
-              <div class="row">
-                <div class="col-6">
-                  <!-- interactive chart -->
-                  <div class="card card-primary card-outline">
-                    <div class="card-header">
-                      <h3 class="card-title">
-                        <i class="far fa-chart-bar"></i>
-                        Total post por tipo
-                      </h3>
 
-                      <div class="card-tools">
-                  
-                        <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                          <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button></a>
-                          <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off"></button></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <div id="tipoPost" style="height: 300px;"></div>
-                    </div>
-                    <!-- /.card-body-->
-                  </div>
-                  <!-- /.card -->
 
-                </div>
-                <!-- /.col -->
-                <div class="col-6">
-                  <!-- interactive chart -->
-                  <div class="card card-primary card-outline">
-                    <div class="card-header">
-                      <h3 class="card-title">
-                        <i class="far fa-chart-bar"></i>
-                        Total de interacciones por tipo de post
-                      </h3>
 
-                      <div class="card-tools">
-                  
-                        <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                          <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on"></button></a>
-                          <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off"></button></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <div id="interaccionesPost" style="height: 300px;"></div>
-                    </div>
-                    <!-- /.card-body-->
-                  </div>
-                  <!-- /.card -->
-
-                </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
-
-       
-              </div>
-              <!-- /.row -->
 
         <div class="row">
           <div class="col-md-6">
@@ -216,7 +189,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Publicaciones nuevas y compartidas
+                  Mensajes y Publicaciones
                 </h3>
 
                 <div class="card-tools">
@@ -227,13 +200,13 @@
                 </div>
               </div>
               <div class="card-body">
-                <div id="publicaciones" style="height: 338px;" class="full-width-chart"></div>
+                <div id="mensajesPublicaciones" style="height: 338px;" class="full-width-chart"></div>
               </div>
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
 
-            <!-- Area chart -->
+            <!-- Area chart
             <div class="card card-primary card-outline">
               <div class="card-header">
                 <h3 class="card-title">
@@ -251,9 +224,10 @@
               <div class="card-body">
                 <div id="facebookPorcentajeParticipacion" style="height: 338px;" class="full-width-chart"></div>
               </div>
-              <!-- /.card-body-->
+              
             </div>
-            <!-- /.card -->
+           
+            -->
 
           </div>
           <!-- /.col -->
@@ -264,7 +238,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Me gusta y no me gusta
+                  Total Interacciones
                 </h3>
 
                 <div class="card-tools">
@@ -277,7 +251,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <div id="meGusta" style="height: 300px;"></div>
+                <div id="interaccionesPublicaciones" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -288,7 +262,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Genéro usuarios
+                  Insta Stories
                 </h3>
 
                 <div class="card-tools">
@@ -299,76 +273,48 @@
                 </div>
               </div>
               <div class="card-body">
-                <div id="generoFans" style="height: 300px;"></div>
+                <div id="instaStories" style="height: 300px;"></div>
               </div>
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
 
+
           <div class="row">
           <div class="col-12">
-            <!-- interactive chart -->
+            <!-- interactive chart 
             <div class="card card-primary card-outline">
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
                   Mensajes publicaciones
                 </h3>
-               <div class="card-tools">
+
+                <div class="card-tools">
+             
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2019\bij-instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
+                    <a href="2018\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
                 <div id="mensajesPublicaciones" style="height: 300px;"></div>
               </div>
-              <!-- /.card-body-->
+           
             </div>
-            <!-- /.card -->
+           
           </div>
-          <!-- /.col -->
-          </div> <!-- /.row -->
-          
-          </div>
-          <!-- /.col -->
-          
+        </div>
+       
+          </div>-->
+        
           
         </div>
         <!-- /.row -->
-          <div class="col-12">
-            <!-- interactive chart -->
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h3 class="card-title">
-                  <i class="far fa-chart-bar"></i>
-                 Promedio me gusta y comentarios
-                </h3>
-
-                <div class="card-tools">
-             
-                  <div class="btn-group" id="realtime" data-toggle="btn-toggle">
-                    <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body">
-                <div id="promedioMeGusta" style="height: 300px;"></div>
-              </div>
-              <!-- /.card-body-->
-            </div>
-            <!-- /.card -->
-
       </div><!-- /.container-fluid -->
     </section>
           <!-- right col -->
-        </div>
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
@@ -386,7 +332,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts\bij\chartsFacebook.js"></script>
+    <script type="text/javascript" src="charts\prosoli\chartsInstagram.js"></script>
 
 </body>
 </html>
