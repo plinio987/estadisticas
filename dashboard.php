@@ -186,6 +186,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="posoli-facebook.php">Facebook</a>
                   <a class="dropdown-item" href="posoli-twitter.php">Twitter</a>
+                  <a class="dropdown-item" href="posoli-instagram.php">Instagram</a>
                   <a class="dropdown-item" href="posoli-portal.php">Portal web</a>
                 </div>
               </li>
