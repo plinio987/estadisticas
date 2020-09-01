@@ -643,7 +643,7 @@ window.onload = function() {
                 { label: "Landin Page", y: 25.64 },
                 { label: "Lagrimas de cocodrilo", y: 5.65 },
                 { label: "Verano virtual", y: 4.91 },
-                { label: "Reflexiones con niños BIJ", y: 3.96 .95 },
+                { label: "Reflexiones con niños BIJ", y: 3.96 },
                 { label: "Hipo del Tucan", y: 2.87 }
             ]
         }]
