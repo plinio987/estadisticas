@@ -279,7 +279,7 @@
               <p>
                 Proyectos
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">4</span>
+                <span class="badge badge-info right">3</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -438,7 +438,7 @@
                       </li>
                     </ul>
                </li> -->
-                <li class="nav-item has-treeview">
+                <!--<li class="nav-item has-treeview">
                     <a href="tiemposolidario.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-tiempo"></i>
                       <p>Tiempo Solidario<i class="right fas fa-angle-left"></i></p>
@@ -469,7 +469,7 @@
                         </a>
                       </li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a href="bienporti.php" class="nav-link">
                   <i class="far fa-circle nav-icon text-azul"></i>

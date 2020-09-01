@@ -48,7 +48,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 115145 },
                     { x: new Date(2020, 5), y: 57844 },
                     { x: new Date(2020, 6), y: 56379 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 59078 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -71,7 +71,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 72265 },
                     { x: new Date(2020, 5), y: 38181 },
                     { x: new Date(2020, 6), y: 36338 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 35274 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -92,7 +92,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 52289 },
                     { x: new Date(2020, 5), y: 29260 },
                     { x: new Date(2020, 6), y: 28225 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 28485 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -156,8 +156,8 @@ window.onload = function() {
                 { x: new Date(2020, 3), y: 11 },
                 { x: new Date(2020, 4), y: 5 },
                 { x: new Date(2020, 5), y: 4 },
-                { x: new Date(2020, 6), y: 0 },
-                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 6), y: 2 },
+                { x: new Date(2020, 7), y: 1 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
                 { x: new Date(2020, 10), y: 0 },
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 41.80, label: "Busqueda organica" },
-                { y: 9.20, label: "Directo" },
-                { y: 45.70, label: "Referido" },
-                { y: 3.40, label: "Social media" }
+                { y: 51.10, label: "Busqueda organica" },
+                { y: 11.10, label: "Directo" },
+                { y: 33.10, label: "Referido" },
+                { y: 4.70, label: "Social media" }
             ]
         }]
     });
@@ -323,7 +323,7 @@ window.onload = function() {
                 { x: new Date(2020, 4), y: 68.99 },
                 { x: new Date(2020, 5), y: 75.48 },
                 { x: new Date(2020, 6), y: 74.45 },
-                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 7), y: 71.34 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
                 { x: new Date(2020, 10), y: 0 },
@@ -353,9 +353,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 12.63, label: "Desktop" },
-                { y: 85.98, label: "Mobile" },
-                { y: 1.39, label: "Tablet" }
+                { y: 17.08, label: "Desktop" },
+                { y: 81.79, label: "Mobile" },
+                { y: 1.12, label: "Tablet" }
             ]
         }]
     });
@@ -393,7 +393,7 @@ window.onload = function() {
                 { x: new Date(2020, 4), y: 166 },
                 { x: new Date(2020, 5), y: 107 },
                 { x: new Date(2020, 6), y: 107 },
-                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 7), y: 117 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
                 { x: new Date(2020, 10), y: 0 },
@@ -474,7 +474,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 75.00 },
                     { x: new Date(2020, 5), y: 76.00 },
                     { x: new Date(2020, 6), y: 77.70 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 78.50 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -496,7 +496,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 25.00 },
                     { x: new Date(2020, 5), y: 24.00 },
                     { x: new Date(2020, 6), y: 23.30 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 21.50 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 71.26, label: "Femenino" },
-                { y: 28.74, label: "Masculino" }
+                { y: 66.50, label: "Femenino" },
+                { y: 33.50, label: "Masculino" }
             ]
         }]
     });
@@ -550,9 +550,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 94.38, label: "Facebook" },
-                { y: 3.11, label: "Twitter" },
-                { y: 2.51, label: "Instagram" }
+                { y: 74.55, label: "Facebook" },
+                { y: 11.50, label: "Twitter" },
+                { y: 13.65, label: "Instagram" },
+                { y: 0.15, label: "Instagram Stories" },
+                { y: 0.07, label: "LinkedIn" },
+                { y: 0.07, label: "YouTube" }
 
             ]
         }]
@@ -576,12 +579,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 24.44 },
-                { label: "25-34", y: 31.59 },
-                { label: "35-44", y: 19.37 },
-                { label: "45-54", y: 12.07 },
-                { label: "55-64", y: 8.64 },
-                { label: "65+", y: 3.90 }
+                { label: "18-24", y: 19.86 },
+                { label: "25-34", y: 25.38 },
+                { label: "35-44", y: 17.27 },
+                { label: "45-54", y: 19.00 },
+                { label: "55-64", y: 10.58 },
+                { label: "65+", y: 7.91 }
             ]
         }]
     });
@@ -610,11 +613,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 69.36 },
-                { label: "Contacto", y: 4.45 },
-                { label: "Tarjetas solidaridad", y: 2.63 },
-                { label: "Tag/Prosoli", y: 2.28 },
-                { label: "Noticias", y: 1.43 }
+                { label: "Landin Page", y: 59.57 },
+                { label: "Contacto", y: 7.01 },
+                { label: "Tarjetas solidaridad", y: 3.25 },
+                { label: "Tag/Prosoli", y: 4.30 },
+                { label: "Noticias", y: 3.27 }
             ]
         }]
     });
@@ -643,11 +646,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 68.42 },
-                { label: "Contacto", y: 4.89 },
-                { label: "Tarjetas solidaridad", y: 2.23 },
-                { label: "Tag/Prosoli", y: 1.71 },
-                { label: "Noticias", y: 1.41 }
+                { label: "Landin Page", y: 56.52 },
+                { label: "Contacto", y: 7.80 },
+                { label: "Tarjetas solidaridad", y: 2.88 },
+                { label: "Tag/Prosoli", y: 2.99 },
+                { label: "Noticias", y: 3.10 }
             ]
         }]
     });

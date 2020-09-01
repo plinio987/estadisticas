@@ -75,7 +75,7 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>3</h3>
+                <h3>2</h3>
 
                 <p>Total instituciones</p>
               </div>
@@ -90,7 +90,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>4</h3>
+                <h3>3</h3>
 
                 <p>Total Proyectos</p>
               </div>

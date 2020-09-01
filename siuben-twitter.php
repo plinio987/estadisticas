@@ -2,11 +2,9 @@
 <html>
 <head>
 <?php include('include/head.php'); ?>
-
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
-
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -18,7 +16,6 @@
         <a href="dashboard.php" class="nav-link">Home</a>
       </li>
     </ul>
-
     <!-- SEARCH FORM -->
     <form class="form-inline ml-3">
       <div class="input-group input-group-sm">
@@ -30,16 +27,12 @@
         </div>
       </div>
     </form>
-
-  
   </nav>
   <!-- /.navbar -->
-
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <?php include('include/aside.php'); ?>
   </aside>
-
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -50,19 +43,16 @@
             <h1 class="m-0 text-dark">Dashboard Twitter Siuben</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
-
           </div><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <?php include('include/siuben-header-twitter.php'); ?>
-       
       <!-- Main content -->
       <section class="content">
       <div class="container-fluid">
@@ -76,9 +66,7 @@
                   <i class="far fa-chart-bar"></i>
                   Twitter Engagement rate y absoluto
                 </h3>
-
                 <div class="card-tools">
-             
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\siuben-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
                     <a href="2018\siuben-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
@@ -91,12 +79,10 @@
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
-
           </div>
           <!-- /.col -->
         </div>
         <!-- /.row -->
-
         <div class="row">
           <div class="col-12">
             <!-- interactive chart -->
@@ -106,10 +92,8 @@
                   <i class="far fa-chart-bar"></i>
                   Impresiones
                 </h3>
-
                 <div class="card-tools">
-             
-                  <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\siuben-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
                     <a href="2018\siuben-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
                   </div>
@@ -121,12 +105,10 @@
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
-
           </div>
           <!-- /.col -->
         </div>
         <!-- /.row -->
-
         <div class="row">
           <div class="col-12">
             <!-- interactive chart -->
@@ -136,9 +118,7 @@
                   <i class="far fa-chart-bar"></i>
                  Nuevos seguidores y total general
                 </h3>
-
                 <div class="card-tools">
-             
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\siuben-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
                     <a href="2018\siuben-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
@@ -151,12 +131,10 @@
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
-
           </div>
           <!-- /.col -->
         </div>
         <!-- /.row -->
-
         <div class="row">
           <div class="col-md-6">
             <!-- Line chart -->
@@ -166,7 +144,6 @@
                   <i class="far fa-chart-bar"></i>
                   Total interacciones y tuits mensuales
                 </h3>
-
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
@@ -180,7 +157,6 @@
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
-
             <!-- Area chart -->
             <div class="card card-primary card-outline">
               <div class="card-header">
@@ -188,7 +164,6 @@
                   <i class="far fa-chart-bar"></i>
                  Visitas y menciones
                 </h3>
-
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
@@ -202,10 +177,8 @@
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
-
           </div>
           <!-- /.col -->
-
           <div class="col-md-6">
             <!-- Bar chart -->
             <div class="card card-primary card-outline">
@@ -214,7 +187,6 @@
                   <i class="far fa-chart-bar"></i>
                  Retuits, Clicks, Repuestas y Me gusta mes en curso
                 </h3>
-
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse">
                     <i class="fas fa-minus"></i>
@@ -230,7 +202,6 @@
               <!-- /.card-body-->
             </div>
             <!-- /.card -->
-
             <!-- Donut chart -->
             <div class="card card-primary card-outline">
               <div class="card-header">
@@ -238,7 +209,6 @@
                   <i class="far fa-chart-bar"></i>
                  Acumulado  Retuits, Clicks, Repuestas y Me gusta
                 </h3>
-
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
@@ -255,7 +225,6 @@
           </div>
           <!-- /.col -->
         </div>
-
         <!-- /.row (main row) -->
       </div><!-- /.container-fluid -->
     </section>
@@ -265,7 +234,6 @@
   <footer class="main-footer">
   <?php include('include/footer.php'); ?>
   </footer>
-
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
@@ -274,10 +242,8 @@
 </div>
 <!-- ./wrapper -->
 <?php include('include/script.php'); ?>
-
 <!-- jQuery -->
-<script type="text/javascript" src="charts/canvasjs.js"></script>
+    <script type="text/javascript" src="charts/canvasjs.js"></script>
     <script type="text/javascript" src="charts\siuben\chartsTwitter.js"></script>
-
 </body>
 </html>

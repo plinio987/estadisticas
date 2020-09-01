@@ -48,7 +48,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 3947 },
                     { x: new Date(2020, 5), y: 18530 },
                     { x: new Date(2020, 6), y: 3926 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 4743 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -71,7 +71,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 2064 },
                     { x: new Date(2020, 5), y: 8602 },
                     { x: new Date(2020, 6), y: 2260 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 2029 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -92,7 +92,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 1837 },
                     { x: new Date(2020, 5), y: 5858 },
                     { x: new Date(2020, 6), y: 1893 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 1762 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -280,10 +280,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 67.50, label: "Busqueda organica" },
-                { y: 17.80, label: "Directo" },
-                { y: 11.40, label: "Referido" },
-                { y: 3.30, label: "Social media" }
+                { y: 66.90, label: "Busqueda organica" },
+                { y: 9.80, label: "Directo" },
+                { y: 19.00, label: "Referido" },
+                { y: 4.20, label: "Social media" }
             ]
         }]
     });
@@ -321,7 +321,7 @@ window.onload = function() {
                 { x: new Date(2020, 4), y: 71.12 },
                 { x: new Date(2020, 5), y: 61.18 },
                 { x: new Date(2020, 6), y: 75.75 },
-                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 7), y: 56.43 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
                 { x: new Date(2020, 10), y: 0 },
@@ -351,9 +351,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 75.35, label: "Desktop" },
-                { y: 22.02, label: "Mobile" },
-                { y: 2.63, label: "Tablet" }
+                { y: 47.90, label: "Desktop" },
+                { y: 49.43, label: "Mobile" },
+                { y: 2.67, label: "Tablet" }
             ]
         }]
     });
@@ -391,7 +391,7 @@ window.onload = function() {
                 { x: new Date(2020, 4), y: 127 },
                 { x: new Date(2020, 5), y: 156 },
                 { x: new Date(2020, 6), y: 107 },
-                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 7), y: 139 },
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 0 },
                 { x: new Date(2020, 10), y: 0 },
@@ -472,7 +472,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 91.00 },
                     { x: new Date(2020, 5), y: 80.70 },
                     { x: new Date(2020, 6), y: 86.80 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 90.40 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -494,7 +494,7 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 9.00 },
                     { x: new Date(2020, 5), y: 19.30 },
                     { x: new Date(2020, 6), y: 13.20 },
-                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 7), y: 9.60 },
                     { x: new Date(2020, 8), y: 0 },
                     { x: new Date(2020, 9), y: 0 },
                     { x: new Date(2020, 10), y: 0 },
@@ -525,8 +525,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 74.58, label: "Femenino" },
-                { y: 25.42, label: "Masculino" }
+                { y: 74.70, label: "Femenino" },
+                { y: 25.30, label: "Masculino" }
             ]
         }]
     });
@@ -548,11 +548,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 23.81, label: "Facebook" },
-                { y: 3.17, label: "Twitter" },
-                { y: 9.52, label: "Instagram Stories" },
-                { y: 61.90, label: "Instagram" },
-                { y: 1.59, label: "YouTube" }
+                { y: 38.67, label: "Facebook" },
+                { y: 9.33, label: "Twitter" },
+                { y: 48.00, label: "Instagram" },
+                { y: 4.00, label: "YouTube" }
             ]
         }]
     });
@@ -575,12 +574,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { label: "18-24", y: 22.45 },
-                { label: "25-34", y: 30.32 },
-                { label: "35-44", y: 21.10 },
-                { label: "45-54", y: 11.75 },
-                { label: "55-64", y: 7.57 },
-                { label: "65+", y: 3.81 }
+                { label: "18-24", y: 23.26 },
+                { label: "25-34", y: 28.59 },
+                { label: "35-44", y: 18.58 },
+                { label: "45-54", y: 15.83 },
+                { label: "55-64", y: 9.05 },
+                { label: "65+", y: 4.68 }
             ]
         }]
     });
@@ -609,11 +608,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Verano virtual", y: 27.2 },
-                { label: "yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 19.20 },
-                { label: "Landin Page", y: 8.76 },
-                { label: "lagrimas de cocodrilo", y: 2.96 },
-                { label: "bicivleta verde limon", y: 2.65 }
+                { label: "Verano virtual", y: 5.82 },
+                { label: "Cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 3.89 },
+                { label: "Landin Page", y: 32.43 },
+                { label: "lagrimas de cocodrilo", y: 5.57 },
+                { label: "Hipo del Tucan", y: 2.91 }
             ]
         }]
     });
@@ -641,11 +640,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Verano virtual", y: 25.64 },
-                { label: "yolanda-america-fernandez-cedeno-comparte-cuentos-y-reflexiones-con-ninos-y-ninas-en-la-bijrd/", y: 19.73 },
-                { label: "Landin Page", y: 6.55 },
-                { label: "lagrimas de cocodrilo", y: 2.95 },
-                { label: "bicivleta verde limon", y: 2.73 }
+                { label: "Landin Page", y: 25.64 },
+                { label: "Lagrimas de cocodrilo", y: 5.65 },
+                { label: "Verano virtual", y: 4.91 },
+                { label: "Reflexiones con niños BIJ", y: 3.96 .95 },
+                { label: "Hipo del Tucan", y: 2.87 }
             ]
         }]
     });
