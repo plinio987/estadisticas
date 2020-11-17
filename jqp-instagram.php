@@ -46,7 +46,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard Instagram Jóvenes que Progresa</h1>
+            <h1 class="m-0 text-dark">Dashboard Instagram Jóvenes que Progresan</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
 

@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard Portal web Jóvenes que Progresan</h1>
+            <h1 class="m-0 text-dark">Dashboard Portal web Manos del Campo</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
 
@@ -61,7 +61,7 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <?php include('include/jqp-header-portal.php'); ?>
+        <?php include('include/manosCampo-header-portal.php'); ?>
        
       <!-- Main content -->
       <section class="content">
@@ -502,7 +502,7 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-<script type="text/javascript" src="charts\jqp\chartsPortalWeb.js"></script>
+<script type="text/javascript" src="charts\manosCampo \chartsPortalWeb.js"></script>
 
 </body>
 </html>

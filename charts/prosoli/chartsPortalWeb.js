@@ -49,8 +49,8 @@ window.onload = function() {
                     { x: new Date(2020, 5), y: 57844 },
                     { x: new Date(2020, 6), y: 56379 },
                     { x: new Date(2020, 7), y: 59078 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 8), y: 74117 },
+                    { x: new Date(2020, 9), y: 57533 },
                     { x: new Date(2020, 10), y: 0 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
@@ -72,8 +72,8 @@ window.onload = function() {
                     { x: new Date(2020, 5), y: 38181 },
                     { x: new Date(2020, 6), y: 36338 },
                     { x: new Date(2020, 7), y: 35274 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 8), y: 46156 },
+                    { x: new Date(2020, 9), y: 33689 },
                     { x: new Date(2020, 10), y: 0 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
@@ -93,8 +93,8 @@ window.onload = function() {
                     { x: new Date(2020, 5), y: 29260 },
                     { x: new Date(2020, 6), y: 28225 },
                     { x: new Date(2020, 7), y: 28485 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 8), y: 37876 },
+                    { x: new Date(2020, 9), y: 26991 },
                     { x: new Date(2020, 10), y: 0 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
@@ -158,8 +158,8 @@ window.onload = function() {
                 { x: new Date(2020, 5), y: 4 },
                 { x: new Date(2020, 6), y: 2 },
                 { x: new Date(2020, 7), y: 1 },
-                { x: new Date(2020, 8), y: 0 },
-                { x: new Date(2020, 9), y: 0 },
+                { x: new Date(2020, 8), y: 12 },
+                { x: new Date(2020, 9), y: 24 },
                 { x: new Date(2020, 10), y: 0 },
                 { x: new Date(2020, 11), y: 0 }
 
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 51.10, label: "Busqueda organica" },
+                { y: 59.60, label: "Busqueda organica" },
                 { y: 11.10, label: "Directo" },
-                { y: 33.10, label: "Referido" },
-                { y: 4.70, label: "Social media" }
+                { y: 22.80, label: "Referido" },
+                { y: 6.50, label: "Social media" }
             ]
         }]
     });
@@ -324,8 +324,8 @@ window.onload = function() {
                 { x: new Date(2020, 5), y: 75.48 },
                 { x: new Date(2020, 6), y: 74.45 },
                 { x: new Date(2020, 7), y: 71.34 },
-                { x: new Date(2020, 8), y: 0 },
-                { x: new Date(2020, 9), y: 0 },
+                { x: new Date(2020, 8), y: 73.78 },
+                { x: new Date(2020, 9), y: 71.08 },
                 { x: new Date(2020, 10), y: 0 },
                 { x: new Date(2020, 11), y: 0 }
 
@@ -353,9 +353,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 17.08, label: "Desktop" },
-                { y: 81.79, label: "Mobile" },
-                { y: 1.12, label: "Tablet" }
+                { y: 19.81, label: "Desktop" },
+                { y: 78.90, label: "Mobile" },
+                { y: 1.30, label: "Tablet" }
             ]
         }]
     });
@@ -394,8 +394,8 @@ window.onload = function() {
                 { x: new Date(2020, 5), y: 107 },
                 { x: new Date(2020, 6), y: 107 },
                 { x: new Date(2020, 7), y: 117 },
-                { x: new Date(2020, 8), y: 0 },
-                { x: new Date(2020, 9), y: 0 },
+                { x: new Date(2020, 8), y: 109 },
+                { x: new Date(2020, 9), y: 124 },
                 { x: new Date(2020, 10), y: 0 },
                 { x: new Date(2020, 11), y: 0 }
             ]
@@ -475,8 +475,8 @@ window.onload = function() {
                     { x: new Date(2020, 5), y: 76.00 },
                     { x: new Date(2020, 6), y: 77.70 },
                     { x: new Date(2020, 7), y: 78.50 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 8), y: 80.40 },
+                    { x: new Date(2020, 9), y: 79.00 },
                     { x: new Date(2020, 10), y: 0 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
@@ -497,8 +497,8 @@ window.onload = function() {
                     { x: new Date(2020, 5), y: 24.00 },
                     { x: new Date(2020, 6), y: 23.30 },
                     { x: new Date(2020, 7), y: 21.50 },
-                    { x: new Date(2020, 8), y: 0 },
-                    { x: new Date(2020, 9), y: 0 },
+                    { x: new Date(2020, 8), y: 19.60 },
+                    { x: new Date(2020, 9), y: 21.00 },
                     { x: new Date(2020, 10), y: 0 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
@@ -550,12 +550,12 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 74.55, label: "Facebook" },
-                { y: 11.50, label: "Twitter" },
-                { y: 13.65, label: "Instagram" },
-                { y: 0.15, label: "Instagram Stories" },
-                { y: 0.07, label: "LinkedIn" },
-                { y: 0.07, label: "YouTube" }
+                { y:76.09, label: "Facebook" },
+                { y: 5.63, label: "Twitter" },
+                { y: 16.16, label: "Instagram" },
+                { y: 1.78, label: "Instagram Stories" },
+                { y: 0.22, label: "YouTube" },
+                { y: 0.11, label: "LinkedIn" }
 
             ]
         }]
@@ -613,11 +613,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 59.57 },
-                { label: "Contacto", y: 7.01 },
-                { label: "Tarjetas solidaridad", y: 3.25 },
-                { label: "Tag/Prosoli", y: 4.30 },
-                { label: "Noticias", y: 3.27 }
+                { label: "Landin Page", y: 43.56 },
+                { label: "/noticias/lo-que-debes-saber-sobre-el-bono-estudio-contigo/", y: 11.26 },
+                { label: "Contacto", y: 6.19 },
+                { label: "/Noticias", y: 3.76 },
+                { label: "Tag/Prosoli", y: 3.42 }
             ]
         }]
     });
@@ -646,11 +646,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 56.52 },
-                { label: "Contacto", y: 7.80 },
-                { label: "Tarjetas solidaridad", y: 2.88 },
-                { label: "Tag/Prosoli", y: 2.99 },
-                { label: "Noticias", y: 3.10 }
+                { label: "Landin Page", y: 41.54 },
+                { label: "/noticias/lo-que-debes-saber-sobre-el-bono-estudio-contigo/", y: 10.60 },
+                { label: "Contacto", y: 6.95 },
+                { label: "Noticias", y: 3.43 },
+                { label: "Premio-voluntario-solidario-2020", y: 3.13}
             ]
         }]
     });

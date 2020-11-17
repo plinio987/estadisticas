@@ -21,10 +21,10 @@
                     <li>
                         <a href="https://bijrd.gob.do/" target=”_blank”> CTC<span><small class="text-success">online</small></span></a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a href="https://ctc.edu.do/" target=”_blank”>BIJ <span><small class="text-success">online</small></span></a>
                     </li>
-                    <!--<li>
+                   <li>
                         <a href="http://opsd.gob.do/" target=”_blank”>OPSD <span><small class="text-success">online</small></span></a>
                     </li>
                     <li>
@@ -33,9 +33,9 @@
                     <!--<li>
                         <a href="http://culturaciudadana.gob.do/" target=”_blank”>Cultura Ciudadana <span><small class="text-success">online</small></span></a>
                     </li>-->
-                    <li>
+                    <!--<li>
                         <a href="https://jovenesqueprogresan.gob.do/" target=”_blank”>JQP <span><small class="text-success">online</small></span></a>
-                    </li>
+                    </li>-->
 
                 </ul>
             </div>

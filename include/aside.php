@@ -21,7 +21,7 @@
                 <span class="badge badge-info right">2</span>
               </p>
             </a>
-            Sidebar <ul class="nav nav-treeview">
+           <ul class="nav nav-treeview">
                <!-- <li class="nav-item has-treeview">
                     <a href="gabsocial.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-primary"></i>
@@ -279,7 +279,7 @@
               <p>
                 Proyectos
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">3</span>
+                <span class="badge badge-info right">4</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -386,33 +386,39 @@
                       </li>
                     </ul>
                 </li>
-                <!--<li class="nav-item has-treeview">
-                    <a href="matematica.php" class="nav-link">
+               <!--<li class="nav-item has-treeview">
+                    <a href="manosCampo.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-info"></i>
-                      <p>Matemática Divertida<i class="right fas fa-angle-left"></i></p>
+                      <p>Manos del Campo<i class="right fas fa-angle-left"></i></p>
                     </a>
                     <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="matematica.php" class="nav-link">
+                        <a href="manosCampo.php" class="nav-link">
                         <i class="fa fa-home nav-icon text-info"></i>
                           <p>Home</p>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="matematica-facebook.php" class="nav-link">
+                        <a href="manosCampo-facebook.php" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
                             <p>Facebook</p>
                         </a>
                       </li>
+                       <li class="nav-item">
+                        <a href="manosCampo-instagram.php" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                            <p>Instagram</p>
+                        </a>
+                      </li>
                       <li class="nav-item">
-                        <a href="matematica-portal.php" class="nav-link">
+                        <a href="manosCampo-portal.php" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
                             <p>Portal web</p>
                         </a>
                       </li>
                     </ul>
                   </li>
-                <li class="nav-item has-treeview">
+                 <li class="nav-item has-treeview">
                     <a href="cedimu.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-rosa"></i>
                       <p>CEDIMU<i class="right fas fa-angle-left"></i></p>
@@ -480,6 +486,12 @@
                   <a href="manosdom.php" class="nav-link">
                   <i class="far fa-circle nav-icon text-verde"></i>
                       <p>Manos Dominicanas</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="manosCampo-instagram.php" class="nav-link">
+                  <i class="far fa-circle nav-icon text-warning"></i>
+                      <p>Manos del Campo</p>
                   </a>
                 </li>
                 <!-- 

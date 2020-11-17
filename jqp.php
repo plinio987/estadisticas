@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard Jóvenes que Progresa</h1>
+            <h1 class="m-0 text-dark">Dashboard Jóvenes que Progresan</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
 
@@ -74,7 +74,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="far fa-chart-bar"></i>
-                  Alcance general Jóvenes que Progresa
+                  Alcance general Jóvenes que Progresan
                 </h3>
 
                 <div class="card-tools">

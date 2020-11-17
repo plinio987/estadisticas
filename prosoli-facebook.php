@@ -2,11 +2,9 @@
 <html>
 <head>
 <?php include('include/head.php'); ?>
-
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
-
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -18,7 +16,6 @@
         <a href="dashboard.php" class="nav-link">Home</a>
       </li>
     </ul>
-
     <!-- SEARCH FORM -->
     <form class="form-inline ml-3">
       <div class="input-group input-group-sm">
@@ -30,16 +27,12 @@
         </div>
       </div>
     </form>
-
-  
   </nav>
   <!-- /.navbar -->
-
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <?php include('include/aside.php'); ?>
   </aside>
-
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -50,7 +43,6 @@
             <h1 class="m-0 text-dark">Dashboard Facebook Progresando con Solidaridad</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
-
           </div><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -62,7 +54,6 @@
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <?php include('include/prosoli-header-facebook.php'); ?>
-       
       <!-- Main content -->
       <section class="content">
       <div class="container-fluid">
@@ -76,9 +67,7 @@
                   <i class="far fa-chart-bar"></i>
                   Engagement y Engagement rate
                 </h3>
-
                 <div class="card-tools">
-             
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
                     <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
@@ -106,9 +95,7 @@
                   <i class="far fa-chart-bar"></i>
                  Alcance y Engagent users
                 </h3>
-
                 <div class="card-tools">
-             
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
                     <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
@@ -346,9 +333,7 @@
                   <i class="far fa-chart-bar"></i>
                  Promedio me gusta y comentarios
                 </h3>
-
                 <div class="card-tools">
-             
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
                     <a href="2018\vicepresidencia-facebook.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
@@ -366,8 +351,6 @@
           <!-- /.col -->
         </div>
         <!-- /.row -->
-
-
       </div><!-- /.container-fluid -->
     </section>
           <!-- right col -->
@@ -393,7 +376,6 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="charts/canvasjs.js"></script>
-    <script type="text/javascript" src="charts\prosoli\chartsFacebook.js"></script>
-
+<script type="text/javascript" src="charts\prosoli\chartsFacebook.js"></script>
 </body>
 </html>

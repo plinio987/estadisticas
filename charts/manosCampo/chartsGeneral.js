@@ -33,28 +33,30 @@ window.onload = function() {
 
         },
         data: [{
-                indexLabelFontColor: "darkSlateGray",
                 type: "column",
-                name: "Total seguidores",
-                showInLegend: true,
+                name: "Promedio Engagement general",
+                markerBorderColor: "white",
                 color: "#de8cf0",
-                xValueFormatString: "MMM, YYYY",
-                yValueFormatString: "#,###",
+                markerBorderThickness: 2,
+                showInLegend: true,
+                yValueFormatString: "###0.00'%'",
+                xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 50030 },
-                    { x: new Date(2020, 1), y: 50368 },
-                    { x: new Date(2020, 2), y: 53477 },
-                    { x: new Date(2020, 3), y: 61253 },
-                    { x: new Date(2020, 4), y: 62275 },
-                    { x: new Date(2020, 5), y: 63405 },
-                    { x: new Date(2020, 6), y: 64866 },
-                    { x: new Date(2020, 7), y: 73436 },
-                    { x: new Date(2020, 8), y: 99002 },
-                    { x: new Date(2020, 9), y: 116617 },
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 0 },
+                    { x: new Date(2020, 2), y: 0 },
+                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 13.89 },
+                    { x: new Date(2020, 9), y: 31.69 },
                     { x: new Date(2020, 10), y: 0 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
+
             {
                 type: "splineArea",
                 name: "Alcance general",
@@ -62,22 +64,20 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 736117 },
-                    { x: new Date(2020, 1), y: 650214 },
-                    { x: new Date(2020, 2), y: 1229718 },
-                    { x: new Date(2020, 3), y: 7202417 },
-                    { x: new Date(2020, 4), y: 2968566 },
-                    { x: new Date(2020, 5), y: 1819292 },
-                    { x: new Date(2020, 6), y: 2550944 },
-                    { x: new Date(2020, 7), y: 3940938 },
-                    { x: new Date(2020, 8), y: 15732467 },
-                    { x: new Date(2020, 9), y: 14583460 },
+                    { x: new Date(2020, 0), y: 0 },
+                    { x: new Date(2020, 1), y: 0 },
+                    { x: new Date(2020, 2), y: 0 },
+                    { x: new Date(2020, 3), y: 0 },
+                    { x: new Date(2020, 4), y: 0 },
+                    { x: new Date(2020, 5), y: 0 },
+                    { x: new Date(2020, 6), y: 0 },
+                    { x: new Date(2020, 7), y: 0 },
+                    { x: new Date(2020, 8), y: 4470 },
+                    { x: new Date(2020, 9), y: 7404 },
                     { x: new Date(2020, 10), y: 0 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
-
-
         ]
     });
     chart1.render();
@@ -113,26 +113,24 @@ window.onload = function() {
             gridColor: "#fff"
         },
         data: [{
-            type: "splineArea",
-            name: "Promedio Engagement general",
-            markerBorderColor: "white",
-            color: "#de8cf0",
-            markerBorderThickness: 2,
+            indexLabelFontColor: "darkSlateGray",
+            type: "column",
+            name: "Total seguidores",
             showInLegend: true,
-            yValueFormatString: "###0.00'%'",
-            xValueFormatString: "MMMM YYYY",
+            xValueFormatString: "MMM, YYYY",
+            yValueFormatString: "#,###",
             dataPoints: [
-                { x: new Date(2020, 0), y: 1.39 },
-                { x: new Date(2020, 1), y: 1.55 },
-                { x: new Date(2020, 2), y: 1.65 },
-                { x: new Date(2020, 3), y: 2.26 },
-                { x: new Date(2020, 4), y: 1.38 },
-                { x: new Date(2020, 5), y: 1.67 },
-                { x: new Date(2020, 6), y: 1.48 },
-                { x: new Date(2020, 7), y: 2.90 },
-                { x: new Date(2020, 8), y: 4.29 },
-                { x: new Date(2020, 9), y: 3.40 },
-                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 0), y: 0 },
+                { x: new Date(2020, 1), y: 0 },
+                { x: new Date(2020, 2), y: 0 },
+                { x: new Date(2020, 3), y: 0 },
+                { x: new Date(2020, 4), y: 0 },
+                { x: new Date(2020, 5), y: 0 },
+                { x: new Date(2020, 6), y: 0 },
+                { x: new Date(2020, 7), y: 0 },
+                { x: new Date(2020, 8), y: 0 },
+                { x: new Date(2020, 9), y: 139 },
+                { x: new Date(2020, 10), y: 371 },
                 { x: new Date(2020, 11), y: 0 }
 
                 /*indexLabel: "Highest", markerColor: "red" */
