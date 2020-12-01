@@ -51,7 +51,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 4743 },
                     { x: new Date(2020, 8), y: 4650 },
                     { x: new Date(2020, 9), y: 6544 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 4315 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -74,7 +74,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 2029 },
                     { x: new Date(2020, 8), y: 1965 },
                     { x: new Date(2020, 9), y: 2417 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 1867 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -95,7 +95,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 1762 },
                     { x: new Date(2020, 8), y: 1697 },
                     { x: new Date(2020, 9), y: 1902 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 1557 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -160,7 +160,7 @@ window.onload = function() {
                 { x: new Date(2020, 7), y: 0 },
                 { x: new Date(2020, 8), y: 1 },
                 { x: new Date(2020, 9), y: 1 },
-                { x: new Date(2020, 10), y:0 },
+                { x: new Date(2020, 10), y: 0 },
                 { x: new Date(2020, 11), y: 0 }
 
             ]
@@ -280,10 +280,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 80.40, label: "Busqueda organica" },
-                { y: 13.70, label: "Directo" },
-                { y: 2.00, label: "Referido" },
-                { y: 3.90, label: "Social media" }
+                { y: 83.00, label: "Busqueda organica" },
+                { y: 11.60, label: "Directo" },
+                { y: 1.20, label: "Referido" },
+                { y: 4.20, label: "Social media" }
             ]
         }]
     });
@@ -324,7 +324,7 @@ window.onload = function() {
                 { x: new Date(2020, 7), y: 56.43 },
                 { x: new Date(2020, 8), y: 65.90 },
                 { x: new Date(2020, 9), y: 63.18 },
-                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 10), y: 67.54 },
                 { x: new Date(2020, 11), y: 0 }
 
             ]
@@ -351,9 +351,9 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 50.50, label: "Desktop" },
-                { y: 47.71, label: "Mobile" },
-                { y: 1.79, label: "Tablet" }
+                { y: 47.27, label: "Desktop" },
+                { y: 50.87, label: "Mobile" },
+                { y: 1.86, label: "Tablet" }
             ]
         }]
     });
@@ -394,7 +394,7 @@ window.onload = function() {
                 { x: new Date(2020, 7), y: 139 },
                 { x: new Date(2020, 8), y: 147 },
                 { x: new Date(2020, 9), y: 236 },
-                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 10), y: 148 },
                 { x: new Date(2020, 11), y: 0 }
             ]
         }]
@@ -474,8 +474,8 @@ window.onload = function() {
                     { x: new Date(2020, 6), y: 86.80 },
                     { x: new Date(2020, 7), y: 90.40 },
                     { x: new Date(2020, 8), y: 88.40 },
-                    { x: new Date(2020, 9), y: 86.202 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 9), y: 86.20 },
+                    { x: new Date(2020, 10), y: 88.90 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -497,7 +497,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 9.60 },
                     { x: new Date(2020, 8), y: 11.60 },
                     { x: new Date(2020, 9), y: 13.80 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 13.10 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -525,8 +525,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 74.70, label: "Femenino" },
-                { y: 25.30, label: "Masculino" }
+                { y: 62.80, label: "Femenino" },
+                { y: 37.20, label: "Masculino" }
             ]
         }]
     });
@@ -548,11 +548,10 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 17.11, label: "Facebook" },
-                { y: 17.11, label: "Twitter" },
-                { y: 59.21, label: "Instagram" },
-                { y: 3.95, label: "Instagram stories" },
-                { y: 1.32, label: "YouTube" }
+                { y: 8.96, label: "Facebook" },
+                { y: 4.48, label: "Twitter" },
+                { y: 80.60, label: "Instagram" },
+                { y: 5.97, label: "YouTube" }
             ]
         }]
     });
@@ -609,11 +608,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 28.01 },
-                { label: "/catalogo/lagrimas-de-cocodrilo/", y: 6.91 },
-                { label: "/conocenos/sobre-la-bijrd/", y: 4.18 },
-                { label: "/catalogo/la-vaca-esta-historia/", y: 3.60 },
-                { label: "/catalogo/la-bicicleta-verde-limon/", y: 3.14 }
+                { label: "/Landin Page", y: 23.30 },
+                { label: "/catalogo/lagrimas-de-cocodrilo/", y: 5.57 },
+                { label: "/catalogo/cuentos-para-ninos-de-seis-anos/", y: 4.66 },
+                { label: "/conocenos/sobre-la-bijrd/", y: 4.45 },
+                { label: "/catalogo/la-bicicleta-verde-limon/", y: 4.02 }
             ]
         }]
     });
