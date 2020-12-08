@@ -49,10 +49,10 @@ window.onload = function() {
                     { x: new Date(2020, 4), y: 66.24 },
                     { x: new Date(2020, 5), y: 7.83 },
                     { x: new Date(2020, 6), y: 5.85 },
-                    { x: new Date(2020, 7), y: 7.27 },
-                    { x: new Date(2020, 8), y: 8.97 },
-                    { x: new Date(2020, 9), y: 8.96 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 7), y: 6.17 },
+                    { x: new Date(2020, 8), y: 48.36 },
+                    { x: new Date(2020, 9), y: 37.85 },
+                    { x: new Date(2020, 10), y: 18.54 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -74,7 +74,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 935955 },
                     { x: new Date(2020, 8), y: 1099230 },
                     { x: new Date(2020, 9), y: 1019143 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 802906 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -130,7 +130,7 @@ window.onload = function() {
                 { x: new Date(2020, 7), y: 74021 },
                 { x: new Date(2020, 8), y: 78777 },
                 { x: new Date(2020, 9), y: 79045 },
-                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 10), y: 79336 },
                 { x: new Date(2020, 11), y: 0 }
 
                 /*indexLabel: "Highest", markerColor: "red" */

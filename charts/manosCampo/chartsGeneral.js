@@ -52,7 +52,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 13.89 },
                     { x: new Date(2020, 9), y: 31.69 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 35.47 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -74,7 +74,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 4470 },
                     { x: new Date(2020, 9), y: 7404 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 7692 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -131,7 +131,7 @@ window.onload = function() {
                 { x: new Date(2020, 8), y: 0 },
                 { x: new Date(2020, 9), y: 139 },
                 { x: new Date(2020, 10), y: 371 },
-                { x: new Date(2020, 11), y: 0 }
+                { x: new Date(2020, 11), y: 881 }
 
                 /*indexLabel: "Highest", markerColor: "red" */
             ]

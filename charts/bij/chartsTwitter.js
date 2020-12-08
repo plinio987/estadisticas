@@ -54,7 +54,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 3.11 },
                     { x: new Date(2020, 9), y: 3.05 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 3.05 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -76,7 +76,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 61500 },
                     { x: new Date(2020, 9), y: 53900 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 17500 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -133,7 +133,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 104 },
                     { x: new Date(2020, 9), y: 21 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 8 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -155,7 +155,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 4525 },
                     { x: new Date(2020, 9), y: 4541 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 4552 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -213,7 +213,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 115 },
                     { x: new Date(2020, 9), y: 110 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 88 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -235,7 +235,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 1913 },
                     { x: new Date(2020, 9), y: 1436 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 567 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -260,10 +260,10 @@ window.onload = function() {
             indexLabel: "{label} - {y}",
             //reversed: true, // Reverses the pyramid
             dataPoints: [
-                { y: 149, label: "Clicks" },
-                { y: 484, label: "Retuits" },
-                { y: 13, label: "Respuestas" },
-                { y: 762, label: "Me gusta" }
+                { y: 30, label: "Clicks" },
+                { y: 59, label: "Retuits" },
+                { y: 8, label: "Respuestas" },
+                { y: 442, label: "Me gusta" }
 
             ]
         }]
@@ -319,7 +319,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 2060 },
                     { x: new Date(2020, 9), y: 1814 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 927 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -341,7 +341,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 0 },
                     { x: new Date(2020, 8), y: 66 },
                     { x: new Date(2020, 9), y: 28 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 28 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -389,7 +389,7 @@ window.onload = function() {
                     { label: "Agt", y: 0 },
                     { label: "Sept", y: 586 },
                     { label: "Oct", y: 484 },
-                    { label: "Nov", y: 0 },
+                    { label: "Nov", y: 59 },
                     { label: "Dic", y: 0 }
                 ]
             },
@@ -412,7 +412,7 @@ window.onload = function() {
                     { label: "Agt", y: 0 },
                     { label: "Sept", y: 1025 },
                     { label: "Oct", y: 762 },
-                    { label: "Nov", y: 0 },
+                    { label: "Nov", y: 442 },
                     { label: "Dic", y: 0 }
                 ]
             },
@@ -435,7 +435,7 @@ window.onload = function() {
                     { label: "Agt", y: 0 },
                     { label: "Sept", y: 99 },
                     { label: "Oct", y: 149 },
-                    { label: "Nov", y: 0 },
+                    { label: "Nov", y: 30 },
                     { label: "Dic", y: 0 }
                 ]
             },
@@ -458,7 +458,7 @@ window.onload = function() {
                     { label: "Agt", y: 0 },
                     { label: "Sept", y: 22 },
                     { label: "Oct", y: 13 },
-                    { label: "Nov", y: 0 },
+                    { label: "Nov", y: 8 },
                     { label: "Dic", y: 0 }
                 ]
             }

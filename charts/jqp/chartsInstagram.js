@@ -49,7 +49,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 44.16 },
                     { x: new Date(2020, 8), y: 105.38 },
                     { x: new Date(2020, 9), y: 47.28 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 35.74 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -71,7 +71,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 12.07 },
                     { x: new Date(2020, 8), y: 7.27 },
                     { x: new Date(2020, 9), y: 48.62 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 5.29 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -128,7 +128,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 42.12 },
                     { x: new Date(2020, 8), y: 101.53 },
                     { x: new Date(2020, 9), y: 44.86 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 34.16 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -150,7 +150,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 2.04 },
                     { x: new Date(2020, 8), y: 3.85 },
                     { x: new Date(2020, 9), y: 2.41 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 1.58 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -207,7 +207,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 4663 },
                     { x: new Date(2020, 8), y: 35024 },
                     { x: new Date(2020, 9), y: 2499 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 20150 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -230,7 +230,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 537 },
                     { x: new Date(2020, 8), y: 2453 },
                     { x: new Date(2020, 9), y: 1153 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 1018 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -250,8 +250,8 @@ window.onload = function() {
                     { x: new Date(2020, 6), y: 4369 },
                     { x: new Date(2020, 7), y: 5865 },
                     { x: new Date(2020, 8), y: 37143 },
-                    { x: new Date(2020, 9), y: 244597 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 9), y: 25868 },
+                    { x: new Date(2020, 10), y: 22062 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -308,7 +308,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 1275 },
                     { x: new Date(2020, 8), y: 2416 },
                     { x: new Date(2020, 9), y: 2570 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 2980 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -330,7 +330,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 169 },
                     { x: new Date(2020, 8), y: 1141 },
                     { x: new Date(2020, 9), y: 154 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 410 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -387,7 +387,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 26 },
                     { x: new Date(2020, 8), y: 93 },
                     { x: new Date(2020, 9), y: 62 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 47 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -409,7 +409,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 11 },
                     { x: new Date(2020, 8), y: 53 },
                     { x: new Date(2020, 9), y: 43 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 29 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -458,7 +458,7 @@ window.onload = function() {
                 { x: new Date(2020, 7), y: 563 },
                 { x: new Date(2020, 8), y: 2546 },
                 { x: new Date(2020, 9), y: 1215 },
-                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 10), y: 1065 },
                 { x: new Date(2020, 11), y: 0 }
             ]
         }]
@@ -515,7 +515,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 61 },
                     { x: new Date(2020, 8), y: 990 },
                     { x: new Date(2020, 9), y: 0 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 2771 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -537,7 +537,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 5 },
                     { x: new Date(2020, 8), y: 61 },
                     { x: new Date(2020, 9), y: 1273 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 60 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
