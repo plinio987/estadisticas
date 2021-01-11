@@ -51,7 +51,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 73436 },
                     { x: new Date(2020, 8), y: 99002 },
                     { x: new Date(2020, 9), y: 116617 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 131300 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             },
@@ -72,7 +72,7 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 3940938 },
                     { x: new Date(2020, 8), y: 15732467 },
                     { x: new Date(2020, 9), y: 14583460 },
-                    { x: new Date(2020, 10), y: 0 },
+                    { x: new Date(2020, 10), y: 13470478 },
                     { x: new Date(2020, 11), y: 0 }
                 ]
             }
@@ -122,17 +122,17 @@ window.onload = function() {
             yValueFormatString: "###0.00'%'",
             xValueFormatString: "MMMM YYYY",
             dataPoints: [
-                { x: new Date(2020, 0), y: 1.39 },
-                { x: new Date(2020, 1), y: 1.55 },
-                { x: new Date(2020, 2), y: 1.65 },
-                { x: new Date(2020, 3), y: 2.26 },
-                { x: new Date(2020, 4), y: 1.38 },
-                { x: new Date(2020, 5), y: 1.67 },
-                { x: new Date(2020, 6), y: 1.48 },
-                { x: new Date(2020, 7), y: 2.90 },
-                { x: new Date(2020, 8), y: 4.29 },
-                { x: new Date(2020, 9), y: 3.40 },
-                { x: new Date(2020, 10), y: 0 },
+                { x: new Date(2020, 0), y: 3.86 },
+                { x: new Date(2020, 1), y: 4.63 },
+                { x: new Date(2020, 2), y: 5.93 },
+                { x: new Date(2020, 3), y: 27.10 },
+                { x: new Date(2020, 4), y: 7.25 },
+                { x: new Date(2020, 5), y: 4.80 },
+                { x: new Date(2020, 6), y: 3.68 },
+                { x: new Date(2020, 7), y: 29.53 },
+                { x: new Date(2020, 8), y: 47.48 },
+                { x: new Date(2020, 9), y: 32.70 },
+                { x: new Date(2020, 10), y: 23.24 },
                 { x: new Date(2020, 11), y: 0 }
 
                 /*indexLabel: "Highest", markerColor: "red" */
