@@ -51,8 +51,8 @@ window.onload = function() {
                     { x: new Date(2020, 7), y: 59078 },
                     { x: new Date(2020, 8), y: 74117 },
                     { x: new Date(2020, 9), y: 57533 },
-                    { x: new Date(2020, 10), y:60143},
-                    { x: new Date(2020, 11), y: 0 }
+                    { x: new Date(2020, 10), y: 60143 },
+                    { x: new Date(2020, 11), y: 1082100 }
                 ]
             },
             {
@@ -75,7 +75,7 @@ window.onload = function() {
                     { x: new Date(2020, 8), y: 46156 },
                     { x: new Date(2020, 9), y: 33689 },
                     { x: new Date(2020, 10), y: 28815 },
-                    { x: new Date(2020, 11), y: 0 }
+                    { x: new Date(2020, 11), y: 337146 }
                 ]
             },
             {
@@ -96,7 +96,7 @@ window.onload = function() {
                     { x: new Date(2020, 8), y: 37876 },
                     { x: new Date(2020, 9), y: 26991 },
                     { x: new Date(2020, 10), y: 28902 },
-                    { x: new Date(2020, 11), y: 0 }
+                    { x: new Date(2020, 11), y: 257596 }
                 ]
             }
         ]
@@ -161,7 +161,7 @@ window.onload = function() {
                 { x: new Date(2020, 8), y: 12 },
                 { x: new Date(2020, 9), y: 24 },
                 { x: new Date(2020, 10), y: 18 },
-                { x: new Date(2020, 11), y: 0 }
+                { x: new Date(2020, 11), y: 16 }
 
             ]
         }]
@@ -282,10 +282,10 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 17.20, label: "Busqueda organica" },
-                { y:20.70, label: "Directo" },
-                { y:57.75, label: "Referido" },
-                { y: 4.35, label: "Social media" }
+                { y: 177.50, label: "Busqueda organica" },
+                { y: 15.30, label: "Directo" },
+                { y: 5.60, label: "Referido" },
+                { y: 1.60, label: "Social media" }
             ]
         }]
     });
@@ -327,7 +327,7 @@ window.onload = function() {
                 { x: new Date(2020, 8), y: 73.78 },
                 { x: new Date(2020, 9), y: 71.08 },
                 { x: new Date(2020, 10), y: 88.17 },
-                { x: new Date(2020, 11), y: 0 }
+                { x: new Date(2020, 11), y: 47.80 }
 
             ]
         }]
@@ -397,7 +397,7 @@ window.onload = function() {
                 { x: new Date(2020, 8), y: 109 },
                 { x: new Date(2020, 9), y: 124 },
                 { x: new Date(2020, 10), y: 0.54 },
-                { x: new Date(2020, 11), y: 0 }
+                { x: new Date(2020, 11), y: 219 }
             ]
         }]
     });
@@ -478,7 +478,7 @@ window.onload = function() {
                     { x: new Date(2020, 8), y: 80.40 },
                     { x: new Date(2020, 9), y: 79.00 },
                     { x: new Date(2020, 10), y: 77.00 },
-                    { x: new Date(2020, 11), y: 0 }
+                    { x: new Date(2020, 11), y: 81.50 }
                 ]
             },
 
@@ -500,7 +500,7 @@ window.onload = function() {
                     { x: new Date(2020, 8), y: 19.60 },
                     { x: new Date(2020, 9), y: 21.00 },
                     { x: new Date(2020, 10), y: 23.00 },
-                    { x: new Date(2020, 11), y: 0 }
+                    { x: new Date(2020, 11), y: 18.50 }
                 ]
             }
         ]
@@ -527,8 +527,8 @@ window.onload = function() {
             yValueFormatString: "###0.0'%'",
             click: explodePie,
             dataPoints: [
-                { y: 66.50, label: "Femenino" },
-                { y: 33.50, label: "Masculino" }
+                { y: 67.80, label: "Femenino" },
+                { y: 32.20, label: "Masculino" }
             ]
         }]
     });
@@ -550,12 +550,11 @@ window.onload = function() {
             indexLabel: "{label} - #percent%",
             toolTipContent: "<b>{label}:</b> {y} (#percent%)",
             dataPoints: [
-                { y: 76.09, label: "Facebook" },
-                { y: 5.63, label: "Twitter" },
-                { y: 16.16, label: "Instagram" },
-                { y: 1.78, label: "Instagram Stories" },
-                { y: 0.22, label: "YouTube" },
-                { y: 0.11, label: "LinkedIn" }
+                { y: 90.10, label: "Facebook" },
+                { y: 3.54, label: "Twitter" },
+                { y: 2.56, label: "Instagram" },
+                { y: 1.03, label: "Instagram Stories" },
+                { y: 0.02, label: "LinkedIn" }
 
             ]
         }]
@@ -613,11 +612,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 75.27 },
-                { label: "/Nosotros/quienes somos", y: 7.53 },
-                { label: "Noticias", y: 2.15 },
-                { label: "//publicaciones/situacion-la-seguridad-alimentaria-la-nutricion-la-republica-dominicana/", y: 2.15 },
-                { label: "/noticias/lo-que-debes-saber-sobre-el-bono-estudio-contigo/", y: 2.15 }
+                { label: "/noticias/el-bono-navideno-que-cambio-la-navidad/", y: 55.39 },
+                { label: "/noticias/prosoli-y-adess-inician-entrega-de-tarjeta-bono-navideno/", y: 16.20 },
+                { label: "/Landing page", y: 9.31 },
+                { label: "/tag/bono-navideno/", y: 8.88 },
+                { label: "/contacto", y: 0.88 }
             ]
         }]
     });
@@ -646,11 +645,11 @@ window.onload = function() {
             indexLabelPlacement: "inside",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { label: "Landin Page", y: 76.34},
-                { label: "/nosotros/quienes-somos/", y: 7.53 },
-                { label: "/noticias/lo-que-debes-saber-sobre-el-bono-estudio-contigo/", y:2.15 },
-                { label: "/publicaciones/situacion-la-seguridad-alimentaria-la-nutricion-la-republica-dominicana/", y: 2.15 },
-                { label: "/Contancto", y: 1.08 }
+                { label: "/noticias/el-bono-navideno-que-cambio-la-navidad/", y: 43.94 },
+                { label: "/noticias/prosoli-y-adess-inician-entrega-de-tarjeta-bono-navideno/", y: 13.53 },
+                { label: "/Landing page", y: 10.60 },
+                { label: "/tag/bono-navideno/", y: 7.67 },
+                { label: "/Contacto", y: 1.49 }
             ]
         }]
     });
