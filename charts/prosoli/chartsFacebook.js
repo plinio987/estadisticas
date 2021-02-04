@@ -34,7 +34,7 @@ window.onload = function() {
         },
         data: [{
                 type: "column",
-                name: "Engagement rate",
+                name: "Engagement",
                 markerBorderColor: "white",
                 color: "#F2a104",
                 markerBorderThickness: 2,
@@ -42,40 +42,40 @@ window.onload = function() {
                 yValueFormatString: "###0.00'%'",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 0.27 },
-                    { x: new Date(2020, 1), y: 0.41 },
-                    { x: new Date(2020, 2), y: 0.62 },
-                    { x: new Date(2020, 3), y: 0.33 },
-                    { x: new Date(2020, 4), y: 0.32 },
-                    { x: new Date(2020, 5), y: 0.59 },
-                    { x: new Date(2020, 6), y: 0.36 },
-                    { x: new Date(2020, 7), y: 0.68 },
-                    { x: new Date(2020, 8), y: 0.29 },
-                    { x: new Date(2020, 9), y: 0.35 },
-                    { x: new Date(2020, 10), y: 0.23 },
-                    { x: new Date(2020, 11), y: 0.29 }
+                    { x: new Date(2021, 0), y: 0.65 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             },
 
             {
                 type: "splineArea",
-                name: "Engagement absoluto",
+                name: "Porcentaje de participación",
                 color: "#0584F2",
                 showInLegend: true,
                 yValueFormatString: "###0.00'%'",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 9.93 },
-                    { x: new Date(2020, 1), y: 12.64 },
-                    { x: new Date(2020, 2), y: 33.43 },
-                    { x: new Date(2020, 3), y: 85.39 },
-                    { x: new Date(2020, 4), y: 32.90 },
-                    { x: new Date(2020, 5), y: 35.78 },
-                    { x: new Date(2020, 6), y: 30.24 },
-                    { x: new Date(2020, 7), y: 50.59 },
-                    { x: new Date(2020, 8), y: 96.53 },
-                    { x: new Date(2020, 9), y: 100.18 },
-                    { x: new Date(2020, 10), y: 56.16 },
-                    { x: new Date(2020, 11), y: 77.91 }
+                    { x: new Date(2021, 0), y: 0.02 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             }
         ]
@@ -124,18 +124,18 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 62373 },
-                    { x: new Date(2020, 1), y: 56721 },
-                    { x: new Date(2020, 2), y: 116127 },
-                    { x: new Date(2020, 3), y: 1159126 },
-                    { x: new Date(2020, 4), y: 461050 },
-                    { x: new Date(2020, 5), y: 253606 },
-                    { x: new Date(2020, 6), y: 318365 },
-                    { x: new Date(2020, 7), y: 45853 },
-                    { x: new Date(2020, 8), y: 1686579 },
-                    { x: new Date(2020, 9), y: 1506198 },
-                    { x: new Date(2020, 10), y: 1470130 },
-                    { x: new Date(2020, 11), y: 15470273 }
+                    { x: new Date(2021, 0), y: 2140674 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             },
 
@@ -146,18 +146,18 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 631117 },
-                    { x: new Date(2020, 1), y: 527214 },
-                    { x: new Date(2020, 2), y: 1054118 },
-                    { x: new Date(2020, 3), y: 6712417 },
-                    { x: new Date(2020, 4), y: 2736566 },
-                    { x: new Date(2020, 5), y: 1680292 },
-                    { x: new Date(2020, 6), y: 2444944 },
-                    { x: new Date(2020, 7), y: 3435938 },
-                    { x: new Date(2020, 8), y: 14367516 },
-                    { x: new Date(2020, 9), y: 13926960 },
-                    { x: new Date(2020, 10), y: 12905478 },
-                    { x: new Date(2020, 11), y: 1687421 }
+                    { x: new Date(2021, 0), y: 20093543 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             }
         ]
@@ -208,18 +208,18 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 163 },
-                    { x: new Date(2020, 1), y: 127 },
-                    { x: new Date(2020, 2), y: 566 },
-                    { x: new Date(2020, 3), y: 5742 },
-                    { x: new Date(2020, 4), y: 787 },
-                    { x: new Date(2020, 5), y: 1106 },
-                    { x: new Date(2020, 6), y: 1304 },
-                    { x: new Date(2020, 7), y: 5802 },
-                    { x: new Date(2020, 8), y: 8151 },
-                    { x: new Date(2020, 9), y: 6844 },
-                    { x: new Date(2020, 10), y: 3895 },
-                    { x: new Date(2020, 11), y: 5415 }
+                    { x: new Date(2021, 0), y: 5629 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             },
 
@@ -230,18 +230,18 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 17168 },
-                    { x: new Date(2020, 1), y: 17275 },
-                    { x: new Date(2020, 2), y: 19628 },
-                    { x: new Date(2020, 3), y: 25947 },
-                    { x: new Date(2020, 4), y: 26651 },
-                    { x: new Date(2020, 5), y: 27660 },
-                    { x: new Date(2020, 6), y: 28880 },
-                    { x: new Date(2020, 7), y: 34498 },
-                    { x: new Date(2020, 8), y: 42541 },
-                    { x: new Date(2020, 9), y: 49150 },
-                    { x: new Date(2020, 10), y: 52876 },
-                    { x: new Date(2020, 11), y: 58542 }
+                    { x: new Date(2021, 0), y: 64306 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             }
         ]
@@ -292,18 +292,18 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 1250 },
-                    { x: new Date(2020, 1), y: 1663 },
-                    { x: new Date(2020, 2), y: 2694 },
-                    { x: new Date(2020, 3), y: 9250 },
-                    { x: new Date(2020, 4), y: 6091 },
-                    { x: new Date(2020, 5), y: 6278 },
-                    { x: new Date(2020, 6), y: 6485 },
-                    { x: new Date(2020, 7), y: 13735 },
-                    { x: new Date(2020, 8), y: 27216 },
-                    { x: new Date(2020, 9), y: 33729 },
-                    { x: new Date(2020, 10), y: 21762 },
-                    { x: new Date(2020, 11), y: 31170 }
+                    { x: new Date(2021, 0), y: 32239 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             },
 
@@ -314,18 +314,18 @@ window.onload = function() {
                 showInLegend: true,
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 27 },
-                    { x: new Date(2020, 1), y: 23 },
-                    { x: new Date(2020, 2), y: 67 },
-                    { x: new Date(2020, 3), y: 129 },
-                    { x: new Date(2020, 4), y: 69 },
-                    { x: new Date(2020, 5), y: 103 },
-                    { x: new Date(2020, 6), y: 100 },
-                    { x: new Date(2020, 7), y: 161 },
-                    { x: new Date(2020, 8), y: 203 },
-                    { x: new Date(2020, 9), y: 235 },
-                    { x: new Date(2020, 10), y: 198 },
-                    { x: new Date(2020, 11), y: 176 }
+                    { x: new Date(2021, 0), y: 238 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             }
         ]
@@ -373,18 +373,18 @@ window.onload = function() {
                 yValueFormatString: "#,###",
                 xValueFormatString: "MMMM YYYY",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 168 },
-                    { x: new Date(2020, 1), y: 213 },
-                    { x: new Date(2020, 2), y: 717 },
-                    { x: new Date(2020, 3), y: 1990 },
-                    { x: new Date(2020, 4), y: 574 },
-                    { x: new Date(2020, 5), y: 1151 },
-                    { x: new Date(2020, 6), y: 376 },
-                    { x: new Date(2020, 7), y: 1030 },
-                    { x: new Date(2020, 8), y: 2037 },
-                    { x: new Date(2020, 9), y: 3400 },
-                    { x: new Date(2020, 10), y: 1464 },
-                    { x: new Date(2020, 11), y: 2892 }
+                    { x: new Date(2021, 0), y: 3435 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             },
 
@@ -396,18 +396,18 @@ window.onload = function() {
                 xValueFormatString: "MMMM YYYY",
                 yValueFormatString: "#,###",
                 dataPoints: [
-                    { x: new Date(2020, 0), y: 48 },
-                    { x: new Date(2020, 1), y: 66 },
-                    { x: new Date(2020, 2), y: 66 },
-                    { x: new Date(2020, 3), y: 68 },
-                    { x: new Date(2020, 4), y: 99 },
-                    { x: new Date(2020, 5), y: 101 },
-                    { x: new Date(2020, 6), y: 82 },
-                    { x: new Date(2020, 7), y: 82 },
-                    { x: new Date(2020, 8), y: 139 },
-                    { x: new Date(2020, 9), y: 142 },
-                    { x: new Date(2020, 10), y: 103 },
-                    { x: new Date(2020, 11), y: 96 }
+                    { x: new Date(2021, 0), y: 82 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
                 ]
             }
         ]
@@ -434,8 +434,8 @@ window.onload = function() {
             fontColor: "#222",
             indexLabel: "{label} - {y}%",
             dataPoints: [
-                { y: 62.00, label: "Femenino" },
-                { y: 28.00, label: "Masculino" }
+                { y: 78.00, label: "Femenino" },
+                { y: 22.00, label: "Masculino" }
             ]
         }]
     });
@@ -473,18 +473,18 @@ window.onload = function() {
             yValueFormatString: "#,###",
             color: "#0584F2",
             dataPoints: [
-                { x: new Date(2020, 0), y: 79 },
-                { x: new Date(2020, 1), y: 165 },
-                { x: new Date(2020, 2), y: 720 },
-                { x: new Date(2020, 3), y: 4586 },
-                { x: new Date(2020, 4), y: 1326 },
-                { x: new Date(2020, 5), y: 1363 },
-                { x: new Date(2020, 6), y: 548 },
-                { x: new Date(2020, 7), y: 2689 },
-                { x: new Date(2020, 8), y: 3662 },
-                { x: new Date(2020, 9), y: 5266 },
-                { x: new Date(2020, 10), y: 2587 },
-                { x: new Date(2020, 11), y: 6133 }
+                { x: new Date(2021, 0), y: 6395 },
+                { x: new Date(2021, 1), y: 0 },
+                { x: new Date(2021, 2), y: 0 },
+                { x: new Date(2021, 3), y: 0 },
+                { x: new Date(2021, 4), y: 0 },
+                { x: new Date(2021, 5), y: 0 },
+                { x: new Date(2021, 6), y: 0 },
+                { x: new Date(2021, 7), y: 0 },
+                { x: new Date(2021, 8), y: 0 },
+                { x: new Date(2021, 9), y: 0 },
+                { x: new Date(2021, 10), y: 0 },
+                { x: new Date(2021, 11), y: 0 }
             ]
         }]
     });
@@ -527,24 +527,231 @@ window.onload = function() {
             xValueFormatString: "MMM, YYYY",
             yValueFormatString: "##0.00'%'",
             dataPoints: [
-                { x: new Date(2020, 0), y: 2.73 },
-                { x: new Date(2020, 1), y: 3.85 },
-                { x: new Date(2020, 2), y: 5.65 },
-                { x: new Date(2020, 3), y: 1.91 },
-                { x: new Date(2020, 4), y: 1.90 },
-                { x: new Date(2020, 5), y: 3.90 },
-                { x: new Date(2020, 6), y: 2.74 },
-                { x: new Date(2020, 7), y: 4.94 },
-                { x: new Date(2020, 8), y: 2.43 },
-                { x: new Date(2020, 9), y: 3.27 },
-                { x: new Date(2020, 10), y: 2.02 },
-                { x: new Date(2020, 11), y: 2.70 }
+                { x: new Date(2021, 0), y: 0 },
+                { x: new Date(2021, 1), y: 0 },
+                { x: new Date(2021, 2), y: 0 },
+                { x: new Date(2021, 3), y: 0 },
+                { x: new Date(2021, 4), y: 0 },
+                { x: new Date(2021, 5), y: 0 },
+                { x: new Date(2021, 6), y: 0 },
+                { x: new Date(2021, 7), y: 0 },
+                { x: new Date(2021, 8), y: 0 },
+                { x: new Date(2021, 9), y: 0 },
+                { x: new Date(2021, 10), y: 0 },
+                { x: new Date(2021, 11), y: 0 }
 
                 /*indexLabel: "Highest", markerColor: "red" */
             ]
         }]
     });
     chart8.render();
+
+
+    /*promedios*/
+    var chart01 = new CanvasJS.Chart("promedios", {
+        animationEnabled: true,
+        backgroundColor: "#fff",
+        //theme: "light2",
+        title: {
+            text: ""
+        },
+        axisX: {
+            valueFormatString: "MMM",
+            labelFontColor: "#222",
+        },
+        axisY: {
+
+            labelFormatter: addSymbols,
+            labelFontColor: "#222",
+            gridColor: "#fff"
+
+        },
+        toolTip: {
+            shared: true,
+            labelFontColor: "#fff",
+        },
+        legend: {
+            cursor: "pointer",
+            itemclick: toggleDataSeries,
+            fontColor: "#222",
+            fontSize: 14,
+
+        },
+        data: [{
+                type: "splineArea",
+                name: "Promedio Me Gusta",
+                color: "#F1931b",
+                showInLegend: true,
+                xValueFormatString: "MMMM",
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2021, 0), y: 0.50 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
+                ]
+            },
+            {
+                type: "area",
+                name: "Promedio mensajes",
+                markerBorderColor: "white",
+                color: "#D6618F",
+                markerBorderThickness: 2,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2021, 0), y: 0.10 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
+                ]
+            },
+            {
+                type: "column",
+                name: "Promedio compartidas",
+                color: "#00743f",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2021, 0), y: 0.05 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
+                ]
+            }
+        ]
+    });
+    chart01.render();
+
+    var chart02 = new CanvasJS.Chart("promediosPost", {
+        animationEnabled: true,
+        backgroundColor: "#fff",
+        //theme: "light2",
+        title: {
+            text: ""
+        },
+        axisX: {
+            valueFormatString: "MMM",
+            labelFontColor: "#222",
+        },
+        axisY: {
+
+            labelFormatter: addSymbols,
+            labelFontColor: "#222",
+            gridColor: "#fff"
+
+        },
+        toolTip: {
+            shared: true,
+            labelFontColor: "#fff",
+        },
+        legend: {
+            cursor: "pointer",
+            itemclick: toggleDataSeries,
+            fontColor: "#222",
+            fontSize: 14,
+
+        },
+        data: [{
+                type: "splineArea",
+                name: "Promedio Post Me Gusta",
+                color: "#F1931b",
+                showInLegend: true,
+                xValueFormatString: "MMMM",
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2021, 0), y: 393.16 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
+                ]
+            },
+            {
+                type: "area",
+                name: "Promedio Post mensajes",
+                markerBorderColor: "white",
+                color: "#D6618F",
+                markerBorderThickness: 2,
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2021, 0), y: 77.99 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
+                ]
+            },
+            {
+                type: "column",
+                name: "Promedio Post compartidas",
+                color: "#00743f",
+                showInLegend: true,
+                yValueFormatString: "#,###",
+                dataPoints: [
+                    { x: new Date(2021, 0), y: 41.89 },
+                    { x: new Date(2021, 1), y: 0 },
+                    { x: new Date(2021, 2), y: 0 },
+                    { x: new Date(2021, 3), y: 0 },
+                    { x: new Date(2021, 4), y: 0 },
+                    { x: new Date(2021, 5), y: 0 },
+                    { x: new Date(2021, 6), y: 0 },
+                    { x: new Date(2021, 7), y: 0 },
+                    { x: new Date(2021, 8), y: 0 },
+                    { x: new Date(2021, 9), y: 0 },
+                    { x: new Date(2021, 10), y: 0 },
+                    { x: new Date(2021, 11), y: 0 }
+                ]
+            }
+        ]
+    });
+    chart02.render();
+
+
+
+
+
+
+
     var chart17 = new CanvasJS.Chart("tipoPost", {
         //theme:"light2",
         animationEnabled: true,
@@ -575,18 +782,18 @@ window.onload = function() {
                 color: "#73c0f4",
                 name: "Fotos",
                 dataPoints: [
-                    { label: "Ene", y: 40 },
-                    { label: "Feb", y: 55 },
-                    { label: "Mar", y: 45 },
-                    { label: "Apr", y: 43 },
-                    { label: "May", y: 67 },
-                    { label: "Jun", y: 68 },
-                    { label: "Jul", y: 91 },
-                    { label: "Agt", y: 67 },
-                    { label: "Sept", y: 119 },
-                    { label: "Oct", y: 109 },
-                    { label: "Nov", y: 74 },
-                    { label: "Dic", y: 71 }
+                    { label: "Ene", y: 50 },
+                    { label: "Feb", y: 0 },
+                    { label: "Mar", y: 0 },
+                    { label: "Apr", y: 0 },
+                    { label: "May", y: 0 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Sept", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
                 ]
             },
             {
@@ -598,18 +805,18 @@ window.onload = function() {
                 color: "#F28a30",
                 name: "Vídeos",
                 dataPoints: [
-                    { label: "Ene", y: 8 },
-                    { label: "Feb", y: 11 },
-                    { label: "Mar", y: 20 },
-                    { label: "Apr", y: 25 },
-                    { label: "May", y: 32 },
-                    { label: "Jun", y: 33 },
-                    { label: "Jul", y: 25 },
-                    { label: "Agt", y: 15 },
-                    { label: "Sept", y: 19 },
-                    { label: "Oct", y: 33 },
-                    { label: "Nov", y: 29 },
-                    { label: "Dic", y: 25 }
+                    { label: "Ene", y: 30 },
+                    { label: "Feb", y: 0 },
+                    { label: "Mar", y: 0 },
+                    { label: "Apr", y: 0 },
+                    { label: "May", y: 0 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Sept", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
                 ]
             },
             {
@@ -629,7 +836,7 @@ window.onload = function() {
                     { label: "Jun", y: 0 },
                     { label: "Jul", y: 0 },
                     { label: "Agt", y: 0 },
-                    { label: "Sept", y: 1 },
+                    { label: "Sept", y: 0 },
                     { label: "Oct", y: 0 },
                     { label: "Nov", y: 0 },
                     { label: "Dic", y: 0 }
@@ -644,18 +851,18 @@ window.onload = function() {
                 color: "#bb1924",
                 name: "Links web",
                 dataPoints: [
-                    { label: "Ene", y: 0 },
+                    { label: "Ene", y: 2 },
                     { label: "Feb", y: 0 },
-                    { label: "Mar", y: 1 },
+                    { label: "Mar", y: 0 },
                     { label: "Apr", y: 0 },
                     { label: "May", y: 0 },
                     { label: "Jun", y: 0 },
-                    { label: "Jul", y: 2 },
+                    { label: "Jul", y: 0 },
                     { label: "Agt", y: 0 },
                     { label: "Sept", y: 0 },
                     { label: "Oct", y: 0 },
                     { label: "Nov", y: 0 },
-                    { label: "Dic", y: 1 }
+                    { label: "Dic", y: 0 }
                 ]
             }
         ]
@@ -692,18 +899,18 @@ window.onload = function() {
                 color: "#73c0f4",
                 name: "Fotos",
                 dataPoints: [
-                    { label: "Ene", y: 1418 },
-                    { label: "Feb", y: 2049 },
-                    { label: "Mar", y: 3977 },
-                    { label: "Apr", y: 13767 },
-                    { label: "May", y: 5520 },
-                    { label: "Jun", y: 5144 },
-                    { label: "Jul", y: 6067 },
-                    { label: "Agt", y: 16831 },
-                    { label: "Sept", y: 30894 },
-                    { label: "Oct", y: 37519 },
-                    { label: "Nov", y: 19633 },
-                    { label: "Dic", y: 22983 }
+                    { label: "Ene", y: 29830 },
+                    { label: "Feb", y: 0 },
+                    { label: "Mar", y: 0 },
+                    { label: "Apr", y: 0 },
+                    { label: "May", y: 0 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Sept", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
                 ]
             },
             {
@@ -715,18 +922,18 @@ window.onload = function() {
                 color: "#F28a30",
                 name: "Vídeos",
                 dataPoints: [
-                    { label: "Ene", y: 210 },
-                    { label: "Feb", y: 251 },
-                    { label: "Mar", y: 824 },
-                    { label: "Apr", y: 5410 },
-                    { label: "May", y: 3180 },
-                    { label: "Jun", y: 3648 },
-                    { label: "Jul", y: 1264 },
-                    { label: "Agt", y: 623 },
-                    { label: "Sept", y: 1968 },
-                    { label: "Oct", y: 4876 },
-                    { label: "Nov", y: 6180 },
-                    { label: "Dic", y: 7717 }
+                    { label: "Ene", y: 11076 },
+                    { label: "Feb", y: 0 },
+                    { label: "Mar", y: 0 },
+                    { label: "Apr", y: 0 },
+                    { label: "May", y: 0 },
+                    { label: "Jun", y: 0 },
+                    { label: "Jul", y: 0 },
+                    { label: "Agt", y: 0 },
+                    { label: "Sept", y: 0 },
+                    { label: "Oct", y: 0 },
+                    { label: "Nov", y: 0 },
+                    { label: "Dic", y: 0 }
                 ]
             },
             {
@@ -746,7 +953,7 @@ window.onload = function() {
                     { label: "Jun", y: 0 },
                     { label: "Jul", y: 0 },
                     { label: "Agt", y: 0 },
-                    { label: "Sept", y: 53 },
+                    { label: "Sept", y: 0 },
                     { label: "Oct", y: 0 },
                     { label: "Nov", y: 0 },
                     { label: "Dic", y: 0 }
@@ -761,18 +968,18 @@ window.onload = function() {
                 color: "#bb1924",
                 name: "Links web",
                 dataPoints: [
-                    { label: "Ene", y: 0 },
+                    { label: "Ene", y: 163 },
                     { label: "Feb", y: 0 },
-                    { label: "Mar", y: 22 },
+                    { label: "Mar", y: 0 },
                     { label: "Apr", y: 0 },
                     { label: "May", y: 0 },
                     { label: "Jun", y: 0 },
-                    { label: "Jul", y: 98 },
+                    { label: "Jul", y: 0 },
                     { label: "Agt", y: 0 },
                     { label: "Sept", y: 0 },
                     { label: "Oct", y: 0 },
                     { label: "Nov", y: 0 },
-                    { label: "Dic", y: 470 }
+                    { label: "Dic", y: 0 }
                 ]
             }
         ]

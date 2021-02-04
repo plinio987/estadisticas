@@ -81,7 +81,7 @@
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2020\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2020</button></a>
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2020\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2020</button></a>
                   </div>
                 </div>
               </div>
@@ -141,7 +141,7 @@
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2020\prosoli-twitter.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2020</button></a>
                   </div>
                 </div>
               </div>

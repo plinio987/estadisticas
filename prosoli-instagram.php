@@ -81,7 +81,7 @@
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\bij-instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2020\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2020</button></a>
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\bij-instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2020\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2020</button></a>
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\bij-instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2020\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2020</button></a>
                   </div>
                 </div>
               </div>
@@ -294,7 +294,7 @@
              
                   <div class="btn-group" id="realtime" data-toggle="btn-toggle">
                     <a href="2019\bij-instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm active" data-toggle="on">2019</button></a>
-                    <a href="2018\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2018</button></a>
+                    <a href="2020\bij-Instagram.html" target="blank"><button type="button" class="btn btn-default btn-sm" data-toggle="off">2020</button></a>
                   </div>
                 </div>
               </div>

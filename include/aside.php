@@ -237,7 +237,7 @@
                         </a>
                       </li>
                     </ul>
-                </li> -->
+                </li> 
                <li class="nav-item has-treeview">
                     <a href="bij.php" class="nav-link">
                     <i class="far fa-circle nav-icon text-warning"></i>
@@ -271,7 +271,8 @@
                     </ul>
                 </li>
             </ul>
-          </li> <!-- /li instituciones -->
+          </li> -->
+        
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
